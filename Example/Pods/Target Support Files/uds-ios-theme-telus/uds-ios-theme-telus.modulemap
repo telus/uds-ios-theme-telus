@@ -1,0 +1,6 @@
+framework module uds_ios_theme_telus {
+  umbrella header "uds-ios-theme-telus-umbrella.h"
+
+  export *
+  module * { export * }
+}

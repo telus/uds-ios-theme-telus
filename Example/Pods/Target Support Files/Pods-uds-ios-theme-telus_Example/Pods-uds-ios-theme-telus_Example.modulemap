@@ -1,0 +1,6 @@
+framework module Pods_uds_ios_theme_telus_Example {
+  umbrella header "Pods-uds-ios-theme-telus_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
