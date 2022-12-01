@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'uds-ios-theme-telus/Classes/**/*'
   
   s.resource_bundles = {
-    'uds-ios-theme-telus' => ['uds-ios-theme-telus/Assets/*.json']
+    'uds-ios-theme-telus' => ['uds-ios-theme-telus/Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

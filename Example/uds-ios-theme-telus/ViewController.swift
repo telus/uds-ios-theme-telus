@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import uds_ios_theme_telus
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let utility = ThemeUtility()
+        print(utility.readTelusThemeFile()!)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

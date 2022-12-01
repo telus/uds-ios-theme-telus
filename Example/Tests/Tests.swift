@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import uds-ios-theme-telus
+import uds_ios_theme_telus
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
