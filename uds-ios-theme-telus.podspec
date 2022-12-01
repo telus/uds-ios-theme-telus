@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'uds-ios-theme-telus/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'uds-ios-theme-telus' => ['uds-ios-theme-telus/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'uds-ios-theme-telus' => ['uds-ios-theme-telus/Assets/*.json']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
