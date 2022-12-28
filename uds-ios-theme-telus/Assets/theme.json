@@ -2247,9 +2247,9 @@
           },
           "tokens": {
             "color": {
-              "red": 0.2549,
-              "green": 0.27059,
-              "blue": 0.27843,
+              "red": 1,
+              "green": 1,
+              "blue": 1,
               "alpha": 1
             }
           }
