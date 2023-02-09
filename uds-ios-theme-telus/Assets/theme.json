@@ -14,7 +14,7 @@
             "size": "large"
           },
           "tokens": {
-            "size": 40,
+            "size": 48,
             "thickness": 4
           }
         }
@@ -26,7 +26,7 @@
           "blue": 0,
           "alpha": 1
         },
-        "size": 20,
+        "size": 24,
         "thickness": 2
       }
     },
@@ -981,6 +981,12 @@
           "blue": 0.45098,
           "alpha": 1
         },
+        "dividerColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
         "fontName": "HelveticaNow",
         "fontSize": 14,
         "fontWeight": 700,
@@ -1027,6 +1033,12 @@
         "paddingRight": 8,
         "paddingTop": 8,
         "shadow": null,
+        "subtitleColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
         "textAlign": "center",
         "width": null
       }
@@ -1061,6 +1073,11 @@
     },
     "ButtonGroupItem": {
       "appearances": {
+        "iconPosition": {
+          "description": "Theme styles to be applied to icon links depending on where the icon is in relation to the link text",
+          "values": ["left", "right"],
+          "type": "state"
+        },
         "inactive": {
           "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
           "values": [true],
@@ -1157,6 +1174,14 @@
               "alpha": 1
             }
           }
+        },
+        {
+          "if": {
+            "iconPosition": "right"
+          },
+          "tokens": {
+            "iconSpace": 1
+          }
         }
       ],
       "tokens": {
@@ -1184,9 +1209,10 @@
         "fontName": "HelveticaNow",
         "fontSize": 14,
         "fontWeight": 700,
+        "height": 36,
         "iconSize": 20,
         "iconSpace": 2,
-        "lineHeight": 1.5,
+        "lineHeight": 1.42857142857,
         "minWidth": 0,
         "opacity": 1,
         "outerBackgroundColor": {
@@ -1502,7 +1528,7 @@
               "blue": 0.45098,
               "alpha": 1
             },
-            "borderBottomWidth": 2,
+            "borderBottomWidth": 4,
             "color": {
               "red": 0.40392,
               "green": 0.43137,
@@ -1538,6 +1564,7 @@
               "blue": 0.45098,
               "alpha": 1
             },
+            "borderBottomWidth": 2,
             "color": {
               "red": 0.40392,
               "green": 0.43137,
@@ -1553,15 +1580,16 @@
           },
           "tokens": {
             "borderBottomColor": {
-              "red": 0.74902,
-              "green": 0.90588,
-              "blue": 0.59216,
+              "red": 1,
+              "green": 1,
+              "blue": 1,
               "alpha": 1
             },
+            "borderBottomWidth": 4,
             "color": {
-              "red": 0.4,
-              "green": 0.8,
-              "blue": 0,
+              "red": 1,
+              "green": 1,
+              "blue": 1,
               "alpha": 1
             }
           }
@@ -2769,6 +2797,7 @@
           "tokens": {
             "iconMarginTop": 8,
             "itemFontSize": 20,
+            "itemIconSize": 20,
             "itemLineHeight": 1.6,
             "listGutter": 12
           }
@@ -2780,6 +2809,7 @@
           "tokens": {
             "iconMarginTop": 2,
             "itemFontSize": 14,
+            "itemIconSize": 14,
             "itemLineHeight": 1.42857142857,
             "listGutter": 12
           }
@@ -6896,7 +6926,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.9.0",
+    "themeTokensVersion": "2.10.0",
     "name": "theme-allium"
   }
 }
