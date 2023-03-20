@@ -2626,8 +2626,18 @@
           "type": "variant",
           "values": [true]
         },
+        "inactive": {
+          "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+          "values": [true],
+          "type": "state"
+        },
         "inverse": {
           "description": "For use on dark backgrounds",
+          "type": "variant",
+          "values": [true]
+        },
+        "password": {
+          "description": "Password masked or not",
           "type": "variant",
           "values": [true]
         },
@@ -2668,6 +2678,19 @@
         },
         {
           "if": {
+            "password": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            }
+          }
+        },
+        {
+          "if": {
             "pressed": true
           },
           "tokens": {
@@ -2681,6 +2704,33 @@
               "red": 1,
               "green": 1,
               "blue": 1,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "outerBorderGap": 4
+          }
+        },
+        {
+          "if": {
+            "password": true,
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.24706,
+              "green": 0.16471,
+              "blue": 0.32941,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.24706,
+              "green": 0.16471,
+              "blue": 0.32941,
               "alpha": 1
             },
             "iconColor": {
@@ -2813,6 +2863,33 @@
         },
         {
           "if": {
+            "inactive": true,
+            "password": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderWidth": 0,
+            "iconColor": {
+              "red": 0.8902,
+              "green": 0.90196,
+              "blue": 0.9098,
+              "alpha": 1
+            },
+            "outerBorderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            }
+          }
+        },
+        {
+          "if": {
             "compact": true
           },
           "tokens": {
@@ -2842,7 +2919,7 @@
           "alpha": 1
         },
         "iconScale": 1,
-        "iconSize": 16,
+        "iconSize": 24,
         "iconTranslateX": 0,
         "iconTranslateY": 0,
         "outerBorderColor": {
@@ -5990,6 +6067,11 @@
           "values": [true],
           "type": "state"
         },
+        "password": {
+          "description": "capability that helps masking and unmasking text",
+          "type": "variant",
+          "values": [true]
+        },
         "validation": {
           "description": "Validation states for form inputs",
           "values": ["error", "success"],
@@ -6125,7 +6207,9 @@
         "paddingBottom": 12,
         "paddingLeft": 16,
         "paddingRight": 16,
-        "paddingTop": 12
+        "paddingTop": 12,
+        "passwordHideButtonIcon": "PaletteIconInvisible",
+        "passwordShowButtonIcon": "PaletteIconVisible"
       }
     },
     "Timeline": {
@@ -7236,7 +7320,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.12.0",
+    "themeTokensVersion": "2.13.0",
     "name": "theme-allium"
   }
 }
