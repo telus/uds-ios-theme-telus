@@ -30,6 +30,213 @@
         "thickness": 2
       }
     },
+    "Badge": {
+      "appearances": {
+        "alternative": {
+          "type": "variant",
+          "values": [true]
+        },
+        "outline": {
+          "type": "variant",
+          "values": [true]
+        },
+        "purpose": {
+          "type": "variant",
+          "values": ["offer", "editorial"]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "outline": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.38039,
+              "green": 0.21961,
+              "blue": 0.53725,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "alternative": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "gradient": {
+              "type": "linear",
+              "angle": 135,
+              "stops": [
+                {
+                  "stop": 0,
+                  "color": {
+                    "red": 0,
+                    "green": 0.47059,
+                    "blue": 0.2902,
+                    "alpha": 1
+                  }
+                },
+                {
+                  "stop": 1,
+                  "color": {
+                    "red": 0.4,
+                    "green": 0.8,
+                    "blue": 0,
+                    "alpha": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "purpose": "offer"
+          },
+          "tokens": {
+            "borderWidth": 0,
+            "gradient": {
+              "type": "linear",
+              "angle": 135,
+              "stops": [
+                {
+                  "stop": 0,
+                  "color": {
+                    "red": 0.29412,
+                    "green": 0.15686,
+                    "blue": 0.42745,
+                    "alpha": 1
+                  }
+                },
+                {
+                  "stop": 1,
+                  "color": {
+                    "red": 0.89804,
+                    "green": 0.19608,
+                    "blue": 0.57647,
+                    "alpha": 1
+                  }
+                }
+              ]
+            },
+            "paddingBottom": 4,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 4
+          }
+        },
+        {
+          "if": {
+            "purpose": "editorial"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "outline": true,
+            "purpose": "offer"
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderWidth": 2,
+            "gradient": {
+              "type": "linear",
+              "angle": 135,
+              "stops": [
+                {
+                  "stop": 0,
+                  "color": {
+                    "red": 0.29412,
+                    "green": 0.15686,
+                    "blue": 0.42745,
+                    "alpha": 1
+                  }
+                },
+                {
+                  "stop": 1,
+                  "color": {
+                    "red": 0.89804,
+                    "green": 0.19608,
+                    "blue": 0.57647,
+                    "alpha": 1
+                  }
+                }
+              ]
+            },
+            "paddingBottom": 2,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "paddingTop": 2
+          }
+        }
+      ],
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.38039,
+          "green": 0.21961,
+          "blue": 0.53725,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.38039,
+          "green": 0.21961,
+          "blue": 0.53725,
+          "alpha": 1
+        },
+        "borderRadius": 4,
+        "borderWidth": 2,
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "fontName": "HelveticaNow",
+        "fontWeight": 700,
+        "gradient": null,
+        "paddingBottom": 2,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 2
+      }
+    },
     "Box": {
       "appearances": {
         "background": {
@@ -2957,7 +3164,7 @@
         "hintFontName": "HelveticaNow",
         "hintFontSize": 14,
         "hintFontWeight": 400,
-        "hintLineHeight": 1.4,
+        "hintLineHeight": 1.42857142857,
         "lineHeight": 1.5
       }
     },
@@ -7320,7 +7527,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.13.0",
+    "themeTokensVersion": "2.14.0",
     "name": "theme-allium"
   }
 }
