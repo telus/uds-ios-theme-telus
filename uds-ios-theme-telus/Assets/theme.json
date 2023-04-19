@@ -1876,6 +1876,10 @@
         },
         "borderRadius": 6,
         "borderWidth": 1,
+        "contentAlignItems": "stretch",
+        "contentFlexGrow": 0,
+        "contentFlexShrink": 0,
+        "contentJustifyContent": "flex-start",
         "flex": 1,
         "minWidth": null,
         "paddingBottom": 32,
@@ -5350,6 +5354,10 @@
           "blue": 0.18824,
           "alpha": 1
         },
+        "contentAlignItems": "stretch",
+        "contentFlexGrow": 0,
+        "contentFlexShrink": 0,
+        "contentJustifyContent": "flex-start",
         "contentSpace": 2,
         "flex": 1,
         "fontName": "HelveticaNow",
@@ -8384,7 +8392,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.19.0",
+    "themeTokensVersion": "2.20.0",
     "name": "theme-allium"
   }
 }
