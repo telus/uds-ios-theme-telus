@@ -3509,6 +3509,13 @@
         "shadow": null
       }
     },
+    "Image": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "borderRadius": 4
+      }
+    },
     "InputLabel": {
       "appearances": {},
       "rules": [],
@@ -3854,7 +3861,11 @@
             "viewport": ["xs", "sm"]
           },
           "tokens": {
-            "height": "100%"
+            "height": "100%",
+            "paddingBottom": 24,
+            "paddingLeft": 24,
+            "paddingRight": 24,
+            "paddingTop": 24
           }
         },
         {
@@ -3959,7 +3970,19 @@
           "blue": 1,
           "alpha": 1
         },
+        "borderColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
         "borderRadius": 4,
+        "cancelButtonColor": {
+          "red": 0.16863,
+          "green": 0.50196,
+          "blue": 0,
+          "alpha": 1
+        },
         "closeIcon": "PaletteIconClose",
         "closeIconColor": {
           "red": 0.2549,
@@ -3973,11 +3996,21 @@
         "containerPaddingLeft": 0,
         "containerPaddingRight": 0,
         "containerPaddingTop": 0,
+        "gap": 16,
+        "headingColor": {
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
+          "alpha": 1
+        },
+        "headingPaddingRight": 24,
         "height": null,
+        "marginLeft": 24,
+        "marginRight": 24,
         "maxWidth": "100%",
         "paddingBottom": 24,
-        "paddingLeft": 24,
-        "paddingRight": 24,
+        "paddingLeft": 32,
+        "paddingRight": 32,
         "paddingTop": 24,
         "shadow": {
           "inset": false,
@@ -3991,7 +4024,8 @@
             "blue": 0,
             "alpha": 0.1
           }
-        }
+        },
+        "subHeadingMarginTop": 8
       }
     },
     "Notification": {
@@ -6342,6 +6376,81 @@
         "showStepTrackerLabel": true
       }
     },
+    "Table": {
+      "appearances": {
+        "spacing": {
+          "type": "variant",
+          "values": ["compact"]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "spacing": "compact"
+          },
+          "tokens": {
+            "cellPaddingBottom": 8,
+            "cellPaddingTop": 8
+          }
+        }
+      ],
+      "tokens": {
+        "cellBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "cellBoxShadowColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
+        "cellHeadingBackground": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "cellHeadingBoxShadowColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "cellPaddingBottom": 16,
+        "cellPaddingLeft": 16,
+        "cellPaddingRight": 16,
+        "cellPaddingTop": 16,
+        "cellRowHeadingBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "cellStickyShadow": {
+          "inset": false,
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 8,
+          "spread": 0,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 0.1
+          }
+        },
+        "cellSubheadingBackground": {
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
+        },
+        "tablePaddingBottom": 24
+      }
+    },
     "Tabs": {
       "appearances": {
         "inverse": {
@@ -7122,6 +7231,73 @@
           "alpha": 1
         },
         "timelineContainerDirection": "column"
+      }
+    },
+    "Toast": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "animationBackgroundColorAfter": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "animationBackgroundColorBefore": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "animationColorAfter": {
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
+          "alpha": 1
+        },
+        "animationColorBefore": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "animationDivColorAfter": {
+          "red": 0.16863,
+          "green": 0.50196,
+          "blue": 0,
+          "alpha": 1
+        },
+        "animationDivColorBefore": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "animationFillColorAfter": {
+          "red": 0.16863,
+          "green": 0.50196,
+          "blue": 0,
+          "alpha": 1
+        },
+        "animationFillColorBefore": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "animationHeightAfter": 24,
+        "animationHeightBefore": 0,
+        "animationPaddingBottomAfter": 16,
+        "animationPaddingBottomBefore": 0,
+        "animationPaddingTopAfter": 16,
+        "animationPaddingTopBefore": 0,
+        "containerBackgroundColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "containerGap": 10
       }
     },
     "ToggleSwitch": {
@@ -8007,6 +8183,20 @@
         "textTransform": "none"
       }
     },
+    "WaffleGrid": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "itemBorderColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "itemPadding": 16,
+        "rowBorderWidth": 1
+      }
+    },
     "spacingScale": {
       "appearances": {
         "space": {
@@ -8194,7 +8384,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.18.0",
+    "themeTokensVersion": "2.19.0",
     "name": "theme-allium"
   }
 }
