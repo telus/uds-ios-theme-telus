@@ -2347,7 +2347,9 @@
             "size": "large"
           },
           "tokens": {
-            "iconSize": 20
+            "height": 48,
+            "iconSize": 24,
+            "textLineHeight": 1.95
           }
         },
         {
@@ -2355,7 +2357,9 @@
             "size": "small"
           },
           "tokens": {
-            "iconSize": 14
+            "height": 36,
+            "iconSize": 14,
+            "textLineHeight": 2.12
           }
         },
         {
@@ -2363,7 +2367,9 @@
             "size": "micro"
           },
           "tokens": {
-            "iconSize": 12
+            "height": 32,
+            "iconSize": 12,
+            "textLineHeight": 1.92
           }
         }
       ],
@@ -2374,18 +2380,20 @@
           "blue": 0,
           "alpha": 1
         },
+        "height": 40,
         "iconDisplace": 0,
         "iconSize": 24,
         "iconSpace": 1,
-        "leftIcon": "PaletteIconChevronLeft",
+        "leftIcon": "PaletteIconArrowLeft",
         "outerBorderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
-        "rightIcon": "PaletteIconChevronRight",
-        "textLine": "none"
+        "rightIcon": "PaletteIconArrowRight",
+        "textLine": "none",
+        "textLineHeight": 2.25
       }
     },
     "DatePicker": {
@@ -6171,6 +6179,35 @@
         "paddingVertical": 8
       }
     },
+    "Spinner": {
+      "appearances": {
+        "size": {
+          "type": "variant",
+          "values": ["small"]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "size": "small"
+          },
+          "tokens": {
+            "size": 24,
+            "thickness": 2
+          }
+        }
+      ],
+      "tokens": {
+        "fullScreenOverLayBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 0.97
+        },
+        "size": 48,
+        "thickness": 4
+      }
+    },
     "StackView": {
       "appearances": {},
       "rules": [],
@@ -8392,7 +8429,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.20.0",
+    "themeTokensVersion": "2.21.0",
     "name": "theme-allium"
   }
 }
