@@ -2403,7 +2403,7 @@
             "size": "large"
           },
           "tokens": {
-            "height": 48,
+            "fontSize": 20,
             "iconSize": 24,
             "textLineHeight": 1.95
           }
@@ -2413,7 +2413,7 @@
             "size": "small"
           },
           "tokens": {
-            "height": 36,
+            "fontSize": 14,
             "iconSize": 14,
             "textLineHeight": 2.12
           }
@@ -2423,7 +2423,7 @@
             "size": "micro"
           },
           "tokens": {
-            "height": 32,
+            "fontSize": 12,
             "iconSize": 12,
             "textLineHeight": 1.92
           }
@@ -2436,7 +2436,7 @@
           "blue": 0,
           "alpha": 1
         },
-        "height": 40,
+        "fontSize": 16,
         "iconDisplace": 0,
         "iconSize": 24,
         "iconSpace": 1,
@@ -4135,7 +4135,7 @@
             "size": "large"
           },
           "tokens": {
-            "iconMarginTop": 8,
+            "iconMarginTop": 4,
             "itemFontSize": 20,
             "itemIconSize": 20,
             "itemLineHeight": 1.6,
@@ -4189,7 +4189,7 @@
           "alpha": 1
         },
         "dividerSize": 1,
-        "iconMarginTop": 4,
+        "iconMarginTop": 3,
         "interItemMargin": 8,
         "interItemMarginWithDivider": 16,
         "itemBulletColor": {
@@ -4746,12 +4746,6 @@
             "itemFontSize": 20,
             "itemLineHeight": 1.6
           }
-        },
-        {
-          "if": {
-            "size": "medium"
-          },
-          "tokens": {}
         },
         {
           "if": {
@@ -8224,18 +8218,6 @@
           "blue": 1,
           "alpha": 1
         },
-        "animationFillColorAfter": {
-          "red": 0.16863,
-          "green": 0.50196,
-          "blue": 0,
-          "alpha": 1
-        },
-        "animationFillColorBefore": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
-        },
         "animationHeightAfter": 24,
         "animationHeightBefore": 0,
         "animationPaddingBottomAfter": 16,
@@ -9511,7 +9493,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.23.0",
+    "themeTokensVersion": "2.24.0",
     "name": "theme-allium"
   }
 }
