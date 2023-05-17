@@ -1287,13 +1287,17 @@
           "blue": 1,
           "alpha": 1
         },
+        "borderBottomWidth": 1,
         "borderColor": {
           "red": 0.16863,
           "green": 0.50196,
           "blue": 0,
           "alpha": 1
         },
+        "borderLeftWidth": 1,
         "borderRadius": 32,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
         "borderWidth": 1,
         "color": {
           "red": 0.16863,
@@ -1304,9 +1308,10 @@
         "fontName": "HelveticaNow",
         "fontSize": 16,
         "fontWeight": 700,
+        "height": null,
         "icon": null,
         "iconSize": 24,
-        "iconSpace": 2,
+        "iconSpace": 1,
         "lineHeight": 1.5,
         "minWidth": 144,
         "opacity": 1,
@@ -2636,6 +2641,12 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "calendarBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "calendarDayBlockedCalendarHoverBackground": {
           "red": 0.98039,
           "green": 0.98039,
@@ -2643,21 +2654,31 @@
           "alpha": 1
         },
         "calendarDayBlockedCalendarHoverColor": {
-          "red": 0.2549,
-          "green": 0.27059,
-          "blue": 0.27843,
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
           "alpha": 1
         },
-        "calendarDayDefaultBeforeHeight": 28,
-        "calendarDayDefaultBeforeWidth": 28,
+        "calendarDayDefaultBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "calendarDayDefaultBorder": 1,
         "calendarDayDefaultBorderColor": {
-          "red": 0.8902,
-          "green": 0.90196,
-          "blue": 0.9098,
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
           "alpha": 1
         },
         "calendarDayDefaultCalendarDaySelectedHoverBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "calendarDayDefaultCalendarDaySelectedHoverBeforeBackground": {
           "red": 0.48627,
           "green": 0.32549,
           "blue": 0.64706,
@@ -2677,23 +2698,41 @@
         },
         "calendarDayDefaultFontName": "HelveticaNow",
         "calendarDayDefaultFontSize": 14,
-        "calendarDayDefaultFontWeight": 300,
+        "calendarDayDefaultFontWeight": 400,
+        "calendarDaySelectedFocusBeforeBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "calendarDaySelectedHoverBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "calendarDaySelectedHoverBeforeBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "calendarDaySelectedHoverBeforeBorderColor": {
           "red": 0.48627,
           "green": 0.32549,
           "blue": 0.64706,
           "alpha": 1
         },
         "calendarDaySelectedHoverBorderColor": {
-          "red": 0.8902,
-          "green": 0.90196,
-          "blue": 0.9098,
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
           "alpha": 1
         },
         "calendarDaySelectedHoverColor": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
           "alpha": 1
         },
         "calendarMonthCaptionColor": {
@@ -2704,7 +2743,7 @@
         },
         "calendarMonthCaptionFontName": "HelveticaNow",
         "calendarMonthCaptionFontSize": 20,
-        "calendarMonthCaptionFontWeight": 400,
+        "calendarMonthCaptionFontWeight": 700,
         "calendarMonthCaptionLineHeight": 1.4,
         "calendarMonthCaptionPaddingBottom": 48,
         "dateInputBorderColor": {
@@ -2744,41 +2783,7 @@
           "blue": 0.45098,
           "alpha": 1
         },
-        "dayPickerNavigationButtonBackgroundColor": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
-        },
-        "dayPickerNavigationButtonBorderColor": {
-          "red": 0.69804,
-          "green": 0.72549,
-          "blue": 0.74902,
-          "alpha": 1
-        },
-        "dayPickerNavigationButtonChildLeft": 8,
-        "dayPickerNavigationButtonChildRight": 8,
-        "dayPickerNavigationButtonChildSvgFill": {
-          "red": 0.40392,
-          "green": 0.43137,
-          "blue": 0.45098,
-          "alpha": 1
-        },
-        "dayPickerNavigationButtonDefaultHoverBorderColor": {
-          "red": 0.8902,
-          "green": 0.90196,
-          "blue": 0.9098,
-          "alpha": 1
-        },
-        "dayPickerNavigationButtonMaxHeight": 32,
-        "dayPickerNavigationButtonMaxWidth": 32,
         "dayPickerNavigationButtonPadding": 8,
-        "dayPickerNavigationSVGHorizontalFill": {
-          "red": 0.17255,
-          "green": 0.18039,
-          "blue": 0.18824,
-          "alpha": 1
-        },
         "dayPickerWeekHeaderColor": {
           "red": 0.2549,
           "green": 0.27059,
@@ -2786,7 +2791,7 @@
           "alpha": 1
         },
         "dayPickerWeekHeaderFontName": "HelveticaNow",
-        "dayPickerWeekHeaderFontWeight": 500,
+        "dayPickerWeekHeaderFontWeight": 700,
         "dayPickerWeekHeaderLineHeight": 1.42857142857,
         "dayPickerWeekHeaderSmall": 14,
         "hiddenInputFieldContainerHeight": 0,
@@ -2910,6 +2915,10 @@
     },
     "ExpandCollapseControl": {
       "appearances": {
+        "compact": {
+          "type": "variant",
+          "values": [true]
+        },
         "expanded": {
           "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
           "values": [true],
@@ -2923,6 +2932,17 @@
           },
           "tokens": {
             "icon": "PaletteIconCaretUp"
+          }
+        },
+        {
+          "if": {
+            "compact": true
+          },
+          "tokens": {
+            "paddingBottom": 8,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 8
           }
         }
       ],
@@ -2953,8 +2973,8 @@
         "iconSize": 16,
         "justifyContent": "flex-start",
         "paddingBottom": 16,
-        "paddingLeft": 8,
-        "paddingRight": 16,
+        "paddingLeft": 0,
+        "paddingRight": 0,
         "paddingTop": 16,
         "verticalAlign": "top"
       }
@@ -2990,15 +3010,48 @@
       }
     },
     "ExpandCollapsePanel": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "compact": {
+          "type": "variant",
+          "values": [true]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "compact": true
+          },
+          "tokens": {
+            "contentPaddingBottom": 16,
+            "contentPaddingLeft": 24,
+            "contentPaddingRight": 0,
+            "contentPaddingTop": 8
+          }
+        }
+      ],
       "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderRadius": 0,
+        "borderWidth": 0,
         "collapseDuration": 250,
         "contentPaddingBottom": 16,
-        "contentPaddingLeft": 40,
-        "contentPaddingRight": 16,
+        "contentPaddingLeft": 24,
+        "contentPaddingRight": 0,
         "contentPaddingTop": 0,
-        "expandDuration": 300
+        "expandDividerColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "expandDuration": 300,
+        "expanddDividerWidth": 0,
+        "marginBottom": 0
       }
     },
     "Feedback": {
@@ -4772,9 +4825,22 @@
         "system": {
           "values": [true],
           "type": "state"
+        },
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
         }
       },
       "rules": [
+        {
+          "if": {
+            "viewport": ["xl"]
+          },
+          "tokens": {
+            "justifyContent": "center"
+          }
+        },
         {
           "if": {
             "system": true
@@ -4899,12 +4965,11 @@
         "dismissButtonGap": 16,
         "dismissIcon": "PaletteIconClose",
         "dismissIconColor": {
-          "red": 0.2549,
-          "green": 0.27059,
-          "blue": 0.27843,
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
           "alpha": 1
         },
-        "dismissIconSize": 24,
         "fontName": "HelveticaNow",
         "fontSize": 16,
         "fontWeight": 400,
@@ -4917,6 +4982,7 @@
         },
         "iconGap": 16,
         "iconSize": 24,
+        "justifyContent": "flex-start",
         "lineHeight": 1.5,
         "paddingBottom": 12,
         "paddingLeft": 12,
@@ -5024,12 +5090,28 @@
         }
       ],
       "tokens": {
+        "borderBottomWidth": 0,
+        "borderColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "borderTopWidth": 0,
         "color": {
           "red": 0.40392,
           "green": 0.43137,
           "blue": 0.45098,
           "alpha": 1
         },
+        "ellipsisBorderBottomWidth": 0,
+        "ellipsisBorderLeftWidth": 0,
+        "ellipsisBorderRightWidth": 0,
+        "ellipsisBorderTopWidth": 0,
+        "ellipsisHeight": null,
+        "ellipsisPadding": 0,
         "fontName": "HelveticaNow",
         "fontSize": 16,
         "fontWeight": 400,
@@ -5099,14 +5181,17 @@
           "blue": 0,
           "alpha": 0
         },
+        "borderBottomWidth": 1,
         "borderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
+        "borderLeftWidth": 1,
         "borderRadius": 32,
-        "borderWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
         "color": {
           "red": 0.40392,
           "green": 0.43137,
@@ -5116,6 +5201,7 @@
         "fontName": "HelveticaNow",
         "fontSize": 16,
         "fontWeight": 400,
+        "height": 32,
         "lineHeight": 1.5,
         "outerBorderColor": {
           "red": 0,
@@ -5246,14 +5332,17 @@
           "blue": 0,
           "alpha": 0
         },
+        "borderBottomWidth": 0,
         "borderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
+        "borderLeftWidth": 0,
         "borderRadius": 4,
-        "borderWidth": 1,
+        "borderRightWidth": 0,
+        "borderTopWidth": 0,
         "color": {
           "red": 0.40392,
           "green": 0.43137,
@@ -5264,6 +5353,7 @@
         "fontName": "HelveticaNow",
         "fontSize": 16,
         "fontWeight": 400,
+        "height": null,
         "icon": null,
         "iconDisplace": 0,
         "iconSize": 24,
@@ -5274,12 +5364,13 @@
           "blue": 0,
           "alpha": 0
         },
-        "paddingBottom": 12,
+        "outerBorderWidth": 1,
+        "paddingBottom": 4,
         "paddingLeft": 8,
         "paddingRight": 8,
-        "paddingTop": 12,
+        "paddingTop": 4,
         "textAlign": "center",
-        "textLine": "underline",
+        "textLine": "none",
         "width": null
       }
     },
@@ -5353,6 +5444,7 @@
             "currencySymbolLineHeight": 1.25,
             "rateFontSize": 14,
             "rateLineHeight": 1.14285714286,
+            "strikeThroughPosition": 15,
             "topTextFontSize": 14,
             "topTextLineHeight": 1.42857142857
           }
@@ -5372,6 +5464,8 @@
             "currencySymbolLineHeight": 1.125,
             "rateFontSize": 20,
             "rateLineHeight": 1.6,
+            "strikeThroughHeight": 3,
+            "strikeThroughPosition": 35,
             "topTextFontSize": 20,
             "topTextLineHeight": 1.6
           }
@@ -5451,6 +5545,7 @@
           "alpha": 1
         },
         "strikeThroughHeight": 2,
+        "strikeThroughPosition": 22,
         "topTextFontName": "HelveticaNow",
         "topTextFontSize": 16,
         "topTextFontWeight": 700,
@@ -6103,7 +6198,9 @@
         "containerPaddingRight": 0,
         "containerPaddingTop": 0,
         "containerShadow": null,
+        "descriptionFontName": "HelveticaNow",
         "descriptionFontSize": 14,
+        "descriptionFontWeight": 400,
         "descriptionLineHeight": 1.42857142857,
         "descriptionMarginLeft": null,
         "inputBackgroundColor": {
@@ -6871,6 +6968,12 @@
           "red": 0.2549,
           "green": 0.27059,
           "blue": 0.27843,
+          "alpha": 1
+        },
+        "feedbackBackgroundColor": {
+          "red": 0.74902,
+          "green": 0.90588,
+          "blue": 0.59216,
           "alpha": 1
         },
         "fontName": "HelveticaNow",
@@ -9903,7 +10006,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.25.0",
+    "themeTokensVersion": "2.26.0",
     "name": "theme-allium"
   }
 }
