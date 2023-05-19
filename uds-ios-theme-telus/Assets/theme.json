@@ -3200,7 +3200,7 @@
           "blue": 0.45098,
           "alpha": 1
         },
-        "closeButtonBorderSize": 1,
+        "closeButtonBorderSize": 0,
         "closeButtonHeight": 24,
         "closeButtonIconSize": 16,
         "closeButtonMarginBottom": 12,
@@ -3221,7 +3221,7 @@
           "blue": 0.96863,
           "alpha": 1
         },
-        "footnoteBodyPaddingBottom": 32,
+        "footnoteBodyPaddingBottom": 40,
         "footnoteBodyPaddingLeft": 16,
         "footnoteBodyPaddingRight": 16,
         "footnoteBodyPaddingTop": 0,
@@ -3232,6 +3232,14 @@
           "alpha": 1
         },
         "footnoteBorderTopSizeMd": 1,
+        "footnoteHeaderPaddingBottom": 16,
+        "footnoteHeaderPaddingLeft": 16,
+        "footnoteHeaderPaddingRight": 16,
+        "footnoteHeaderPaddingTop": 16,
+        "headerFontName": "HelveticaNow",
+        "headerFontSize": 16,
+        "headerFontWeight": 700,
+        "headerLineHeight": 20,
         "headerMargin": 16,
         "listItemColor": {
           "red": 0.2549,
@@ -6194,7 +6202,7 @@
         "containerBorderRadius": 0,
         "containerOpacity": 1,
         "containerPaddingBottom": 0,
-        "containerPaddingLeft": 0,
+        "containerPaddingLeft": 2,
         "containerPaddingRight": 0,
         "containerPaddingTop": 0,
         "containerShadow": null,
@@ -6242,7 +6250,7 @@
           "alpha": 0
         },
         "outerBorderGap": 0,
-        "outerBorderWidth": 0
+        "outerBorderWidth": 2
       }
     },
     "RadioCard": {
