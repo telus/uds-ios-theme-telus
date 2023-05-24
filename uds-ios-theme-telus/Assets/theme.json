@@ -7714,6 +7714,7 @@
           "blue": 0.74902,
           "alpha": 1
         },
+        "cellMinWidth": 0,
         "cellPaddingBottom": 16,
         "cellPaddingLeft": 16,
         "cellPaddingRight": 16,
@@ -10026,7 +10027,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.26.1",
+    "themeTokensVersion": "2.27.0",
     "name": "theme-allium"
   }
 }
