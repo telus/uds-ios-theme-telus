@@ -3122,9 +3122,9 @@
               "alpha": 1
             },
             "color": {
-              "red": 0.88235,
+              "red": 0.75686,
               "green": 0.13725,
-              "blue": 0.22353,
+              "blue": 0.20784,
               "alpha": 1
             }
           }
@@ -3152,9 +3152,9 @@
           "tokens": {
             "icon": "PaletteIconStatusError",
             "iconColor": {
-              "red": 0.88235,
+              "red": 0.75686,
               "green": 0.13725,
-              "blue": 0.22353,
+              "blue": 0.20784,
               "alpha": 1
             }
           }
@@ -3200,6 +3200,47 @@
         "paddingTop": 12,
         "space": 2,
         "titleFontSize": 16
+      }
+    },
+    "Fieldset": {
+      "appearances": {
+        "error": {
+          "type": "variant",
+          "values": [true]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "error": true
+          },
+          "tokens": {
+            "outlineColor": {
+              "red": 0.88235,
+              "green": 0.13725,
+              "blue": 0.22353,
+              "alpha": 1
+            }
+          }
+        }
+      ],
+      "tokens": {
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
+        "outlineColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outlineOffset": null,
+        "outlineWidth": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0
       }
     },
     "Footnote": {
@@ -6543,7 +6584,14 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "borderBottomLeftRadius": 1,
+        "borderBottomRightRadius": 1,
+        "borderTopLeftRadius": 1,
+        "borderTopRightRadius": 1,
         "fieldSpace": 2,
+        "outlineOffset": 8,
+        "outlineWidth": 1,
+        "showIcon": true,
         "space": 2
       }
     },
@@ -6925,11 +6973,17 @@
               "blue": 0,
               "alpha": 1
             },
+            "feedbackBackgroundColor": {
+              "red": 0.95686,
+              "green": 0.97647,
+              "blue": 0.94902,
+              "alpha": 1
+            },
             "validationIcon": "PaletteIconStatusSuccess",
             "validationIconColor": {
-              "red": 0.16863,
-              "green": 0.50196,
-              "blue": 0,
+              "red": 0.08627,
+              "green": 0.24314,
+              "blue": 0.02353,
               "alpha": 1
             }
           }
@@ -6943,6 +6997,12 @@
               "red": 0.88235,
               "green": 0.13725,
               "blue": 0.22353,
+              "alpha": 1
+            },
+            "feedbackBackgroundColor": {
+              "red": 1,
+              "green": 0.96471,
+              "blue": 0.97255,
               "alpha": 1
             },
             "validationIcon": "PaletteIconStatusError",
@@ -6959,7 +7019,19 @@
             "inactive": true
           },
           "tokens": {
+            "backgroundColor": {
+              "red": 0.95686,
+              "green": 0.95686,
+              "blue": 0.96863,
+              "alpha": 1
+            },
             "borderColor": {
+              "red": 0.95686,
+              "green": 0.95686,
+              "blue": 0.96863,
+              "alpha": 1
+            },
+            "color": {
               "red": 0.40392,
               "green": 0.43137,
               "blue": 0.45098,
@@ -6991,9 +7063,9 @@
           "alpha": 1
         },
         "feedbackBackgroundColor": {
-          "red": 0.74902,
-          "green": 0.90588,
-          "blue": 0.59216,
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
           "alpha": 1
         },
         "fontName": "HelveticaNow",
@@ -8433,6 +8505,11 @@
           "values": [true],
           "type": "state"
         },
+        "numeric": {
+          "description": "capability to only allow numbers",
+          "type": "variant",
+          "values": [true]
+        },
         "password": {
           "description": "capability that helps masking and unmasking text",
           "type": "variant",
@@ -8778,15 +8855,15 @@
               "alpha": 1
             },
             "iconColor": {
-              "red": 0.40392,
-              "green": 0.43137,
-              "blue": 0.45098,
+              "red": 0.69804,
+              "green": 0.72549,
+              "blue": 0.74902,
               "alpha": 1
             },
             "labelColor": {
-              "red": 0.40392,
-              "green": 0.43137,
-              "blue": 0.45098,
+              "red": 0.69804,
+              "green": 0.72549,
+              "blue": 0.74902,
               "alpha": 1
             },
             "outerBorderColor": {
@@ -8821,7 +8898,7 @@
           "blue": 0.45098,
           "alpha": 1
         },
-        "iconSize": 12,
+        "iconSize": 14,
         "labelColor": {
           "red": 0.2549,
           "green": 0.27059,
@@ -8892,7 +8969,7 @@
             "alpha": 0.2
           }
         },
-        "switchSize": 16,
+        "switchSize": 18,
         "trackBorderColor": {
           "red": 0,
           "green": 0,
@@ -10027,7 +10104,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.27.0",
+    "themeTokensVersion": "2.28.0",
     "name": "theme-allium"
   }
 }
