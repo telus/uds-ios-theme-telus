@@ -6370,44 +6370,22 @@
               "green": 0.90196,
               "blue": 0.9098,
               "alpha": 1
-            }
-          }
-        },
-        {
-          "if": {
-            "inactive": true
-          },
-          "tokens": {
-            "backgroundColor": {
-              "red": 0.95686,
-              "green": 0.95686,
-              "blue": 0.96863,
-              "alpha": 1
             },
-            "borderColor": {
-              "red": 0,
-              "green": 0,
-              "blue": 0,
-              "alpha": 0
-            },
-            "color": {
+            "outerBorderGap": 0,
+            "radioInputBorderColor": {
               "red": 0.40392,
               "green": 0.43137,
               "blue": 0.45098,
               "alpha": 1
             },
-            "radioInputBackgroundColor": {
+            "radioInputBorderWidth": 1,
+            "radioOuterBorderColor": {
               "red": 0.8902,
               "green": 0.90196,
               "blue": 0.9098,
               "alpha": 1
             },
-            "radioInputBorderColor": {
-              "red": 0,
-              "green": 0,
-              "blue": 0,
-              "alpha": 0
-            }
+            "radioOuterBorderWidth": 3
           }
         },
         {
@@ -6419,20 +6397,6 @@
               "red": 0.48627,
               "green": 0.32549,
               "blue": 0.64706,
-              "alpha": 1
-            }
-          }
-        },
-        {
-          "if": {
-            "checked": true,
-            "pressed": true
-          },
-          "tokens": {
-            "borderColor": {
-              "red": 0.29412,
-              "green": 0.15686,
-              "blue": 0.42745,
               "alpha": 1
             }
           }
@@ -6460,6 +6424,58 @@
               "blue": 0.22353,
               "alpha": 1
             }
+          }
+        },
+        {
+          "if": {
+            "inactive": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.95686,
+              "green": 0.95686,
+              "blue": 0.96863,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "color": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "radioCheckedBackgroundColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "radioInputBackgroundColor": {
+              "red": 0.69804,
+              "green": 0.72549,
+              "blue": 0.74902,
+              "alpha": 1
+            },
+            "radioInputBorderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "radioInputSize": 12,
+            "radioOuterBorderColor": {
+              "red": 0.69804,
+              "green": 0.72549,
+              "blue": 0.74902,
+              "alpha": 1
+            },
+            "radioOuterBorderGap": 2,
+            "radioOuterBorderWidth": 1
           }
         }
       ],
@@ -6566,11 +6582,11 @@
         {
           "if": {
             "fullWidth": null,
-            "viewport": ["lg", "xl"]
+            "viewport": ["md", "lg", "xl"]
           },
           "tokens": {
             "direction": "row",
-            "space": 4
+            "space": 5
           }
         }
       ],
