@@ -319,6 +319,12 @@
               "green": 1,
               "blue": 1,
               "alpha": 1
+            },
+            "borderColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
             }
           }
         },
@@ -328,6 +334,12 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "borderColor": {
               "red": 1,
               "green": 1,
               "blue": 1,
@@ -345,6 +357,12 @@
               "green": 0.95686,
               "blue": 0.96863,
               "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.95686,
+              "green": 0.95686,
+              "blue": 0.96863,
+              "alpha": 1
             }
           }
         },
@@ -354,6 +372,12 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 0.2549,
+              "green": 0.27059,
+              "blue": 0.27843,
+              "alpha": 1
+            },
+            "borderColor": {
               "red": 0.2549,
               "green": 0.27059,
               "blue": 0.27843,
@@ -371,6 +395,12 @@
               "green": 0.18039,
               "blue": 0.18824,
               "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.17255,
+              "green": 0.18039,
+              "blue": 0.18824,
+              "alpha": 1
             }
           }
         },
@@ -380,6 +410,12 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "borderColor": {
               "red": 0,
               "green": 0,
               "blue": 0,
@@ -397,6 +433,12 @@
               "green": 0.13725,
               "blue": 0.20784,
               "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.75686,
+              "green": 0.13725,
+              "blue": 0.20784,
+              "alpha": 1
             }
           }
         },
@@ -406,6 +448,12 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 1,
+              "green": 0.96471,
+              "blue": 0.97255,
+              "alpha": 1
+            },
+            "borderColor": {
               "red": 1,
               "green": 0.96471,
               "blue": 0.97255,
@@ -423,6 +471,12 @@
               "green": 0.97647,
               "blue": 0.93333,
               "alpha": 1
+            },
+            "borderColor": {
+              "red": 1,
+              "green": 0.97647,
+              "blue": 0.93333,
+              "alpha": 1
             }
           }
         },
@@ -432,6 +486,12 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 0.95686,
+              "green": 0.97647,
+              "blue": 0.94902,
+              "alpha": 1
+            },
+            "borderColor": {
               "red": 0.95686,
               "green": 0.97647,
               "blue": 0.94902,
@@ -449,6 +509,12 @@
               "green": 0.15686,
               "blue": 0.42745,
               "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.29412,
+              "green": 0.15686,
+              "blue": 0.42745,
+              "alpha": 1
             }
           }
         },
@@ -458,6 +524,12 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "borderColor": {
               "red": 1,
               "green": 1,
               "blue": 1,
@@ -475,6 +547,12 @@
               "green": 0,
               "blue": 0,
               "alpha": 1
+            },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
             }
           }
         },
@@ -484,6 +562,12 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderColor": {
               "red": 0,
               "green": 0,
               "blue": 0,
@@ -526,6 +610,12 @@
               "blue": 0,
               "alpha": 0
             },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
             "gradient": {
               "type": "linear",
               "angle": 135,
@@ -558,6 +648,12 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderColor": {
               "red": 0,
               "green": 0,
               "blue": 0,
@@ -600,6 +696,12 @@
               "blue": 0,
               "alpha": 0
             },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
             "gradient": {
               "type": "linear",
               "angle": 135,
@@ -632,6 +734,12 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderColor": {
               "red": 0,
               "green": 0,
               "blue": 0,
@@ -674,6 +782,12 @@
               "blue": 0,
               "alpha": 0
             },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
             "gradient": {
               "type": "linear",
               "angle": 135,
@@ -706,6 +820,12 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderColor": {
               "red": 0,
               "green": 0,
               "blue": 0,
@@ -748,6 +868,12 @@
               "blue": 0,
               "alpha": 0
             },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
             "gradient": {
               "type": "linear",
               "angle": 135,
@@ -782,6 +908,17 @@
           "blue": 0,
           "alpha": 0
         },
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
+        "borderWidth": 0,
         "gradient": null
       }
     },
@@ -1386,6 +1523,45 @@
         },
         {
           "if": {
+            "selected": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.29412,
+              "green": 0.15686,
+              "blue": 0.42745,
+              "alpha": 1
+            },
+            "iconBackground": {
+              "red": 0.48627,
+              "green": 0.32549,
+              "blue": 0.64706,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "pressed": true,
+            "selected": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.24706,
+              "green": 0.16471,
+              "blue": 0.32941,
+              "alpha": 1
+            },
+            "iconBackground": {
+              "red": 0.38039,
+              "green": 0.21961,
+              "blue": 0.53725,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
             "pressed": true
           },
           "tokens": {
@@ -1396,10 +1572,10 @@
               "alpha": 1
             },
             "borderColor": {
-              "red": 0.40392,
-              "green": 0.43137,
-              "blue": 0.45098,
-              "alpha": 1
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
             },
             "borderWidth": 0,
             "color": {
@@ -1419,7 +1595,14 @@
               "green": 1,
               "blue": 1,
               "alpha": 1
-            }
+            },
+            "outerBorderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "outerBorderWidth": 0
           }
         },
         {
@@ -1480,16 +1663,28 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "borderWidth": 0,
+            "color": {
               "red": 0.69804,
               "green": 0.72549,
               "blue": 0.74902,
               "alpha": 1
             },
-            "borderWidth": 0,
-            "color": {
-              "red": 1,
-              "green": 1,
-              "blue": 1,
+            "iconBackground": {
+              "red": 0.95686,
+              "green": 0.95686,
+              "blue": 0.96863,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 0.69804,
+              "green": 0.72549,
+              "blue": 0.74902,
               "alpha": 1
             }
           }
@@ -1544,7 +1739,7 @@
         "iconPadding": 2,
         "iconPosition": "right",
         "iconSize": 16,
-        "iconSpace": 2,
+        "iconSpace": 1,
         "iconTranslateX": 0,
         "iconTranslateY": 0,
         "lineHeight": 1.42857142857,
@@ -2449,8 +2644,7 @@
           },
           "tokens": {
             "fontSize": 20,
-            "iconSize": 24,
-            "textLineHeight": 1.95
+            "iconSize": 24
           }
         },
         {
@@ -2459,8 +2653,7 @@
           },
           "tokens": {
             "fontSize": 14,
-            "iconSize": 14,
-            "textLineHeight": 2.12
+            "iconSize": 14
           }
         },
         {
@@ -2469,8 +2662,7 @@
           },
           "tokens": {
             "fontSize": 12,
-            "iconSize": 12,
-            "textLineHeight": 1.92
+            "iconSize": 12
           }
         }
       ],
@@ -2493,8 +2685,7 @@
           "alpha": 0
         },
         "rightIcon": "PaletteIconArrowRight",
-        "textLine": "none",
-        "textLineHeight": 2.25
+        "textLine": "none"
       }
     },
     "Countdown": {
@@ -3017,8 +3208,81 @@
         }
       ],
       "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderWidth": 0,
         "icon": "PaletteIconCaretDown",
-        "size": 4
+        "iconColor": {
+          "red": 0.16863,
+          "green": 0.50196,
+          "blue": 0,
+          "alpha": 1
+        },
+        "iconGap": 8,
+        "iconPaddingTop": 4,
+        "iconPosition": "left",
+        "iconSize": 16,
+        "justifyContent": "flex-start",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "size": 4,
+        "verticalAlign": "top"
+      }
+    },
+    "ExpandCollapseMiniPanel": {
+      "appearances": {
+        "compact": {
+          "type": "variant",
+          "values": [true]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "compact": true
+          },
+          "tokens": {
+            "contentPaddingBottom": 16,
+            "contentPaddingRight": 0,
+            "contentPaddingTop": 8
+          }
+        }
+      ],
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "collapseDuration": 250,
+        "contentPaddingBottom": 16,
+        "contentPaddingLeft": 0,
+        "contentPaddingRight": 0,
+        "contentPaddingTop": 0,
+        "expandDividerColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "expandDividerWidth": 0,
+        "expandDuration": 300,
+        "marginBottom": 0
       }
     },
     "ExpandCollapsePanel": {
@@ -3061,8 +3325,8 @@
           "blue": 0,
           "alpha": 0
         },
+        "expandDividerWidth": 0,
         "expandDuration": 300,
-        "expanddDividerWidth": 0,
         "marginBottom": 0
       }
     },
@@ -4158,7 +4422,7 @@
           },
           "tokens": {
             "blockFontSize": 20,
-            "blockLineHeight": 1.6,
+            "blockLineHeight": 1.25,
             "iconSize": 24
           }
         },
@@ -4168,7 +4432,7 @@
           },
           "tokens": {
             "blockFontSize": 14,
-            "blockLineHeight": 1.42857142857,
+            "blockLineHeight": 1,
             "iconSize": 20
           }
         },
@@ -4180,7 +4444,7 @@
             "blockFontName": "HelveticaNow",
             "blockFontSize": 12,
             "blockFontWeight": 500,
-            "blockLineHeight": 1.33333333333,
+            "blockLineHeight": 1.125,
             "iconSize": 16
           }
         },
@@ -6759,7 +7023,8 @@
               "blue": 0.64706,
               "alpha": 1
             },
-            "borderWidth": 3
+            "borderWidth": 3,
+            "outerBorderWidth": 0
           }
         },
         {
@@ -6777,6 +7042,18 @@
               "red": 0.95686,
               "green": 0.95686,
               "blue": 0.96863,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "placeholderColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
               "alpha": 1
             }
           }
@@ -6797,7 +7074,7 @@
         },
         "borderRadius": 32,
         "borderWidth": 1,
-        "buttonsGap": 1,
+        "buttonsGap": 2,
         "clearButtonIcon": "PaletteIconTimes",
         "color": {
           "red": 0.2549,
@@ -6810,21 +7087,21 @@
         "fontWeight": 400,
         "lineHeight": 1.5,
         "outerBackgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
         },
         "outerBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
         },
         "outerBorderRadius": 32,
-        "outerBorderWidth": 2,
+        "outerBorderWidth": 0,
         "paddingBottom": 12,
-        "paddingLeft": 24,
+        "paddingLeft": 16,
         "paddingRight": 8,
         "paddingTop": 12,
         "placeholderColor": {
@@ -6896,7 +7173,8 @@
         },
         {
           "if": {
-            "inactive": true
+            "inactive": true,
+            "priority": "high"
           },
           "tokens": {
             "backgroundColor": {
@@ -6911,6 +7189,26 @@
               "green": 0.43137,
               "blue": 0.45098,
               "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inactive": true,
+            "priority": null
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "iconColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
             }
           }
         }
@@ -9179,7 +9477,22 @@
         "colour": {
           "description": "Each typography variant has a default color, and at least a secondary color variant. In exceptional cases where a different colour is needed,\n  use the tokens prop.",
           "type": "variant",
-          "values": ["secondary", "tertiary"]
+          "values": [
+            "default",
+            "brand",
+            "dark",
+            "light",
+            "positive",
+            "warning",
+            "danger",
+            "black",
+            "white",
+            "brand2",
+            "brand3",
+            "alternative1",
+            "alternative2",
+            "alternative3"
+          ]
         },
         "compact": {
           "description": "Reduces line height on some body text styles. For data-rich content, not for flow content",
@@ -9223,19 +9536,6 @@
       "rules": [
         {
           "if": {
-            "colour": "secondary"
-          },
-          "tokens": {
-            "color": {
-              "red": 0.2549,
-              "green": 0.27059,
-              "blue": 0.27843,
-              "alpha": 1
-            }
-          }
-        },
-        {
-          "if": {
             "size": ["display1", "display2", "h1", "h2", "h3"]
           },
           "tokens": {
@@ -9249,7 +9549,7 @@
         },
         {
           "if": {
-            "colour": "secondary",
+            "colour": "dark",
             "size": ["display1", "display2", "h1", "h2", "h3"]
           },
           "tokens": {
@@ -9263,7 +9563,7 @@
         },
         {
           "if": {
-            "colour": "tertiary",
+            "colour": "light",
             "size": "h6"
           },
           "tokens": {
@@ -9290,7 +9590,7 @@
         },
         {
           "if": {
-            "colour": "secondary",
+            "colour": "dark",
             "size": "eyebrow"
           },
           "tokens": {
@@ -9651,6 +9951,188 @@
           "tokens": {
             "fontName": "HelveticaNow",
             "fontWeight": 700
+          }
+        },
+        {
+          "if": {
+            "colour": "default"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.2549,
+              "green": 0.27059,
+              "blue": 0.27843,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "brand"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.29412,
+              "green": 0.15686,
+              "blue": 0.42745,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "dark"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.17255,
+              "green": 0.18039,
+              "blue": 0.18824,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "light"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "positive"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.16863,
+              "green": 0.50196,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "warning"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.70588,
+              "green": 0.52941,
+              "blue": 0.17255,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "danger"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.75686,
+              "green": 0.13725,
+              "blue": 0.20784,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "black"
+          },
+          "tokens": {
+            "color": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "white"
+          },
+          "tokens": {
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "brand2"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.16863,
+              "green": 0.50196,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "brand3"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.48627,
+              "green": 0.32549,
+              "blue": 0.64706,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "alternative1"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.29412,
+              "green": 0.15686,
+              "blue": 0.42745,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "alternative2"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.29412,
+              "green": 0.15686,
+              "blue": 0.42745,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "colour": "alternative3"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.29412,
+              "green": 0.15686,
+              "blue": 0.42745,
+              "alpha": 1
+            }
           }
         }
       ],
@@ -10120,7 +10602,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.28.0",
+    "themeTokensVersion": "2.29.0",
     "name": "theme-allium"
   }
 }
