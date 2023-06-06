@@ -1429,7 +1429,6 @@
         }
       ],
       "tokens": {
-        "alignSelf": "flex-start",
         "backgroundColor": {
           "red": 1,
           "green": 1,
@@ -3580,7 +3579,7 @@
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 1
+          "alpha": 0
         },
         "fontName": "HelveticaNow",
         "fontWeight": 400,
@@ -7637,6 +7636,7 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "animationDuration": 2000,
         "baseWidth": 40,
         "characters": 10,
         "color": {
@@ -7646,6 +7646,12 @@
           "alpha": 1
         },
         "radius": 99999999999999,
+        "secondColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
         "size": 3,
         "spaceBetweenLines": 2,
         "squareRadius": 4
@@ -10602,7 +10608,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.29.0",
+    "themeTokensVersion": "2.30.0",
     "name": "theme-allium"
   }
 }
