@@ -3034,9 +3034,9 @@
           "alpha": 1
         },
         "fontName": "HelveticaNow",
-        "fontSize": 14,
-        "fontWeight": 400,
-        "lineHeight": 1.42857142857
+        "fontSize": 12,
+        "fontWeight": 500,
+        "lineHeight": 1.33333333333
       }
     },
     "Divider": {
@@ -3125,6 +3125,10 @@
           "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
           "values": [true],
           "type": "state"
+        },
+        "mini": {
+          "type": "variant",
+          "values": [true]
         }
       },
       "rules": [
@@ -3146,6 +3150,14 @@
             "paddingRight": 0,
             "paddingTop": 8
           }
+        },
+        {
+          "if": {
+            "mini": true
+          },
+          "tokens": {
+            "paddingBottom": 0
+          }
         }
       ],
       "tokens": {
@@ -3155,12 +3167,16 @@
           "blue": 0,
           "alpha": 0
         },
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
         "borderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
         "borderWidth": 0,
         "icon": "PaletteIconCaretDown",
         "iconColor": {
@@ -3178,6 +3194,7 @@
         "paddingLeft": 0,
         "paddingRight": 0,
         "paddingTop": 16,
+        "textLine": "none",
         "verticalAlign": "top"
       }
     },
@@ -3240,53 +3257,13 @@
         "verticalAlign": "top"
       }
     },
-    "ExpandCollapseMiniPanel": {
+    "ExpandCollapsePanel": {
       "appearances": {
         "compact": {
           "type": "variant",
           "values": [true]
-        }
-      },
-      "rules": [
-        {
-          "if": {
-            "compact": true
-          },
-          "tokens": {
-            "contentPaddingBottom": 16,
-            "contentPaddingRight": 0,
-            "contentPaddingTop": 8
-          }
-        }
-      ],
-      "tokens": {
-        "borderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
         },
-        "borderRadius": 0,
-        "borderWidth": 0,
-        "collapseDuration": 250,
-        "contentPaddingBottom": 16,
-        "contentPaddingLeft": 0,
-        "contentPaddingRight": 0,
-        "contentPaddingTop": 0,
-        "expandDividerColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "expandDividerWidth": 0,
-        "expandDuration": 300,
-        "marginBottom": 0
-      }
-    },
-    "ExpandCollapsePanel": {
-      "appearances": {
-        "compact": {
+        "mini": {
           "type": "variant",
           "values": [true]
         }
@@ -3301,6 +3278,14 @@
             "contentPaddingLeft": 24,
             "contentPaddingRight": 0,
             "contentPaddingTop": 8
+          }
+        },
+        {
+          "if": {
+            "mini": true
+          },
+          "tokens": {
+            "contentPaddingLeft": 0
           }
         }
       ],
@@ -4565,7 +4550,7 @@
             "size": "large"
           },
           "tokens": {
-            "iconMarginTop": 4,
+            "iconMarginTop": 6,
             "itemFontSize": 20,
             "itemIconSize": 20,
             "itemLineHeight": 1.6,
@@ -4577,7 +4562,7 @@
             "size": "small"
           },
           "tokens": {
-            "iconMarginTop": 2,
+            "iconMarginTop": 3,
             "itemFontSize": 14,
             "itemIconSize": 14,
             "itemLineHeight": 1.42857142857,
@@ -4589,6 +4574,7 @@
             "compact": true
           },
           "tokens": {
+            "iconMarginTop": 2,
             "itemLineHeight": 1.25
           }
         },
@@ -4619,7 +4605,7 @@
           "alpha": 1
         },
         "dividerSize": 1,
-        "iconMarginTop": 3,
+        "iconMarginTop": 4,
         "interItemMargin": 8,
         "interItemMarginWithDivider": 16,
         "itemBulletColor": {
@@ -7464,6 +7450,12 @@
               "blue": 0.42745,
               "alpha": 1
             },
+            "backgroundColor": {
+              "red": 0.95686,
+              "green": 0.95686,
+              "blue": 0.96863,
+              "alpha": 1
+            },
             "color": {
               "red": 0.29412,
               "green": 0.15686,
@@ -7489,7 +7481,7 @@
             "accentOffset": 16,
             "borderWidth": 0,
             "fontSize": 14,
-            "lineHeight": 1.4,
+            "lineHeight": 1.45,
             "paddingLeft": 36
           }
         },
@@ -7499,6 +7491,12 @@
             "type": "parent"
           },
           "tokens": {
+            "color": {
+              "red": 0.29412,
+              "green": 0.15686,
+              "blue": 0.42745,
+              "alpha": 1
+            },
             "paddingLeft": 12
           }
         },
@@ -7516,11 +7514,13 @@
               "alpha": 0
             },
             "color": {
-              "red": 0.2549,
-              "green": 0.27059,
-              "blue": 0.27843,
+              "red": 0.29412,
+              "green": 0.15686,
+              "blue": 0.42745,
               "alpha": 1
             },
+            "fontName": "HelveticaNow",
+            "fontWeight": 400,
             "paddingLeft": 16
           }
         },
@@ -7541,12 +7541,6 @@
               "red": 0.95686,
               "green": 0.95686,
               "blue": 0.96863,
-              "alpha": 1
-            },
-            "color": {
-              "red": 0.29412,
-              "green": 0.15686,
-              "blue": 0.42745,
               "alpha": 1
             }
           }
@@ -7620,9 +7614,9 @@
         "expandDuration": 300,
         "icon": "PaletteIconCaretDown",
         "iconColor": {
-          "red": 0.29412,
-          "green": 0.15686,
-          "blue": 0.42745,
+          "red": 0.16863,
+          "green": 0.50196,
+          "blue": 0,
           "alpha": 1
         },
         "iconGap": 8,
@@ -10608,7 +10602,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.30.0",
+    "themeTokensVersion": "2.31.0",
     "name": "theme-allium"
   }
 }
