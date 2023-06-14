@@ -2948,37 +2948,6 @@
         "calendarMonthCaptionFontWeight": 700,
         "calendarMonthCaptionLineHeight": 1.4,
         "calendarMonthCaptionPaddingBottom": 48,
-        "dateInputBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "dateInputBorderRadius": 6,
-        "dateInputFocusBorderColor": {
-          "red": 0.48627,
-          "green": 0.32549,
-          "blue": 0.64706,
-          "alpha": 1
-        },
-        "dateInputHoverBorderColor": {
-          "red": 0.8902,
-          "green": 0.90196,
-          "blue": 0.9098,
-          "alpha": 1
-        },
-        "dateInputInsideBorderColor": {
-          "red": 0.40392,
-          "green": 0.43137,
-          "blue": 0.45098,
-          "alpha": 1
-        },
-        "dateInputInsideColor": {
-          "red": 0.40392,
-          "green": 0.43137,
-          "blue": 0.45098,
-          "alpha": 1
-        },
         "dateInputStrokeColor": {
           "red": 0.40392,
           "green": 0.43137,
@@ -9577,19 +9546,6 @@
         },
         {
           "if": {
-            "size": "eyebrow"
-          },
-          "tokens": {
-            "color": {
-              "red": 0.2549,
-              "green": 0.27059,
-              "blue": 0.27843,
-              "alpha": 1
-            }
-          }
-        },
-        {
-          "if": {
             "colour": "dark",
             "size": "eyebrow"
           },
@@ -9823,10 +9779,16 @@
             "size": "eyebrow"
           },
           "tokens": {
+            "color": {
+              "red": 0.48627,
+              "green": 0.32549,
+              "blue": 0.64706,
+              "alpha": 1
+            },
             "fontName": "HelveticaNow",
             "fontSize": 14,
             "fontWeight": 700,
-            "lineHeight": 1.28571428571,
+            "lineHeight": 1.42857142857,
             "textTransform": "uppercase"
           }
         },
@@ -10602,7 +10564,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.31.0",
+    "themeTokensVersion": "2.32.0",
     "name": "theme-allium"
   }
 }
