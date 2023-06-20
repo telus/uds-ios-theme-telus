@@ -264,8 +264,26 @@
       }
     },
     "BlockQuote": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["xs", "sm", "md"]
+          },
+          "tokens": {
+            "titleHeadingFontName": "HelveticaNow",
+            "titleHeadingFontSize": 24,
+            "titleHeadingFontWeight": 400,
+            "titleHeadingLineHeight": 1.33333333333
+          }
+        }
+      ],
       "tokens": {
         "backgroundGradient": {
           "type": "linear",
@@ -297,11 +315,23 @@
           "blue": 0.27843,
           "alpha": 1
         },
+        "linkFontName": "HelveticaNow",
+        "linkFontSize": 16,
+        "linkFontWeight": 700,
+        "linkLineHeight": 1.5,
         "marginBottom": 16,
         "paddingBottom": 16,
         "paddingLeft": 32,
         "paddingRight": 32,
         "paddingTop": 16,
+        "titleFontName": "HelveticaNow",
+        "titleFontSize": 20,
+        "titleFontWeight": 400,
+        "titleHeadingFontName": "HelveticaNow",
+        "titleHeadingFontSize": 28,
+        "titleHeadingFontWeight": 400,
+        "titleHeadingLineHeight": 1.28571428571,
+        "titleLineHeight": 1.6,
         "width": 2
       }
     },
@@ -1069,6 +1099,12 @@
               "blue": 0,
               "alpha": 1
             },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
             "borderWidth": 0,
             "color": {
               "red": 1,
@@ -1089,7 +1125,12 @@
               "blue": 0.02353,
               "alpha": 1
             },
-            "borderWidth": 0,
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
             "color": {
               "red": 1,
               "green": 1,
@@ -1155,6 +1196,12 @@
               "blue": 1,
               "alpha": 0.6
             },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
             "color": {
               "red": 0.2549,
               "green": 0.27059,
@@ -1210,6 +1257,12 @@
               "green": 0.13725,
               "blue": 0.20784,
               "alpha": 1
+            },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
             },
             "color": {
               "red": 1,
@@ -2903,6 +2956,24 @@
         "calendarDayDefaultFontName": "HelveticaNow",
         "calendarDayDefaultFontSize": 14,
         "calendarDayDefaultFontWeight": 400,
+        "calendarDaySelectedDisabledBackground": {
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
+        },
+        "calendarDaySelectedDisabledColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "calendarDaySelectedDisabledContentBackgroundColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
         "calendarDaySelectedFocusBeforeBackground": {
           "red": 1,
           "green": 1,
@@ -10705,7 +10776,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.33.0",
+    "themeTokensVersion": "2.34.0",
     "name": "theme-allium"
   }
 }
