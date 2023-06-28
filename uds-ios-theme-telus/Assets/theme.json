@@ -2049,7 +2049,7 @@
       "appearances": {
         "background": {
           "type": "variant",
-          "values": ["alternative", "subtle", "grid"]
+          "values": ["alternative", "subtle", "grid", "feature"]
         },
         "padding": {
           "type": "variant",
@@ -2085,6 +2085,44 @@
               "green": 0.98039,
               "blue": 0.98039,
               "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "feature"
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0.29412,
+              "green": 0.15686,
+              "blue": 0.42745,
+              "alpha": 1
+            },
+            "borderWidth": 2,
+            "gradient": {
+              "type": "linear",
+              "angle": 135,
+              "stops": [
+                {
+                  "stop": 0,
+                  "color": {
+                    "red": 0.29412,
+                    "green": 0.15686,
+                    "blue": 0.42745,
+                    "alpha": 1
+                  }
+                },
+                {
+                  "stop": 1,
+                  "color": {
+                    "red": 0.89804,
+                    "green": 0.19608,
+                    "blue": 0.57647,
+                    "alpha": 1
+                  }
+                }
+              ]
             }
           }
         },
@@ -2202,6 +2240,7 @@
         "contentFlexShrink": 1,
         "contentJustifyContent": "flex-start",
         "flex": 1,
+        "gradient": null,
         "minWidth": null,
         "paddingBottom": 32,
         "paddingLeft": 24,
@@ -3249,10 +3288,24 @@
     },
     "ExpandCollapseMiniControl": {
       "appearances": {
+        "alternative": {
+          "description": "Replaces the default green colour with a more subtle grey.",
+          "type": "variant",
+          "values": [true]
+        },
         "expanded": {
           "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
           "values": [true],
           "type": "state"
+        },
+        "inverse": {
+          "description": "Replaces the default green colour with white. Useful for dark backgrounds.",
+          "type": "variant",
+          "values": [true]
+        },
+        "size": {
+          "type": "variant",
+          "values": ["micro", "small", "large"]
         }
       },
       "rules": [
@@ -3263,15 +3316,70 @@
           "tokens": {
             "icon": "PaletteIconCaretUp"
           }
+        },
+        {
+          "if": {
+            "alternative": true
+          },
+          "tokens": {
+            "color": {
+              "red": 0.2549,
+              "green": 0.27059,
+              "blue": 0.27843,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inverse": true
+          },
+          "tokens": {
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "size": "micro"
+          },
+          "tokens": {
+            "fontSize": 12,
+            "iconSize": 16,
+            "lineHeight": 1.33333333333
+          }
+        },
+        {
+          "if": {
+            "size": "small"
+          },
+          "tokens": {
+            "fontSize": 14,
+            "iconSize": 20,
+            "lineHeight": 1.45
+          }
+        },
+        {
+          "if": {
+            "size": "large"
+          },
+          "tokens": {
+            "fontSize": 20,
+            "lineHeight": 1.28571428571
+          }
         }
       ],
       "tokens": {
-        "backgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
         "borderColor": {
           "red": 0,
           "green": 0,
@@ -3279,6 +3387,13 @@
           "alpha": 0
         },
         "borderWidth": 0,
+        "color": {
+          "red": 0.16863,
+          "green": 0.50196,
+          "blue": 0,
+          "alpha": 1
+        },
+        "fontSize": 16,
         "icon": "PaletteIconCaretDown",
         "iconColor": {
           "red": 0.16863,
@@ -3289,13 +3404,15 @@
         "iconGap": 8,
         "iconPaddingTop": 4,
         "iconPosition": "left",
-        "iconSize": 16,
+        "iconSize": 24,
         "justifyContent": "flex-start",
+        "lineHeight": 1.5,
         "paddingBottom": 0,
         "paddingLeft": 0,
         "paddingRight": 0,
         "paddingTop": 0,
         "size": 4,
+        "textLine": "underline",
         "verticalAlign": "top"
       }
     },
@@ -9498,7 +9615,7 @@
         "labelFontSize": 16,
         "labelFontWeight": 400,
         "labelLineHeight": 1.5,
-        "labelMarginLeft": 10,
+        "labelMarginLeft": 0,
         "opacity": 1,
         "outerBackgroundColor": {
           "red": 0,
@@ -9513,6 +9630,7 @@
           "alpha": 0
         },
         "outerBorderGap": 0,
+        "outerBorderGapButton": 3,
         "outerBorderWidth": 0,
         "paddingBottom": 0,
         "paddingLeft": 0,
@@ -9531,6 +9649,7 @@
             "alpha": 0.1
           }
         },
+        "space": 2,
         "switchBorderColor": {
           "red": 0,
           "green": 0,
@@ -9567,6 +9686,7 @@
         },
         "trackBorderRadius": 32,
         "trackBorderWidth": 3,
+        "trackHeight": 24,
         "width": 40
       }
     },
@@ -10888,7 +11008,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.35.0",
+    "themeTokensVersion": "2.36.0",
     "name": "theme-allium"
   }
 }
