@@ -340,6 +340,7 @@
       "appearances": {
         "background": {
           "description": "Background colour of box. Transparent if not specified.",
+          "type": "variant",
           "values": [
             "lightest",
             "lighter",
@@ -3665,7 +3666,7 @@
           "blue": 0.18824,
           "alpha": 1
         },
-        "contentFontSize": 14,
+        "contentFontSize": 16,
         "fontName": "HelveticaNow",
         "fontWeight": 400,
         "icon": null,
@@ -4530,7 +4531,7 @@
         "borderTopRightRadius": null,
         "borderTopWidth": null,
         "borderWidth": 1,
-        "icon": null,
+        "icon": "PaletteIconAdd",
         "iconColor": {
           "red": 0.40392,
           "green": 0.43137,
@@ -9960,7 +9961,8 @@
           "blue": 0.42745,
           "alpha": 1
         },
-        "containerGap": 10
+        "containerGap": 10,
+        "padding": 16
       }
     },
     "ToggleSwitch": {
@@ -11577,7 +11579,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.38.0",
+    "themeTokensVersion": "2.39.0",
     "name": "theme-allium"
   }
 }
