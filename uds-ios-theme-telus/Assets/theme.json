@@ -2640,6 +2640,7 @@
           "blue": 0,
           "alpha": 0
         },
+        "inputOutlineOffset": 0,
         "inputOutlineWidth": 0,
         "inputShadow": null,
         "inputWidth": 20,
@@ -2660,7 +2661,14 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
         "fieldSpace": 2,
+        "outlineOffset": null,
+        "outlineWidth": 0,
+        "showIcon": false,
         "space": 2
       }
     },
@@ -6844,9 +6852,9 @@
           "alpha": 1
         },
         "borderColor": {
-          "red": 0.8902,
-          "green": 0.90196,
-          "blue": 0.9098,
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
           "alpha": 1
         },
         "borderRadius": 6,
@@ -6958,7 +6966,20 @@
               "green": 0.72549,
               "blue": 0.74902,
               "alpha": 1
-            }
+            },
+            "itemFontColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "itemIconColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "itemUnderline": "underline"
           }
         }
       ],
@@ -6970,13 +6991,13 @@
           "alpha": 0
         },
         "dividerColor": {
-          "red": 0.8902,
-          "green": 0.90196,
-          "blue": 0.9098,
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
           "alpha": 1
         },
         "dividerSize": 1,
-        "iconMarginTop": 4,
+        "iconMarginTop": 0,
         "interItemMargin": 0,
         "interItemMarginWithDivider": 0,
         "itemBulletColor": {
@@ -6990,22 +7011,23 @@
         "itemBulletHeight": 4,
         "itemBulletWidth": 4,
         "itemFontColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
           "alpha": 1
         },
         "itemFontName": "HelveticaNow",
         "itemFontSize": 16,
-        "itemFontWeight": 400,
+        "itemFontWeight": 700,
         "itemIconColor": {
           "red": 0.29412,
           "green": 0.15686,
           "blue": 0.42745,
           "alpha": 1
         },
-        "itemIconSize": 16,
+        "itemIconSize": 24,
         "itemLineHeight": 1.5,
+        "itemUnderline": "none",
         "listGutter": 16,
         "paddingBottom": 12,
         "paddingLeft": null,
@@ -7584,7 +7606,11 @@
           "blue": 1,
           "alpha": 1
         },
+        "fontName": "HelveticaNow",
+        "fontSize": 12,
+        "fontWeight": 700,
         "gradient": null,
+        "lineHeight": 1.33333333333,
         "paddingBottom": 4,
         "paddingLeft": 8,
         "paddingRight": 8,
@@ -11579,7 +11605,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.39.0",
+    "themeTokensVersion": "2.40.0",
     "name": "theme-allium"
   }
 }
