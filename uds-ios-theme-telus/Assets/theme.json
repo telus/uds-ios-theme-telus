@@ -7915,9 +7915,9 @@
             },
             "validationIcon": "PaletteIconStatusSuccess",
             "validationIconColor": {
-              "red": 0.08627,
-              "green": 0.24314,
-              "blue": 0.02353,
+              "red": 0.16863,
+              "green": 0.50196,
+              "blue": 0,
               "alpha": 1
             }
           }
@@ -11419,8 +11419,39 @@
       }
     },
     "WaffleGrid": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["xs"]
+          },
+          "tokens": {
+            "rowSize": 2
+          }
+        },
+        {
+          "if": {
+            "viewport": ["sm", "md"]
+          },
+          "tokens": {
+            "rowSize": 3
+          }
+        },
+        {
+          "if": {
+            "viewport": ["lg", "xl"]
+          },
+          "tokens": {
+            "rowSize": 6
+          }
+        }
+      ],
       "tokens": {
         "itemBorderColor": {
           "red": 0.69804,
@@ -11429,7 +11460,8 @@
           "alpha": 1
         },
         "itemPadding": 16,
-        "rowBorderWidth": 1
+        "rowBorderWidth": 1,
+        "rowSize": 6
       }
     },
     "spacingScale": {
@@ -11619,7 +11651,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.41.0",
+    "themeTokensVersion": "2.41.1",
     "name": "theme-allium"
   }
 }
