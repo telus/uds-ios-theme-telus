@@ -10223,6 +10223,12 @@
                 },
                 "iconTranslateY": {
                   "$ref": "#size"
+                },
+                "height": {
+                  "$ref": "#size"
+                },
+                "width": {
+                  "$ref": "#size"
                 }
               },
               "required": [
@@ -10248,7 +10254,9 @@
                 "iconSize",
                 "iconScale",
                 "iconTranslateX",
-                "iconTranslateY"
+                "iconTranslateY",
+                "height",
+                "width"
               ]
             },
             "rules": {
@@ -10332,6 +10340,12 @@
                         "$ref": "#size"
                       },
                       "iconTranslateY": {
+                        "$ref": "#size"
+                      },
+                      "height": {
+                        "$ref": "#size"
+                      },
+                      "width": {
                         "$ref": "#size"
                       }
                     }

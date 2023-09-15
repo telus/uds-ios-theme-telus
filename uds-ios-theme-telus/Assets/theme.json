@@ -4354,7 +4354,7 @@
               "blue": 1,
               "alpha": 1
             },
-            "outerBorderGap": 4
+            "outerBorderGap": 0
           }
         },
         {
@@ -4539,6 +4539,7 @@
         "borderTopRightRadius": null,
         "borderTopWidth": null,
         "borderWidth": 1,
+        "height": null,
         "icon": "PaletteIconAdd",
         "iconColor": {
           "red": 0.40392,
@@ -4559,7 +4560,8 @@
         "outerBorderGap": 0,
         "outerBorderWidth": null,
         "padding": 4,
-        "shadow": null
+        "shadow": null,
+        "width": null
       }
     },
     "Image": {
