@@ -36,6 +36,10 @@
           "type": "variant",
           "values": [true]
         },
+        "inverse": {
+          "type": "variant",
+          "values": [true]
+        },
         "outline": {
           "type": "variant",
           "values": [true]
@@ -46,6 +50,31 @@
         }
       },
       "rules": [
+        {
+          "if": {
+            "inverse": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
         {
           "if": {
             "outline": true
@@ -3683,16 +3712,16 @@
       ],
       "tokens": {
         "backgroundColor": {
-          "red": 0.95686,
-          "green": 0.95686,
-          "blue": 0.96863,
+          "red": 0.93725,
+          "green": 0.92941,
+          "blue": 1,
           "alpha": 1
         },
         "borderColor": {
-          "red": 0.8902,
-          "green": 0.90196,
-          "blue": 0.9098,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "borderRadius": 4,
         "borderWidth": 1,
@@ -3765,8 +3794,60 @@
       }
     },
     "Footnote": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["xs"]
+          },
+          "tokens": {
+            "footnoteBodyPaddingBottom": 32,
+            "footnoteBodyPaddingLeft": 16,
+            "footnoteBodyPaddingRight": 16,
+            "footnoteBodyPaddingTop": 0,
+            "footnoteHeaderPaddingBottom": 16,
+            "footnoteHeaderPaddingLeft": 16,
+            "footnoteHeaderPaddingRight": 4,
+            "footnoteHeaderPaddingTop": 16
+          }
+        },
+        {
+          "if": {
+            "viewport": ["md", "lg"]
+          },
+          "tokens": {
+            "footnoteBodyPaddingBottom": 40,
+            "footnoteBodyPaddingLeft": 16,
+            "footnoteBodyPaddingRight": 16,
+            "footnoteBodyPaddingTop": 0,
+            "footnoteHeaderPaddingBottom": 24,
+            "footnoteHeaderPaddingLeft": 16,
+            "footnoteHeaderPaddingRight": 4,
+            "footnoteHeaderPaddingTop": 24
+          }
+        },
+        {
+          "if": {
+            "viewport": ["xl"]
+          },
+          "tokens": {
+            "footnoteBodyPaddingBottom": 40,
+            "footnoteBodyPaddingLeft": 16,
+            "footnoteBodyPaddingRight": 16,
+            "footnoteBodyPaddingTop": 0,
+            "footnoteHeaderPaddingBottom": 24,
+            "footnoteHeaderPaddingLeft": 16,
+            "footnoteHeaderPaddingRight": 16,
+            "footnoteHeaderPaddingTop": 24
+          }
+        }
+      ],
       "tokens": {
         "closeButtonBackgroundColor": {
           "red": 0.95686,
@@ -3801,7 +3882,7 @@
           "blue": 0.96863,
           "alpha": 1
         },
-        "footnoteBodyPaddingBottom": 32,
+        "footnoteBodyPaddingBottom": 40,
         "footnoteBodyPaddingLeft": 16,
         "footnoteBodyPaddingRight": 16,
         "footnoteBodyPaddingTop": 0,
@@ -3812,10 +3893,10 @@
           "alpha": 1
         },
         "footnoteBorderTopSizeMd": 1,
-        "footnoteHeaderPaddingBottom": 16,
+        "footnoteHeaderPaddingBottom": 24,
         "footnoteHeaderPaddingLeft": 16,
-        "footnoteHeaderPaddingRight": 16,
-        "footnoteHeaderPaddingTop": 16,
+        "footnoteHeaderPaddingRight": 4,
+        "footnoteHeaderPaddingTop": 24,
         "headerFontName": "HelveticaNow",
         "headerFontSize": 16,
         "headerFontWeight": 500,
@@ -5695,16 +5776,16 @@
       ],
       "tokens": {
         "backgroundColor": {
-          "red": 0.95686,
-          "green": 0.95686,
-          "blue": 0.96863,
+          "red": 0.93725,
+          "green": 0.92941,
+          "blue": 1,
           "alpha": 1
         },
         "borderBottomWidth": 1,
         "borderColor": {
-          "red": 0.40392,
-          "green": 0.43137,
-          "blue": 0.45098,
+          "red": 0.48627,
+          "green": 0.32549,
+          "blue": 0.64706,
           "alpha": 1
         },
         "borderLeftWidth": 1,
