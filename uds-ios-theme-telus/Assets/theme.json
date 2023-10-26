@@ -2714,6 +2714,265 @@
         "labelMarginLeft": 10
       }
     },
+    "CheckboxCard": {
+      "appearances": {
+        "checked": {
+          "description": "Corresponds to a selected state for a checkbox or radio",
+          "values": [true],
+          "type": "state"
+        },
+        "error": {
+          "values": [true],
+          "type": "state"
+        },
+        "inactive": {
+          "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+          "values": [true],
+          "type": "state"
+        },
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        },
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["lg", "xl"]
+          },
+          "tokens": {
+            "fontSize": 24,
+            "lineHeight": 1.33333333333,
+            "paddingBottom": 24,
+            "paddingLeft": 16,
+            "paddingRight": 24,
+            "paddingTop": 16
+          }
+        },
+        {
+          "description": "Pressed state matches hover state plus light grey background",
+          "if": {
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.95686,
+              "green": 0.95686,
+              "blue": 0.96863,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "checkboxInputBorderColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "checkboxInputBorderWidth": 1,
+            "checkboxOuterBorderColor": {
+              "red": 0.8902,
+              "green": 0.90196,
+              "blue": 0.9098,
+              "alpha": 1
+            },
+            "checkboxOuterBorderWidth": 3,
+            "outerBorderColor": {
+              "red": 0.8902,
+              "green": 0.90196,
+              "blue": 0.9098,
+              "alpha": 1
+            },
+            "outerBorderGap": 0
+          }
+        },
+        {
+          "if": {
+            "checked": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0.48627,
+              "green": 0.32549,
+              "blue": 0.64706,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "error": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0.88235,
+              "green": 0.13725,
+              "blue": 0.22353,
+              "alpha": 1
+            },
+            "checkboxInputBorderColor": {
+              "red": 0.88235,
+              "green": 0.13725,
+              "blue": 0.22353,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.88235,
+              "green": 0.13725,
+              "blue": 0.22353,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inactive": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.95686,
+              "green": 0.95686,
+              "blue": 0.96863,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "checkboxCheckedBackgroundColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "checkboxInputBackgroundColor": {
+              "red": 0.69804,
+              "green": 0.72549,
+              "blue": 0.74902,
+              "alpha": 1
+            },
+            "checkboxInputBorderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "checkboxInputSize": 12,
+            "checkboxOuterBorderColor": {
+              "red": 0.69804,
+              "green": 0.72549,
+              "blue": 0.74902,
+              "alpha": 1
+            },
+            "checkboxOuterBorderGap": 2,
+            "checkboxOuterBorderWidth": 1,
+            "color": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            }
+          }
+        }
+      ],
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "checkboxCheckedBackgroundColor": {
+          "red": 0.48627,
+          "green": 0.32549,
+          "blue": 0.64706,
+          "alpha": 1
+        },
+        "checkboxCheckedSize": 12,
+        "checkboxInputBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "checkboxInputBorderColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "checkboxInputBorderWidth": 1,
+        "checkboxInputOutlineColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "checkboxInputOutlineWidth": 0,
+        "checkboxInputSize": 20,
+        "checkboxOuterBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "checkboxOuterBorderGap": 0,
+        "checkboxOuterBorderWidth": 0,
+        "checkboxSpace": 2,
+        "color": {
+          "red": 0.17255,
+          "green": 0.18039,
+          "blue": 0.18824,
+          "alpha": 1
+        },
+        "contentAlignItems": "stretch",
+        "contentFlexGrow": 0,
+        "contentFlexShrink": 1,
+        "contentJustifyContent": "flex-start",
+        "contentSpace": 2,
+        "flex": 1,
+        "fontName": "HelveticaNow",
+        "fontSize": 20,
+        "fontWeight": 500,
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "minWidth": 264,
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outerBorderGap": 0,
+        "outerBorderWidth": 2,
+        "paddingBottom": 16,
+        "paddingLeft": 10,
+        "paddingRight": 16,
+        "paddingTop": 16,
+        "shadow": null,
+        "textTransform": "none"
+      }
+    },
     "CheckboxGroup": {
       "appearances": {},
       "rules": [],
@@ -8551,7 +8810,8 @@
         "alignItems": "stretch",
         "flexGrow": 0,
         "flexShrink": 0,
-        "justifyContent": "flex-start"
+        "justifyContent": "flex-start",
+        "width": null
       }
     },
     "StepTracker": {
@@ -9059,6 +9319,11 @@
     },
     "Tabs": {
       "appearances": {
+        "equalWidth": {
+          "description": "Divide the available width equally among `TabsItem`",
+          "type": "variant",
+          "values": [true]
+        },
         "inverse": {
           "description": "Styles the link white for use on dark backgrounds.",
           "type": "variant",
@@ -9097,6 +9362,11 @@
     },
     "TabsItem": {
       "appearances": {
+        "equalWidth": {
+          "description": "Divide the available width equally among `TabsItem`",
+          "type": "variant",
+          "values": [true]
+        },
         "focus": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
           "values": [true, false],
@@ -9130,10 +9400,10 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.95686,
-              "green": 0.95686,
-              "blue": 0.96863,
-              "alpha": 1
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0.05
             },
             "color": {
               "red": 0.29412,
@@ -9335,6 +9605,14 @@
               "blue": 1,
               "alpha": 1
             }
+          }
+        },
+        {
+          "if": {
+            "equalWidth": true
+          },
+          "tokens": {
+            "maxWidth": null
           }
         }
       ],
@@ -11762,7 +12040,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.41.1",
+    "themeTokensVersion": "2.42.0",
     "name": "theme-allium"
   }
 }
