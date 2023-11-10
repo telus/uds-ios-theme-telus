@@ -3044,6 +3044,7 @@
         "fieldSpace": 3,
         "outlineOffset": 8,
         "outlineWidth": 1,
+        "showIcon": true,
         "space": 3
       }
     },
@@ -3051,14 +3052,14 @@
       "appearances": {},
       "rules": [],
       "tokens": {
-        "borderBottomLeftRadius": 0,
-        "borderBottomRightRadius": 0,
-        "borderTopLeftRadius": 0,
-        "borderTopRightRadius": 0,
+        "borderBottomLeftRadius": 1,
+        "borderBottomRightRadius": 1,
+        "borderTopLeftRadius": 1,
+        "borderTopRightRadius": 1,
         "fieldSpace": 2,
-        "outlineOffset": null,
-        "outlineWidth": 0,
-        "showIcon": false,
+        "outlineOffset": 8,
+        "outlineWidth": 1,
+        "showIcon": true,
         "space": 2
       }
     },
@@ -5074,6 +5075,11 @@
           "values": [true, false],
           "type": "state"
         },
+        "quiet": {
+          "description": "When it is true, it does not show the decoration",
+          "type": "state",
+          "values": [true, false]
+        },
         "size": {
           "description": "Text sizes for block links; similar but not always identical to Typography sizes.",
           "type": "variant",
@@ -5200,6 +5206,14 @@
               "blue": 0.45098,
               "alpha": 1
             }
+          }
+        },
+        {
+          "if": {
+            "quiet": true
+          },
+          "tokens": {
+            "textLine": "none"
           }
         }
       ],
@@ -7918,8 +7932,15 @@
         }
       ],
       "tokens": {
+        "borderBottomLeftRadius": 1,
+        "borderBottomRightRadius": 1,
+        "borderTopLeftRadius": 1,
+        "borderTopRightRadius": 1,
         "direction": "column",
         "fieldSpace": 3,
+        "outlineOffset": 8,
+        "outlineWidth": 1,
+        "showIcon": true,
         "space": 3
       }
     },
@@ -12122,7 +12143,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.44.0",
+    "themeTokensVersion": "2.44.1",
     "name": "theme-allium"
   }
 }
