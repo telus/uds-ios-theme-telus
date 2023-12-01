@@ -2114,9 +2114,18 @@
           "type": "variant",
           "values": ["none", "small", "large"]
         },
+        "interactive": {
+          "type": "variant",
+          "values": [true]
+        },
         "padding": {
           "type": "variant",
           "values": ["narrow", "intermediate", "compact", "custom"]
+        },
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
         },
         "viewport": {
           "description": "The size label for the current screen viewport based on the current screen width",
@@ -2304,6 +2313,42 @@
             "paddingLeft": 0,
             "paddingRight": 0,
             "paddingTop": 0
+          }
+        },
+        {
+          "if": {
+            "interactive": true,
+            "pressed": false
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "borderWidth": 2
+          }
+        },
+        {
+          "if": {
+            "interactive": true,
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0.1
+            },
+            "borderColor": {
+              "red": 0.8902,
+              "green": 0.90196,
+              "blue": 0.9098,
+              "alpha": 1
+            },
+            "borderWidth": 2
           }
         }
       ],
@@ -3157,8 +3202,9 @@
             "size": "large"
           },
           "tokens": {
+            "blockLineHeight": 1.6,
             "fontSize": 20,
-            "iconSize": 24
+            "iconSize": 20
           }
         },
         {
@@ -3166,8 +3212,9 @@
             "size": "small"
           },
           "tokens": {
+            "blockLineHeight": 1.42857142857,
             "fontSize": 14,
-            "iconSize": 14
+            "iconSize": 16
           }
         },
         {
@@ -3175,12 +3222,14 @@
             "size": "micro"
           },
           "tokens": {
+            "blockLineHeight": 1.33333333333,
             "fontSize": 12,
-            "iconSize": 12
+            "iconSize": 16
           }
         }
       ],
       "tokens": {
+        "blockLineHeight": 1.5,
         "color": {
           "red": 0.16863,
           "green": 0.50196,
@@ -3189,7 +3238,7 @@
         },
         "fontSize": 16,
         "iconDisplace": 0,
-        "iconSize": 24,
+        "iconSize": 16,
         "iconSpace": 1,
         "leftIcon": "PaletteIconArrowLeft",
         "outerBorderColor": {
@@ -12142,7 +12191,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.46.0",
+    "themeTokensVersion": "2.47.0",
     "name": "theme-allium"
   }
 }
