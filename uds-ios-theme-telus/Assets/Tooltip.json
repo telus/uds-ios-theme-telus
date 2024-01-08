@@ -1,0 +1,68 @@
+{
+  "appearances": {
+    "inverse": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "arrowBorderRadius": 1,
+    "arrowOffset": 4,
+    "arrowWidth": 16,
+    "backgroundColor": {
+      "red": 0.17255,
+      "green": 0.18039,
+      "blue": 0.18824,
+      "alpha": 1
+    },
+    "borderRadius": 8,
+    "color": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "fontName": "HelveticaNow",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "paddingBottom": 8,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 8,
+    "shadow": {
+      "inset": false,
+      "offsetX": 0,
+      "offsetY": 4,
+      "blur": 8,
+      "spread": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.1
+      }
+    }
+  }
+}

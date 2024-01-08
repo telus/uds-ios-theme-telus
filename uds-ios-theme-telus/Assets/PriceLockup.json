@@ -1,0 +1,141 @@
+{
+  "appearances": {
+    "size": {
+      "type": "variant",
+      "values": ["small", "medium", "large"]
+    },
+    "strikeThrough": {
+      "type": "variant",
+      "values": [true]
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "amountFontSize": 28,
+        "bottomTextFontSize": 14,
+        "bottomTextLineHeight": 1.42857142857,
+        "centsFontSize": 16,
+        "centsLineHeight": 1.33333333333,
+        "currencySymbolFontSize": 16,
+        "currencySymbolLineHeight": 1.25,
+        "rateFontSize": 14,
+        "rateLineHeight": 1.14285714286,
+        "strikeThroughPosition": 15,
+        "topTextFontSize": 14,
+        "topTextLineHeight": 1.42857142857
+      }
+    },
+    {
+      "if": {
+        "size": "large",
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "amountFontSize": 64,
+        "bottomTextFontSize": 20,
+        "bottomTextLineHeight": 1.6,
+        "centsFontSize": 36,
+        "centsLineHeight": 1.125,
+        "currencySymbolFontSize": 36,
+        "currencySymbolLineHeight": 1.125,
+        "rateFontSize": 20,
+        "rateLineHeight": 1.6,
+        "strikeThroughHeight": 3,
+        "strikeThroughPosition": 35,
+        "topTextFontSize": 20,
+        "topTextLineHeight": 1.6
+      }
+    },
+    {
+      "if": {
+        "strikeThrough": true
+      },
+      "tokens": {
+        "fontColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "footnoteLinkColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "amountFontName": "HelveticaNow",
+    "amountFontSize": 40,
+    "amountFontWeight": 300,
+    "amountLetterSpacing": -0.039,
+    "amountLineHeight": 1,
+    "bottomLinksMarginLeft": 4,
+    "bottomTextFontSize": 16,
+    "bottomTextLineHeight": 1.6,
+    "bottomTextMarginTop": 4,
+    "centsFontName": "HelveticaNow",
+    "centsFontSize": 20,
+    "centsFontWeight": 400,
+    "centsLineHeight": 1.2,
+    "currencySymbolFontName": "HelveticaNow",
+    "currencySymbolFontSize": 20,
+    "currencySymbolFontWeight": 400,
+    "currencySymbolLineHeight": 1.2,
+    "dividerColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "fontColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "fontName": "HelveticaNow",
+    "fontWeight": 700,
+    "footnoteGap": 4,
+    "footnoteLinkColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "footnoteLinkFontName": "HelveticaNow",
+    "footnoteLinkFontSize": 14,
+    "footnoteLinkFontWeight": 400,
+    "footnoteLinkLineHeight": 1.42857142857,
+    "footnoteMarginTop": 4,
+    "priceMarginBottom": 8,
+    "rateFontName": "HelveticaNow",
+    "rateFontSize": 16,
+    "rateFontWeight": 400,
+    "rateLineHeight": 1.25,
+    "strikeThroughColor": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "strikeThroughHeight": 2,
+    "strikeThroughPosition": 22,
+    "topTextFontName": "HelveticaNow",
+    "topTextFontSize": 16,
+    "topTextFontWeight": 700,
+    "topTextLineHeight": 1.5,
+    "topTextMarginBottom": 4
+  }
+}

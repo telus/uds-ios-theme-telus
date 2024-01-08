@@ -1,0 +1,123 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "footnoteBodyPaddingBottom": 32,
+        "footnoteBodyPaddingLeft": 16,
+        "footnoteBodyPaddingRight": 16,
+        "footnoteBodyPaddingTop": 0,
+        "footnoteHeaderPaddingBottom": 16,
+        "footnoteHeaderPaddingLeft": 16,
+        "footnoteHeaderPaddingRight": 4,
+        "footnoteHeaderPaddingTop": 16
+      }
+    },
+    {
+      "if": {
+        "viewport": ["md", "lg"]
+      },
+      "tokens": {
+        "footnoteBodyPaddingBottom": 40,
+        "footnoteBodyPaddingLeft": 16,
+        "footnoteBodyPaddingRight": 16,
+        "footnoteBodyPaddingTop": 0,
+        "footnoteHeaderPaddingBottom": 24,
+        "footnoteHeaderPaddingLeft": 16,
+        "footnoteHeaderPaddingRight": 4,
+        "footnoteHeaderPaddingTop": 24
+      }
+    },
+    {
+      "if": {
+        "viewport": ["xl"]
+      },
+      "tokens": {
+        "footnoteBodyPaddingBottom": 40,
+        "footnoteBodyPaddingLeft": 16,
+        "footnoteBodyPaddingRight": 16,
+        "footnoteBodyPaddingTop": 0,
+        "footnoteHeaderPaddingBottom": 24,
+        "footnoteHeaderPaddingLeft": 16,
+        "footnoteHeaderPaddingRight": 16,
+        "footnoteHeaderPaddingTop": 24
+      }
+    }
+  ],
+  "tokens": {
+    "closeButtonBackgroundColor": {
+      "red": 0.95686,
+      "green": 0.95686,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "closeButtonBorderColor": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "closeButtonBorderSize": 1,
+    "closeButtonHeight": 24,
+    "closeButtonIconSize": 16,
+    "closeButtonMarginBottom": 12,
+    "closeButtonMarginLeft": 4,
+    "closeButtonMarginRight": 4,
+    "closeButtonMarginTop": 12,
+    "closeButtonWidth": 24,
+    "closeIcon": "PaletteIconClose",
+    "footnoteBackground": {
+      "red": 0.95686,
+      "green": 0.95686,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "footnoteBodyBackground": {
+      "red": 0.95686,
+      "green": 0.95686,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "footnoteBodyPaddingBottom": 40,
+    "footnoteBodyPaddingLeft": 16,
+    "footnoteBodyPaddingRight": 16,
+    "footnoteBodyPaddingTop": 0,
+    "footnoteBorderColorMd": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "footnoteBorderTopSizeMd": 1,
+    "footnoteHeaderPaddingBottom": 24,
+    "footnoteHeaderPaddingLeft": 16,
+    "footnoteHeaderPaddingRight": 4,
+    "footnoteHeaderPaddingTop": 24,
+    "headerFontName": "HelveticaNow",
+    "headerFontSize": 16,
+    "headerFontWeight": 500,
+    "headerLineHeight": 1.5,
+    "headerMargin": 16,
+    "listItemColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "listItemFontSize": 16,
+    "listItemLineHeight": 1.5,
+    "listItemMarkerFontSize": 16,
+    "listItemMarkerLineHeight": 1.5,
+    "listItemPaddingLeft": 8,
+    "listPaddingLeft": 32
+  }
+}

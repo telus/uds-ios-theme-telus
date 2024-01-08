@@ -1,0 +1,84 @@
+{
+  "appearances": {
+    "compact": {
+      "type": "variant",
+      "values": [true]
+    },
+    "mini": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "compact": true
+      },
+      "tokens": {
+        "contentPaddingBottom": 16,
+        "contentPaddingLeft": 24,
+        "contentPaddingRight": 0,
+        "contentPaddingTop": 8
+      }
+    },
+    {
+      "if": {
+        "mini": true
+      },
+      "tokens": {
+        "contentPaddingLeft": 0
+      }
+    }
+  ],
+  "tokens": {
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderRadius": 0,
+    "borderWidth": 0,
+    "collapseDuration": 250,
+    "contentPaddingBottom": 16,
+    "contentPaddingLeft": 24,
+    "contentPaddingRight": 0,
+    "contentPaddingTop": 0,
+    "contentPanelBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "contentPanelBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "contentPanelBorderWidth": 0,
+    "contentPanelFontColor": {
+      "red": 0.17255,
+      "green": 0.18039,
+      "blue": 0.18824,
+      "alpha": 1
+    },
+    "contentPanelFontName": "HelveticaNow",
+    "contentPanelFontSize": 16,
+    "contentPanelFontWeight": 700,
+    "contentPanelLineHeight": 1.5,
+    "contentPanelPaddingBottom": 16,
+    "contentPanelPaddingLeft": 24,
+    "contentPanelPaddingRight": 0,
+    "contentPanelPaddingTop": 16,
+    "expandDividerColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "expandDividerWidth": 0,
+    "expandDuration": 300,
+    "marginBottom": 0
+  }
+}

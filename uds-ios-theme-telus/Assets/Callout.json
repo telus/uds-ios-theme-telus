@@ -1,0 +1,51 @@
+{
+  "appearances": {
+    "rounded": {
+      "type": "variant",
+      "values": [true, false]
+    },
+    "size": {
+      "type": "variant",
+      "values": ["small"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "paddingBottom": 4,
+        "paddingTop": 4
+      }
+    },
+    {
+      "if": {
+        "rounded": true
+      },
+      "tokens": {
+        "borderRadius": 4
+      }
+    }
+  ],
+  "tokens": {
+    "background": {
+      "red": 0.95686,
+      "green": 0.95686,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "borderRadius": 0,
+    "color": {
+      "red": 0.29412,
+      "green": 0.15686,
+      "blue": 0.42745,
+      "alpha": 1
+    },
+    "gap": 16,
+    "paddingBottom": 8,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 8
+  }
+}

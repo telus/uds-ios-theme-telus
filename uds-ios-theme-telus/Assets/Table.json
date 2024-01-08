@@ -1,0 +1,231 @@
+{
+  "appearances": {
+    "spacing": {
+      "description": "Adjusts the height of the table cell",
+      "type": "variant",
+      "values": ["compact", "default"]
+    },
+    "text": {
+      "type": "variant",
+      "values": ["small", "medium"]
+    },
+    "type": {
+      "type": "variant",
+      "values": ["subHeading", "rowHeading", "heading", "default"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "spacing": "compact",
+        "type": "default"
+      },
+      "tokens": {
+        "cellPaddingBottom": 8,
+        "cellPaddingTop": 8,
+        "fontSize": 16,
+        "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "spacing": "compact",
+        "type": "rowHeading"
+      },
+      "tokens": {
+        "cellPaddingBottom": 8,
+        "cellPaddingTop": 8,
+        "fontName": "HelveticaNow",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "spacing": "compact",
+        "text": "small",
+        "type": "subHeading"
+      },
+      "tokens": {
+        "cellBackground": {
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
+        },
+        "cellPaddingBottom": 8,
+        "cellPaddingTop": 8,
+        "fontName": "HelveticaNow",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 1.14285714286
+      }
+    },
+    {
+      "if": {
+        "type": "heading"
+      },
+      "tokens": {
+        "cellBackground": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "cellBoxShadowColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "fontName": "HelveticaNow",
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "if": {
+        "spacing": "default",
+        "type": "subHeading"
+      },
+      "tokens": {
+        "cellBackground": {
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
+        },
+        "fontName": "HelveticaNow",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "lineHeight": 1.28571428571
+      }
+    },
+    {
+      "if": {
+        "spacing": "compact",
+        "text": "medium",
+        "type": "subHeading"
+      },
+      "tokens": {
+        "cellBackground": {
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
+        },
+        "fontName": "HelveticaNow",
+        "fontSize": 16,
+        "fontWeight": 500,
+        "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "spacing": "default",
+        "type": "rowHeading"
+      },
+      "tokens": {
+        "fontName": "HelveticaNow",
+        "fontSize": 16,
+        "fontWeight": 700
+      }
+    },
+    {
+      "if": {
+        "spacing": "default",
+        "text": "small",
+        "type": "default"
+      },
+      "tokens": {
+        "fontName": "HelveticaNow",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.42857142857
+      }
+    },
+    {
+      "if": {
+        "spacing": "compact",
+        "text": "small",
+        "type": "default"
+      },
+      "tokens": {
+        "fontName": "HelveticaNow",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.14285714286
+      }
+    },
+    {
+      "if": {
+        "text": "small",
+        "type": "rowHeading"
+      },
+      "tokens": {
+        "fontName": "HelveticaNow",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "lineHeight": 1.14285714286
+      }
+    }
+  ],
+  "tokens": {
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderWidth": 0,
+    "cellBackground": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "cellBoxShadowColor": {
+      "red": 0.8902,
+      "green": 0.90196,
+      "blue": 0.9098,
+      "alpha": 1
+    },
+    "cellMinWidth": 0,
+    "cellPaddingBottom": 16,
+    "cellPaddingLeft": 16,
+    "cellPaddingRight": 16,
+    "cellPaddingTop": 16,
+    "cellStickyShadow": {
+      "inset": false,
+      "offsetX": 0,
+      "offsetY": 4,
+      "blur": 8,
+      "spread": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.1
+      }
+    },
+    "display": null,
+    "fontColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "HelveticaNow",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "stickyBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "tablePaddingBottom": 24
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "buttonBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "buttonBorderColor": {
+      "red": 0.8902,
+      "green": 0.90196,
+      "blue": 0.9098,
+      "alpha": 1
+    },
+    "buttonBottomPosition": 24,
+    "buttonContentBackground": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0.6
+    },
+    "buttonContentChildrenBackground": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "buttonLeftPosition": 24,
+    "buttonMinHeight": 64,
+    "buttonPaddingLeft": 16,
+    "buttonPaddingRight": 16,
+    "buttonRadius": 32,
+    "detailsContainerPadding": 8,
+    "labelFontName": "HelveticaNow",
+    "labelFontWeight": 700,
+    "playIcon": "PaletteIconPlaySolid",
+    "playIconColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "playIconContainerBackground": {
+      "red": 0.16863,
+      "green": 0.50196,
+      "blue": 0,
+      "alpha": 1
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "testimonialFontNameHeading": "HelveticaNow",
+        "testimonialFontSizeHeading": 28,
+        "testimonialFontWeightHeading": 400,
+        "testimonialLineHeightHeading": 1.28571428571
+      }
+    }
+  ],
+  "tokens": {
+    "additionalFontName": "HelveticaNow",
+    "additionalFontSize": 14,
+    "additionalFontWeight": 400,
+    "additionalLineHeight": 1.42857142857,
+    "authorFontName": "HelveticaNow",
+    "authorFontSize": 16,
+    "authorFontWeight": 700,
+    "authorLineHeight": 1.5,
+    "dividerBackgroundColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "dividerBorder": 1,
+    "figcaptionGap": 12,
+    "icon": "PaletteIconQuoteLeft",
+    "iconColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "iconFr": "PaletteIconQuoteLeftArrow",
+    "imageSize": 48,
+    "quoteContainerGap": 4,
+    "testimonialContainerGap": 12,
+    "testimonialFontNameHeading": "HelveticaNow",
+    "testimonialFontNameLarge": "HelveticaNow",
+    "testimonialFontSizeHeading": 24,
+    "testimonialFontSizeLarge": 20,
+    "testimonialFontWeightHeading": 400,
+    "testimonialFontWeightLarge": 400,
+    "testimonialLineHeightHeading": 1.33333333333,
+    "testimonialLineHeightLarge": 1.6,
+    "textColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    }
+  }
+}

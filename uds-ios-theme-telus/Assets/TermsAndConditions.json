@@ -1,0 +1,116 @@
+{
+  "appearances": {
+    "expanded": {
+      "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+      "values": [true, false],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs", "sm"]
+      },
+      "tokens": {
+        "expandContentPaddingRight": 24,
+        "listMarginLeft": 6,
+        "titlePaddingLeft": 6
+      }
+    },
+    {
+      "if": {
+        "expanded": true
+      },
+      "tokens": {
+        "icon": "PaletteIconCaretUp"
+      }
+    }
+  ],
+  "tokens": {
+    "contentBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "contentMarginBottom": 0,
+    "contentPaddingBottom": 0,
+    "contentPaddingLeft": 16,
+    "dividerColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "expandBaseBorderWidth": 0,
+    "expandContentPaddingBottom": 16,
+    "expandContentPaddingLeft": 16,
+    "expandContentPaddingRight": 16,
+    "expandContentPaddingTop": 16,
+    "expandIconContainerAlignItems": "center",
+    "expandIconContainerBorder": 0,
+    "expandIconContainerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "expandIconContainerHeight": 32,
+    "expandIconContainerJustifyContent": "center",
+    "expandIconContainerMarginX": 0,
+    "expandIconContainerMarginY": 12,
+    "expandIconContainerWidth": 32,
+    "expandTitleBorder": 0,
+    "expandTitleBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "expandTitleColor": {
+      "red": 0.17255,
+      "green": 0.18039,
+      "blue": 0.18824,
+      "alpha": 1
+    },
+    "expandTitleFontName": "HelveticaNow",
+    "expandTitleFontSize": 16,
+    "expandTitleFontWeight": 500,
+    "expandTitleLineHeight": 1.5,
+    "expandTitleMarginX": 4,
+    "expandTitleMarginY": 0,
+    "expandTitlePaddingLeft": 0,
+    "expandTitleUnderline": "none",
+    "icon": "PaletteIconCaretDown",
+    "listColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "listFontName": "HelveticaNow",
+    "listFontSize": 14,
+    "listFontWeight": 400,
+    "listLineHeight": 1.42857142857,
+    "listMarginBottom": 16,
+    "listMarginLeft": 32,
+    "mdContentPaddingBottom": 16,
+    "mdContentPaddingLeft": 48,
+    "orderedPadding": 0,
+    "titleColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "titleFontSize": 14,
+    "titleLineHeight": 1.42857142857,
+    "titlePaddingLeft": 32,
+    "unorderedPadding": 12
+  }
+}

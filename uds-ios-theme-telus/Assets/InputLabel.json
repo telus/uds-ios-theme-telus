@@ -1,0 +1,27 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "color": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "fontName": "HelveticaNow",
+    "fontSize": 16,
+    "fontWeight": 700,
+    "gap": 8,
+    "hintColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "hintFontName": "HelveticaNow",
+    "hintFontSize": 14,
+    "hintFontWeight": 400,
+    "hintLineHeight": 1.42857142857,
+    "lineHeight": 1.5
+  }
+}

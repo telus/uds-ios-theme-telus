@@ -1,0 +1,167 @@
+{
+  "appearances": {
+    "active": {
+      "description": "Used to mark currently active Item or and ItemGroup containing the currently active Item",
+      "values": [true, false],
+      "type": "state"
+    },
+    "expanded": {
+      "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+      "values": [true, false],
+      "type": "state"
+    },
+    "type": {
+      "description": "`parent` being the toggle button for an ItemsGroup, and `child` an element of the ItemGroup",
+      "values": ["child", "parent"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "active": true
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "fontName": "HelveticaNow",
+        "fontWeight": 700,
+        "paddingLeft": 12
+      }
+    },
+    {
+      "if": {
+        "type": "child"
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "accentOffset": 16,
+        "borderWidth": 0,
+        "fontSize": 14,
+        "lineHeight": 1.45,
+        "paddingLeft": 36
+      }
+    },
+    {
+      "if": {
+        "active": true,
+        "type": "parent"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "paddingLeft": 12
+      }
+    },
+    {
+      "if": {
+        "active": true,
+        "expanded": true,
+        "type": "parent"
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "color": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "fontName": "HelveticaNow",
+        "fontWeight": 400,
+        "paddingLeft": 16
+      }
+    },
+    {
+      "if": {
+        "active": true,
+        "type": "child"
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "accentPadding": 16,
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "accentBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "accentOffset": 0,
+    "accentPadding": 0,
+    "accentWidth": 4,
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "borderStyle": "solid",
+    "borderWidth": 1,
+    "color": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "fontName": "HelveticaNow",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "justifyContent": "space-between",
+    "lineHeight": 1.5,
+    "paddingBottom": 16,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 16
+  }
+}

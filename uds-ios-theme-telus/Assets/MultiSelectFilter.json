@@ -1,0 +1,70 @@
+{
+  "appearances": {
+    "maxHeight": {
+      "description": "Whether MultiselectFilter modal should expand responsively to content or a set maximu height",
+      "values": [true],
+      "type": "state"
+    },
+    "maxWidth": {
+      "description": "Whether MultiselectFilter modal should expand to content or a set maximuh width",
+      "values": [true],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "buttonDirection": "column",
+        "minHeight": "100%",
+        "minWidth": "100%"
+      }
+    },
+    {
+      "if": {
+        "maxHeight": true,
+        "viewport": ["sm", "md", "lg", "xl"]
+      },
+      "tokens": {
+        "maxHeightSize": 480
+      }
+    },
+    {
+      "if": {
+        "maxWidth": true,
+        "viewport": ["sm", "md", "lg", "xl"]
+      },
+      "tokens": {
+        "maxWidthSize": 544
+      }
+    }
+  ],
+  "tokens": {
+    "buttonDirection": "row",
+    "headerFontColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "headerFontName": "HelveticaNow",
+    "headerFontSize": 16,
+    "headerFontWeight": 500,
+    "headerLineHeight": 1.5,
+    "maxHeightSize": 0,
+    "maxWidthSize": 0,
+    "minHeight": 412,
+    "minWidth": 320,
+    "subHeaderFontName": "HelveticaNow",
+    "subHeaderFontSize": 14,
+    "subHeaderFontWeight": 400,
+    "subHeaderLineHeight": 1.4
+  }
+}

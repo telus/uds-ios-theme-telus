@@ -1,0 +1,74 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "animationPaddingBottomAfter": 8,
+        "animationPaddingTopAfter": 8
+      }
+    }
+  ],
+  "tokens": {
+    "animationBackgroundColorAfter": {
+      "red": 0.95686,
+      "green": 0.95686,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "animationBackgroundColorBefore": {
+      "red": 0.29412,
+      "green": 0.15686,
+      "blue": 0.42745,
+      "alpha": 1
+    },
+    "animationColorAfter": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "animationColorBefore": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "animationDivColorAfter": {
+      "red": 0.16863,
+      "green": 0.50196,
+      "blue": 0,
+      "alpha": 1
+    },
+    "animationDivColorBefore": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "animationHeightAfter": 24,
+    "animationHeightBefore": 0,
+    "animationPaddingBottomAfter": 16,
+    "animationPaddingBottomBefore": 0,
+    "animationPaddingTopAfter": 16,
+    "animationPaddingTopBefore": 0,
+    "chevronlinkFontName": "HelveticaNow",
+    "chevronlinkFontWeight": 400,
+    "containerBackgroundColor": {
+      "red": 0.29412,
+      "green": 0.15686,
+      "blue": 0.42745,
+      "alpha": 1
+    },
+    "containerGap": 10,
+    "padding": 16
+  }
+}

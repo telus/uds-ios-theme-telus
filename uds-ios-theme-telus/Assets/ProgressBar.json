@@ -1,0 +1,95 @@
+{
+  "appearances": {
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "negative": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "gradient": null,
+        "outlineColor": {
+          "red": 0.17255,
+          "green": 0.18039,
+          "blue": 0.18824,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "negative": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.75686,
+          "green": 0.13725,
+          "blue": 0.20784,
+          "alpha": 1
+        },
+        "gradient": null,
+        "outlineColor": {
+          "red": 0.75686,
+          "green": 0.13725,
+          "blue": 0.20784,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.16863,
+      "green": 0.50196,
+      "blue": 0,
+      "alpha": 1
+    },
+    "borderRadius": 12,
+    "gradient": {
+      "type": "linear",
+      "angle": 135,
+      "stops": [
+        {
+          "stop": 0,
+          "color": {
+            "red": 0,
+            "green": 0.47059,
+            "blue": 0.2902,
+            "alpha": 1
+          }
+        },
+        {
+          "stop": 1,
+          "color": {
+            "red": 0.4,
+            "green": 0.8,
+            "blue": 0,
+            "alpha": 1
+          }
+        }
+      ]
+    },
+    "outlineColor": {
+      "red": 0.16863,
+      "green": 0.50196,
+      "blue": 0,
+      "alpha": 1
+    },
+    "outlineWidth": 1
+  }
+}

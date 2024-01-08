@@ -1,0 +1,150 @@
+{
+  "appearances": {
+    "checked": {
+      "description": "Corresponds to a selected state for a checkbox or radio",
+      "values": [true],
+      "type": "state"
+    },
+    "error": {
+      "values": [true],
+      "type": "state"
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "error": true
+      },
+      "tokens": {}
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "inputBackgroundColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
+        "inputBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "labelColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "checked": true,
+        "inactive": true
+      },
+      "tokens": {
+        "checkedBackgroundColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "inputBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "inputBorderColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "labelColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "checkedBackgroundColor": {
+      "red": 0.48627,
+      "green": 0.32549,
+      "blue": 0.64706,
+      "alpha": 1
+    },
+    "checkedSize": 12,
+    "containerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "containerBorderRadius": 0,
+    "containerOpacity": 1,
+    "containerPaddingBottom": 0,
+    "containerPaddingLeft": 2,
+    "containerPaddingRight": 0,
+    "containerPaddingTop": 0,
+    "containerShadow": null,
+    "descriptionFontName": "HelveticaNow",
+    "descriptionFontSize": 14,
+    "descriptionFontWeight": 400,
+    "descriptionLineHeight": 1.42857142857,
+    "descriptionMarginLeft": null,
+    "inputBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "inputBorderColor": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "inputBorderWidth": 1,
+    "inputOutlineColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "inputOutlineWidth": 0,
+    "inputSize": 20,
+    "labelColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "labelFontName": "HelveticaNow",
+    "labelFontSize": 16,
+    "labelFontWeight": 400,
+    "labelLineHeight": 1.5,
+    "labelMarginLeft": 10,
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderGap": 0,
+    "outerBorderWidth": 2
+  }
+}

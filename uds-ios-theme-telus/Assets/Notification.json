@@ -1,0 +1,192 @@
+{
+  "appearances": {
+    "style": {
+      "type": "variant",
+      "values": ["system", "subtle"]
+    },
+    "validation": {
+      "description": "Validation states for form inputs",
+      "values": ["error", "success", "warning"],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xl"]
+      },
+      "tokens": {
+        "justifyContent": "center"
+      }
+    },
+    {
+      "if": {
+        "style": "system"
+      },
+      "tokens": {
+        "borderLeftWidth": 0,
+        "borderRadius": 0,
+        "borderRightWidth": 0,
+        "borderTopWidth": 0,
+        "iconGap": 8,
+        "paddingBottom": 12,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 12
+      }
+    },
+    {
+      "if": {
+        "style": "subtle"
+      },
+      "tokens": {
+        "borderBottomWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRadius": 0,
+        "borderRightWidth": 0,
+        "borderTopWidth": 0,
+        "iconGap": 8,
+        "paddingBottom": 12,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 12
+      }
+    },
+    {
+      "if": {
+        "validation": "success"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.97647,
+          "blue": 0.94902,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.16863,
+          "green": 0.50196,
+          "blue": 0,
+          "alpha": 1
+        },
+        "icon": "PaletteIconStatusSuccess",
+        "iconColor": {
+          "red": 0.16863,
+          "green": 0.50196,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "warning"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.97647,
+          "blue": 0.93333,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.70588,
+          "green": 0.52941,
+          "blue": 0.17255,
+          "alpha": 1
+        },
+        "dismissIcon": null,
+        "icon": "PaletteIconStatusWarning",
+        "iconColor": {
+          "red": 0.70588,
+          "green": 0.52941,
+          "blue": 0.17255,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "error"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.96471,
+          "blue": 0.97255,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.88235,
+          "green": 0.13725,
+          "blue": 0.22353,
+          "alpha": 1
+        },
+        "dismissIcon": null,
+        "icon": "PaletteIconStatusError",
+        "iconColor": {
+          "red": 0.88235,
+          "green": 0.13725,
+          "blue": 0.22353,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.93725,
+      "green": 0.92941,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderBottomWidth": 1,
+    "borderColor": {
+      "red": 0.48627,
+      "green": 0.32549,
+      "blue": 0.64706,
+      "alpha": 1
+    },
+    "borderLeftWidth": 1,
+    "borderRadius": 6,
+    "borderRightWidth": 1,
+    "borderTopWidth": 1,
+    "color": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "dismissButtonGap": 24,
+    "dismissIcon": "PaletteIconClose",
+    "dismissIconColor": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "fontName": "HelveticaNow",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "icon": "PaletteIconStatusInfo",
+    "iconColor": {
+      "red": 0.29412,
+      "green": 0.15686,
+      "blue": 0.42745,
+      "alpha": 1
+    },
+    "iconGap": 8,
+    "iconSize": 24,
+    "justifyContent": "flex-start",
+    "lineHeight": 1.5,
+    "paddingBottom": 12,
+    "paddingLeft": 12,
+    "paddingRight": 12,
+    "paddingTop": 12
+  }
+}

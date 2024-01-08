@@ -1,0 +1,130 @@
+{
+  "appearances": {
+    "alternative": {
+      "description": "Replaces the default green colour with a more subtle grey.",
+      "type": "variant",
+      "values": [true]
+    },
+    "expanded": {
+      "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+      "values": [true, false],
+      "type": "state"
+    },
+    "inverse": {
+      "description": "Replaces the default green colour with white. Useful for dark backgrounds.",
+      "type": "variant",
+      "values": [true]
+    },
+    "size": {
+      "type": "variant",
+      "values": ["micro", "small", "large"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "expanded": true
+      },
+      "tokens": {
+        "icon": "PaletteIconCaretUp"
+      }
+    },
+    {
+      "if": {
+        "alternative": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "size": "micro"
+      },
+      "tokens": {
+        "fontSize": 12,
+        "iconSize": 16,
+        "lineHeight": 1.33333333333
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "fontSize": 14,
+        "iconSize": 20,
+        "lineHeight": 1.45
+      }
+    },
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "fontSize": 20,
+        "lineHeight": 1.28571428571
+      }
+    }
+  ],
+  "tokens": {
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderWidth": 0,
+    "color": {
+      "red": 0.16863,
+      "green": 0.50196,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontSize": 16,
+    "icon": "PaletteIconCaretDown",
+    "iconColor": {
+      "red": 0.16863,
+      "green": 0.50196,
+      "blue": 0,
+      "alpha": 1
+    },
+    "iconGap": 8,
+    "iconPaddingTop": 4,
+    "iconPosition": "left",
+    "iconSize": 24,
+    "justifyContent": "flex-start",
+    "lineHeight": 1.5,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "paddingTop": 0,
+    "size": 4,
+    "textLine": "underline",
+    "verticalAlign": "top"
+  }
+}

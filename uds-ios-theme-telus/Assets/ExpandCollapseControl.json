@@ -1,0 +1,83 @@
+{
+  "appearances": {
+    "compact": {
+      "type": "variant",
+      "values": [true]
+    },
+    "expanded": {
+      "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+      "values": [true, false],
+      "type": "state"
+    },
+    "mini": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "expanded": true
+      },
+      "tokens": {
+        "icon": "PaletteIconCaretUp"
+      }
+    },
+    {
+      "if": {
+        "compact": true
+      },
+      "tokens": {
+        "paddingBottom": 8,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 8
+      }
+    },
+    {
+      "if": {
+        "mini": true
+      },
+      "tokens": {
+        "paddingBottom": 0
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderBottomLeftRadius": 0,
+    "borderBottomRightRadius": 0,
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderTopLeftRadius": 0,
+    "borderTopRightRadius": 0,
+    "borderWidth": 0,
+    "icon": "PaletteIconCaretDown",
+    "iconColor": {
+      "red": 0.16863,
+      "green": 0.50196,
+      "blue": 0,
+      "alpha": 1
+    },
+    "iconGap": 8,
+    "iconPaddingTop": 4,
+    "iconPosition": "left",
+    "iconSize": 16,
+    "justifyContent": "flex-start",
+    "paddingBottom": 16,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "paddingTop": 16,
+    "textLine": "none",
+    "verticalAlign": "top"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "animationDuration": 2000,
+    "baseWidth": 40,
+    "characters": 10,
+    "color": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "radius": 99999999999999,
+    "secondColor": {
+      "red": 0.8902,
+      "green": 0.90196,
+      "blue": 0.9098,
+      "alpha": 1
+    },
+    "size": 3,
+    "spaceBetweenLines": 2,
+    "squareRadius": 4
+  }
+}

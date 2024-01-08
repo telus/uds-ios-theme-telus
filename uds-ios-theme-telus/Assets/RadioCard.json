@@ -1,0 +1,259 @@
+{
+  "appearances": {
+    "checked": {
+      "description": "Corresponds to a selected state for a checkbox or radio",
+      "values": [true],
+      "type": "state"
+    },
+    "error": {
+      "values": [true],
+      "type": "state"
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "fontSize": 24,
+        "lineHeight": 1.33333333333,
+        "paddingBottom": 24,
+        "paddingLeft": 16,
+        "paddingRight": 24,
+        "paddingTop": 16
+      }
+    },
+    {
+      "description": "Pressed state matches hover state plus light grey background",
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
+        "outerBorderGap": 0,
+        "radioInputBorderColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "radioInputBorderWidth": 1,
+        "radioOuterBorderColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
+        "radioOuterBorderWidth": 3
+      }
+    },
+    {
+      "if": {
+        "checked": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.48627,
+          "green": 0.32549,
+          "blue": 0.64706,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "error": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.88235,
+          "green": 0.13725,
+          "blue": 0.22353,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.88235,
+          "green": 0.13725,
+          "blue": 0.22353,
+          "alpha": 1
+        },
+        "radioInputBorderColor": {
+          "red": 0.88235,
+          "green": 0.13725,
+          "blue": 0.22353,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "color": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "radioCheckedBackgroundColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "radioInputBackgroundColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "radioInputBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "radioInputSize": 12,
+        "radioOuterBorderColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "radioOuterBorderGap": 2,
+        "radioOuterBorderWidth": 1
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "borderRadius": 6,
+    "borderWidth": 1,
+    "color": {
+      "red": 0.17255,
+      "green": 0.18039,
+      "blue": 0.18824,
+      "alpha": 1
+    },
+    "contentAlignItems": "stretch",
+    "contentFlexGrow": 0,
+    "contentFlexShrink": 1,
+    "contentJustifyContent": "flex-start",
+    "contentSpace": 2,
+    "flex": 1,
+    "fontName": "HelveticaNow",
+    "fontSize": 20,
+    "fontWeight": 500,
+    "letterSpacing": 0,
+    "lineHeight": 1.4,
+    "minWidth": 264,
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderGap": 0,
+    "outerBorderWidth": 2,
+    "paddingBottom": 16,
+    "paddingLeft": 10,
+    "paddingRight": 16,
+    "paddingTop": 16,
+    "radioCheckedBackgroundColor": {
+      "red": 0.48627,
+      "green": 0.32549,
+      "blue": 0.64706,
+      "alpha": 1
+    },
+    "radioCheckedSize": 12,
+    "radioInputBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "radioInputBorderColor": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "radioInputBorderWidth": 1,
+    "radioInputOutlineColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "radioInputOutlineWidth": 0,
+    "radioInputSize": 20,
+    "radioOuterBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "radioOuterBorderGap": 0,
+    "radioOuterBorderWidth": 0,
+    "radioSpace": 2,
+    "shadow": null,
+    "textTransform": "none"
+  }
+}

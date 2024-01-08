@@ -1,0 +1,72 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs", "sm", "md"]
+      },
+      "tokens": {
+        "titleHeadingFontName": "HelveticaNow",
+        "titleHeadingFontSize": 24,
+        "titleHeadingFontWeight": 400,
+        "titleHeadingLineHeight": 1.33333333333
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundGradient": {
+      "type": "linear",
+      "angle": 135,
+      "stops": [
+        {
+          "stop": 0,
+          "color": {
+            "red": 0.29412,
+            "green": 0.15686,
+            "blue": 0.42745,
+            "alpha": 1
+          }
+        },
+        {
+          "stop": 1,
+          "color": {
+            "red": 0.89804,
+            "green": 0.19608,
+            "blue": 0.57647,
+            "alpha": 1
+          }
+        }
+      ]
+    },
+    "color": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "linkFontName": "HelveticaNow",
+    "linkFontSize": 16,
+    "linkFontWeight": 700,
+    "linkLineHeight": 1.5,
+    "marginBottom": 16,
+    "paddingBottom": 16,
+    "paddingLeft": 32,
+    "paddingRight": 32,
+    "paddingTop": 16,
+    "titleFontName": "HelveticaNow",
+    "titleFontSize": 20,
+    "titleFontWeight": 400,
+    "titleHeadingFontName": "HelveticaNow",
+    "titleHeadingFontSize": 28,
+    "titleHeadingFontWeight": 400,
+    "titleHeadingLineHeight": 1.28571428571,
+    "titleLineHeight": 1.6,
+    "width": 2
+  }
+}

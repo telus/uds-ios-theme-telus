@@ -1,0 +1,100 @@
+{
+  "appearances": {
+    "compact": {
+      "description": "When true it will reduce the line height of the list item.",
+      "type": "variant",
+      "values": [true]
+    },
+    "size": {
+      "description": "Indicates list item text size.",
+      "type": "variant",
+      "values": ["large", "small"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "iconMarginTop": 4,
+        "itemFontSize": 20,
+        "itemIconSize": 24,
+        "itemLineHeight": 1.6,
+        "listGutter": 8
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "iconMarginTop": 0,
+        "itemFontSize": 14,
+        "itemIconSize": 24,
+        "itemLineHeight": 1.42857142857,
+        "listGutter": 8
+      }
+    },
+    {
+      "if": {
+        "compact": true
+      },
+      "tokens": {
+        "iconMarginTop": 0,
+        "itemLineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "compact": true,
+        "size": "small"
+      },
+      "tokens": {
+        "itemLineHeight": 1.14285714286
+      }
+    },
+    {
+      "if": {
+        "compact": true,
+        "size": "large"
+      },
+      "tokens": {
+        "itemLineHeight": 1.2
+      }
+    }
+  ],
+  "tokens": {
+    "bulletIcon": "PaletteIconBulletFill",
+    "dividerColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "dividerSize": 1,
+    "iconMarginTop": 0,
+    "interItemMargin": 8,
+    "interItemMarginWithDivider": 16,
+    "itemBulletColor": {
+      "red": 0.29412,
+      "green": 0.15686,
+      "blue": 0.42745,
+      "alpha": 1
+    },
+    "itemBulletContainerAlign": "center",
+    "itemBulletContainerWidth": 24,
+    "itemFontName": "HelveticaNow",
+    "itemFontSize": 16,
+    "itemFontWeight": 400,
+    "itemIconColor": {
+      "red": 0.29412,
+      "green": 0.15686,
+      "blue": 0.42745,
+      "alpha": 1
+    },
+    "itemIconSize": 24,
+    "itemLineHeight": 1.5,
+    "listGutter": 8
+  }
+}

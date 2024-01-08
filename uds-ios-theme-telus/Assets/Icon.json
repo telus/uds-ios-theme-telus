@@ -1,0 +1,174 @@
+{
+  "appearances": {
+    "color": {
+      "type": "variant",
+      "values": [
+        "brand",
+        "default",
+        "subtle",
+        "success",
+        "danger",
+        "warning",
+        "inverse"
+      ]
+    },
+    "rank": {
+      "type": "variant",
+      "values": ["primary"]
+    },
+    "size": {
+      "type": "variant",
+      "values": ["micro", "small", "large", "extraLarge"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "micro"
+      },
+      "tokens": {
+        "size": 16
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "size": 20
+      }
+    },
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "size": 32
+      }
+    },
+    {
+      "if": {
+        "color": "brand"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "default"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "subtle"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "success"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.16863,
+          "green": 0.50196,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "danger"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.75686,
+          "green": 0.13725,
+          "blue": 0.20784,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "warning"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.70588,
+          "green": 0.52941,
+          "blue": 0.17255,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "inverse"
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "size": "extraLarge"
+      },
+      "tokens": {
+        "size": 48
+      }
+    },
+    {
+      "if": {
+        "rank": "primary"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "color": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "scale": 1,
+    "size": 24,
+    "translateX": 0,
+    "translateY": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "truncateAbove": 6
+      }
+    }
+  ],
+  "tokens": {
+    "borderBottomWidth": 0,
+    "borderColor": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "borderLeftWidth": 0,
+    "borderRightWidth": 0,
+    "borderTopWidth": 0,
+    "color": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "ellipsisBorderBottomWidth": 0,
+    "ellipsisBorderLeftWidth": 0,
+    "ellipsisBorderRightWidth": 0,
+    "ellipsisBorderTopWidth": 0,
+    "ellipsisHeight": null,
+    "ellipsisPadding": 0,
+    "fontName": "HelveticaNow",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "gap": 2,
+    "lineHeight": 1.5,
+    "truncateAbove": 4
+  }
+}

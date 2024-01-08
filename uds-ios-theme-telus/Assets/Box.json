@@ -1,0 +1,644 @@
+{
+  "appearances": {
+    "background": {
+      "description": "Background colour of box. Transparent if not specified.",
+      "type": "variant",
+      "values": [
+        "lightest",
+        "lighter",
+        "light",
+        "dark",
+        "darker",
+        "darkest",
+        "critical",
+        "danger",
+        "warning",
+        "positive",
+        "brand",
+        "white",
+        "black",
+        "purpleGradient",
+        "greenGradient",
+        "neutralGradient",
+        "brandGradient",
+        "featurePrimary",
+        "featureSecondary",
+        "featureNeutral",
+        "featureBrand"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "background": "lightest"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "lighter"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "light"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "dark"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "darker"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.17255,
+          "green": 0.18039,
+          "blue": 0.18824,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.17255,
+          "green": 0.18039,
+          "blue": 0.18824,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "darkest"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "critical"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.75686,
+          "green": 0.13725,
+          "blue": 0.20784,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.75686,
+          "green": 0.13725,
+          "blue": 0.20784,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "danger"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.96471,
+          "blue": 0.97255,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 1,
+          "green": 0.96471,
+          "blue": 0.97255,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "warning"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.97647,
+          "blue": 0.93333,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 1,
+          "green": 0.97647,
+          "blue": 0.93333,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "positive"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.97647,
+          "blue": 0.94902,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.95686,
+          "green": 0.97647,
+          "blue": 0.94902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "brand"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "white"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "black"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "brandGradient"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "gradient": {
+          "type": "linear",
+          "angle": 135,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 0.29412,
+                "green": 0.15686,
+                "blue": 0.42745,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.38039,
+                "green": 0.21961,
+                "blue": 0.53725,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "greenGradient"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "gradient": {
+          "type": "linear",
+          "angle": 135,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 0,
+                "green": 0.47059,
+                "blue": 0.2902,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.4,
+                "green": 0.8,
+                "blue": 0,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "neutralGradient"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "gradient": {
+          "type": "linear",
+          "angle": 180,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 1,
+                "green": 1,
+                "blue": 1,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.95686,
+                "green": 0.95686,
+                "blue": 0.96863,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "purpleGradient"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "gradient": {
+          "type": "linear",
+          "angle": 135,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 0.29412,
+                "green": 0.15686,
+                "blue": 0.42745,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.89804,
+                "green": 0.19608,
+                "blue": 0.57647,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "featurePrimary"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "gradient": {
+          "type": "linear",
+          "angle": 135,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 0.29412,
+                "green": 0.15686,
+                "blue": 0.42745,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.89804,
+                "green": 0.19608,
+                "blue": 0.57647,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "featureSecondary"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "gradient": {
+          "type": "linear",
+          "angle": 135,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 0,
+                "green": 0.47059,
+                "blue": 0.2902,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.4,
+                "green": 0.8,
+                "blue": 0,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "featureNeutral"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "gradient": {
+          "type": "linear",
+          "angle": 180,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 1,
+                "green": 1,
+                "blue": 1,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.95686,
+                "green": 0.95686,
+                "blue": 0.96863,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "background": "featureBrand"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "gradient": {
+          "type": "linear",
+          "angle": 135,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 0.29412,
+                "green": 0.15686,
+                "blue": 0.42745,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.38039,
+                "green": 0.21961,
+                "blue": 0.53725,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderBottomLeftRadius": 0,
+    "borderBottomRightRadius": 0,
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderTopLeftRadius": 0,
+    "borderTopRightRadius": 0,
+    "borderWidth": 0,
+    "gradient": null
+  }
+}

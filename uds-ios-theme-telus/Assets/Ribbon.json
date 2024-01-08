@@ -1,0 +1,140 @@
+{
+  "appearances": {
+    "purpose": {
+      "type": "variant",
+      "values": ["offer", "default", "editorial", "subtle"]
+    },
+    "wrap": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "purpose": "editorial"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "curveBackgroundColor": {
+          "red": 0.17255,
+          "green": 0.18039,
+          "blue": 0.18824,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "purpose": "offer"
+      },
+      "tokens": {
+        "gradient": {
+          "type": "linear",
+          "angle": 135,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 0.29412,
+                "green": 0.15686,
+                "blue": 0.42745,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.89804,
+                "green": 0.19608,
+                "blue": 0.57647,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "wrap": true
+      },
+      "tokens": {
+        "paddingLeft": 24,
+        "paddingRight": 24
+      }
+    },
+    {
+      "if": {
+        "purpose": "subtle"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.48627,
+          "green": 0.32549,
+          "blue": 0.64706,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.38039,
+      "green": 0.21961,
+      "blue": 0.53725,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "borderRadiusBottomLeft": null,
+    "borderRadiusBottomRight": null,
+    "boxShadowColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0.1
+    },
+    "boxShadowPaddingBottom": 2,
+    "boxShadowPaddingLeft": 0,
+    "boxShadowPaddingRight": 2,
+    "boxShadowPaddingTop": 0,
+    "curveAfterBackgroundColor": {
+      "red": 0.38039,
+      "green": 0.21961,
+      "blue": 0.53725,
+      "alpha": 1
+    },
+    "curveAfterHeight": 4,
+    "curveAfterRadius": 0,
+    "curveAfterWidth": 8,
+    "curveBackgroundColor": {
+      "red": 0.24706,
+      "green": 0.16471,
+      "blue": 0.32941,
+      "alpha": 1
+    },
+    "curveHeight": 10,
+    "curveMarginTop": 4,
+    "curveWidth": 8,
+    "fontColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "fontName": "HelveticaNow",
+    "fontSize": 12,
+    "fontWeight": 700,
+    "gradient": null,
+    "lineHeight": 1.33333333333,
+    "paddingBottom": 4,
+    "paddingLeft": 8,
+    "paddingRight": 8,
+    "paddingTop": 4
+  }
+}

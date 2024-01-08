@@ -1,0 +1,171 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "calendarBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDayBlockedCalendarHoverBackground": {
+      "red": 0.95686,
+      "green": 0.95686,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "calendarDayBlockedCalendarHoverColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "calendarDayDefaultBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDayDefaultBorder": 1,
+    "calendarDayDefaultBorderColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "calendarDayDefaultCalendarDaySelectedHoverBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDayDefaultCalendarDaySelectedHoverBeforeBackground": {
+      "red": 0.48627,
+      "green": 0.32549,
+      "blue": 0.64706,
+      "alpha": 1
+    },
+    "calendarDayDefaultCalendarDaySelectedHoverColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDayDefaultColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "calendarDayDefaultFontName": "HelveticaNow",
+    "calendarDayDefaultFontSize": 14,
+    "calendarDayDefaultFontWeight": 400,
+    "calendarDaySelectedDisabledBackground": {
+      "red": 0.98039,
+      "green": 0.98039,
+      "blue": 0.98039,
+      "alpha": 1
+    },
+    "calendarDaySelectedDisabledColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDaySelectedDisabledContentBackgroundColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "calendarDaySelectedFocusBeforeBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBeforeBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBeforeBorderColor": {
+      "red": 0.48627,
+      "green": 0.32549,
+      "blue": 0.64706,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBorderColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "calendarMonthCaptionColor": {
+      "red": 0.17255,
+      "green": 0.18039,
+      "blue": 0.18824,
+      "alpha": 1
+    },
+    "calendarMonthCaptionFontName": "HelveticaNow",
+    "calendarMonthCaptionFontSize": 20,
+    "calendarMonthCaptionFontWeight": 700,
+    "calendarMonthCaptionLineHeight": 1.4,
+    "calendarMonthCaptionPaddingBottom": 48,
+    "dateInputStrokeColor": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "dayPickerNavigationButtonPadding": 8,
+    "dayPickerWeekHeaderColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "dayPickerWeekHeaderFontName": "HelveticaNow",
+    "dayPickerWeekHeaderFontWeight": 700,
+    "dayPickerWeekHeaderLineHeight": 1.42857142857,
+    "dayPickerWeekHeaderSmall": 14,
+    "hiddenInputFieldContainerHeight": 0,
+    "hiddenInputFieldContainerWidth": 0,
+    "invalidInputMixin": {
+      "red": 0.88235,
+      "green": 0.13725,
+      "blue": 0.22353,
+      "alpha": 1
+    },
+    "nextIcon": "PaletteIconArrowRight",
+    "previousIcon": "PaletteIconArrowLeft",
+    "singleDatePickerBorderColor": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "singleDatePickerLeftRight": 16,
+    "singleDatePickerPaddingTopBottom": 8,
+    "singleDatePickerRadius": 4,
+    "validInputMixin": {
+      "red": 0.16863,
+      "green": 0.50196,
+      "blue": 0,
+      "alpha": 1
+    }
+  }
+}

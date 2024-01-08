@@ -1,0 +1,181 @@
+{
+  "appearances": {
+    "feature": {
+      "type": "variant",
+      "values": [true]
+    },
+    "inverse": {
+      "type": "variant",
+      "values": [true]
+    },
+    "label": {
+      "type": "variant",
+      "values": [true]
+    },
+    "large": {
+      "type": "variant",
+      "values": [true]
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "containerPaddingBottomTop": 16,
+        "containerPaddingLeftRight": 24,
+        "labelFontSize": 14,
+        "labelLineHeight": 1.42857142857,
+        "textLineHeight": 1.42857142857
+      }
+    },
+    {
+      "if": {
+        "large": true
+      },
+      "tokens": {
+        "textFontSize": 64,
+        "textLineHeight": 1.125,
+        "textTimerFontName": "HelveticaNow",
+        "textTimerFontWeight": 300
+      }
+    },
+    {
+      "if": {
+        "feature": true
+      },
+      "tokens": {
+        "labelBorderColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "textFontSize": 64,
+        "textLineHeight": 1.125,
+        "textTimerFontName": "HelveticaNow",
+        "textTimerFontWeight": 300
+      }
+    },
+    {
+      "if": {
+        "large": true,
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "textFontSize": 40
+      }
+    },
+    {
+      "if": {
+        "feature": true,
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "textFontSize": 40
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "labelBorderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "feature": true,
+        "inverse": true
+      },
+      "tokens": {
+        "containerBorderColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "labelBorderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "containerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "containerBorderRadius": 6,
+    "containerBorderWidth": 2,
+    "containerGradient": {
+      "type": "linear",
+      "angle": 135,
+      "stops": [
+        {
+          "stop": 0,
+          "color": {
+            "red": 0.29412,
+            "green": 0.15686,
+            "blue": 0.42745,
+            "alpha": 1
+          }
+        },
+        {
+          "stop": 1,
+          "color": {
+            "red": 0.89804,
+            "green": 0.19608,
+            "blue": 0.57647,
+            "alpha": 1
+          }
+        }
+      ]
+    },
+    "containerInverseBorder": 2,
+    "containerInverseBorderColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "containerPaddingBottomTop": 48,
+    "containerPaddingLeftRight": 64,
+    "inverseBorderColor": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "labelBorderColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "labelFontName": "HelveticaNow",
+    "labelFontSize": 16,
+    "labelFontWeight": 400,
+    "labelLineHeight": 1.5,
+    "textFontSize": 16,
+    "textLineHeight": 1.5,
+    "textTimerFontName": "HelveticaNow",
+    "textTimerFontWeight": 400
+  }
+}
