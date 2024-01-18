@@ -4427,7 +4427,9 @@
           "blue": 0.27843,
           "alpha": 1
         },
+        "listItemFontName": "HelveticaNow",
         "listItemFontSize": 16,
+        "listItemFontWeight": 400,
         "listItemLineHeight": 1.5,
         "listItemMarkerFontSize": 16,
         "listItemMarkerLineHeight": 1.5,
@@ -4446,6 +4448,7 @@
           "alpha": 0
         },
         "fontName": "HelveticaNow",
+        "fontSize": 16,
         "fontWeight": 400,
         "lineHeight": 1,
         "paddingLeft": 2,
@@ -11789,9 +11792,9 @@
       ],
       "tokens": {
         "color": {
-          "red": 0.17255,
-          "green": 0.18039,
-          "blue": 0.18824,
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
           "alpha": 1
         },
         "fontName": "HelveticaNow",
@@ -12359,7 +12362,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.49.0",
+    "themeTokensVersion": "2.50.0",
     "name": "theme-allium"
   }
 }

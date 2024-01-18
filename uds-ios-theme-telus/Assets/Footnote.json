@@ -113,7 +113,9 @@
       "blue": 0.27843,
       "alpha": 1
     },
+    "listItemFontName": "HelveticaNow",
     "listItemFontSize": 16,
+    "listItemFontWeight": 400,
     "listItemLineHeight": 1.5,
     "listItemMarkerFontSize": 16,
     "listItemMarkerLineHeight": 1.5,
