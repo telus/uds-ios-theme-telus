@@ -2666,7 +2666,7 @@
           },
           "tokens": {
             "alignItems": "flex-start",
-            "size": 48
+            "size": 32
           }
         },
         {
@@ -2704,7 +2704,7 @@
           "alpha": 1
         },
         "selectedBorderWidth": 2,
-        "size": 72
+        "size": 56
       }
     },
     "Checkbox": {
