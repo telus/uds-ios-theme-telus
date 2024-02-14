@@ -8960,6 +8960,7 @@
           "blue": 0.74902,
           "alpha": 1
         },
+        "lineRadius": 99999999999999,
         "radius": 99999999999999,
         "secondColor": {
           "red": 0.8902,
@@ -12419,7 +12420,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.50.1",
+    "themeTokensVersion": "2.51.0",
     "name": "theme-allium"
   }
 }
