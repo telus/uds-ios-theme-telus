@@ -55,8 +55,10 @@
       "blue": 0.74902,
       "alpha": 1
     },
+    "iconContainerSize": 16,
     "iconPadding": 4,
     "iconSize": 16,
+    "lineHeight": 1,
     "listItemPadding": 0
   }
 }
