@@ -1453,7 +1453,9 @@
               "blue": 0,
               "alpha": 0
             },
-            "borderWidth": 0,
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderWidth": null,
             "minWidth": 0,
             "outerBorderColor": {
               "red": 0,
@@ -2459,6 +2461,12 @@
           "green": 0,
           "blue": 0,
           "alpha": 0
+        },
+        "iconBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
         },
         "nextIcon": "PaletteIconArrowRight",
         "previousIcon": "PaletteIconArrowLeft",
@@ -10441,6 +10449,12 @@
         "expandTitleMarginY": 0,
         "expandTitlePaddingLeft": 0,
         "expandTitleUnderline": "none",
+        "headerBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
         "icon": "PaletteIconCaretDown",
         "iconBackgroundColor": {
           "red": 0,
@@ -12522,7 +12536,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.52.0",
+    "themeTokensVersion": "2.52.1",
     "name": "theme-allium"
   }
 }

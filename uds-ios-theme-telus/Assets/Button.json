@@ -327,7 +327,9 @@
           "blue": 0,
           "alpha": 0
         },
-        "borderWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "borderWidth": null,
         "minWidth": 0,
         "outerBorderColor": {
           "red": 0,
