@@ -11934,6 +11934,30 @@
               "green": 0.15686,
               "blue": 0.42745,
               "alpha": 1
+            },
+            "gradient": {
+              "type": "linear",
+              "angle": 135,
+              "stops": [
+                {
+                  "stop": 0,
+                  "color": {
+                    "red": 0.29412,
+                    "green": 0.15686,
+                    "blue": 0.42745,
+                    "alpha": 1
+                  }
+                },
+                {
+                  "stop": 1,
+                  "color": {
+                    "red": 0.89804,
+                    "green": 0.19608,
+                    "blue": 0.57647,
+                    "alpha": 1
+                  }
+                }
+              ]
             }
           }
         },
@@ -11975,6 +11999,7 @@
         "fontScaleCap": 64,
         "fontSize": 16,
         "fontWeight": 400,
+        "gradient": null,
         "letterSpacing": 0,
         "lineHeight": 1.5,
         "superScriptFontSize": 16,
@@ -12536,7 +12561,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.52.1",
+    "themeTokensVersion": "2.53.0",
     "name": "theme-allium"
   }
 }
