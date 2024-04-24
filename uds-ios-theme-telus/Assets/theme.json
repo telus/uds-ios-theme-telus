@@ -5569,6 +5569,14 @@
         },
         {
           "if": {
+            "iconPosition": "right"
+          },
+          "tokens": {
+            "iconSpace": 1
+          }
+        },
+        {
+          "if": {
             "pressed": true
           },
           "tokens": {
@@ -5704,7 +5712,7 @@
         },
         "icon": null,
         "iconSize": 24,
-        "iconSpace": 1,
+        "iconSpace": 0,
         "iconTranslateX": 0,
         "iconTranslateY": 0,
         "outerBorderColor": {
@@ -6495,14 +6503,6 @@
         }
       },
       "rules": [
-        {
-          "if": {
-            "viewport": ["xl"]
-          },
-          "tokens": {
-            "justifyContent": "center"
-          }
-        },
         {
           "if": {
             "system": true

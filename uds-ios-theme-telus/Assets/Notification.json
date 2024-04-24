@@ -22,14 +22,6 @@
   "rules": [
     {
       "if": {
-        "viewport": ["xl"]
-      },
-      "tokens": {
-        "justifyContent": "center"
-      }
-    },
-    {
-      "if": {
         "system": true
       },
       "tokens": {
