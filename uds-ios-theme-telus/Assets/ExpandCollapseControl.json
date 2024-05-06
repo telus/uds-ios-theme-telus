@@ -12,6 +12,11 @@
     "mini": {
       "type": "variant",
       "values": [true]
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
     }
   },
   "rules": [
@@ -41,6 +46,26 @@
       "tokens": {
         "paddingBottom": 0
       }
+    },
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
     }
   ],
   "tokens": {
@@ -60,7 +85,7 @@
     },
     "borderTopLeftRadius": 0,
     "borderTopRightRadius": 0,
-    "borderWidth": 0,
+    "borderWidth": 1,
     "icon": "PaletteIconCaretDown",
     "iconColor": {
       "red": 0.16863,
