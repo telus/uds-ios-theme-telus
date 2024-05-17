@@ -12,6 +12,10 @@
       "type": "variant",
       "values": [true]
     },
+    "isControl": {
+      "type": "variant",
+      "values": [true, false]
+    },
     "padding": {
       "type": "variant",
       "values": ["narrow", "intermediate", "compact", "custom"]
@@ -21,6 +25,11 @@
       "values": [true, false],
       "type": "state"
     },
+    "selected": {
+      "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+      "values": [true],
+      "type": "state"
+    },
     "viewport": {
       "description": "The size label for the current screen viewport based on the current screen width",
       "values": ["xs", "sm", "md", "lg", "xl"],
@@ -28,6 +37,77 @@
     }
   },
   "rules": [
+    {
+      "if": {
+        "interactive": true,
+        "isControl": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "isControl": true,
+        "selected": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "borderWidth": 1,
+        "iconBackgroundColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "inputBackgroundColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "isControl": true,
+        "pressed": false
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderWidth": 2
+      }
+    },
     {
       "if": {
         "borderRadius": "none"
@@ -212,6 +292,7 @@
     {
       "if": {
         "interactive": true,
+        "isControl": false,
         "pressed": false
       },
       "tokens": {
@@ -220,6 +301,21 @@
           "green": 1,
           "blue": 1,
           "alpha": 1
+        },
+        "borderWidth": 2
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "pressed": false
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "borderWidth": 2
       }
@@ -244,6 +340,28 @@
         },
         "borderWidth": 2
       }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "isControl": false,
+        "selected": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
     }
   ],
   "tokens": {
@@ -267,6 +385,49 @@
     "contentJustifyContent": "flex-start",
     "flex": 1,
     "gradient": null,
+    "icon": "PaletteIconCheckmark",
+    "iconBackgroundColor": {
+      "red": 0.95686,
+      "green": 0.95686,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "iconColor": {
+      "red": 0.29412,
+      "green": 0.15686,
+      "blue": 0.42745,
+      "alpha": 1
+    },
+    "iconSize": 20,
+    "inputBackgroundColor": {
+      "red": 0.95686,
+      "green": 0.95686,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "inputBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "inputBorderRadius": 4,
+    "inputBorderWidth": 0,
+    "inputHeight": 32,
+    "inputShadow": {
+      "inset": true,
+      "offsetX": 0,
+      "offsetY": 2,
+      "blur": 2,
+      "spread": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.1
+      }
+    },
+    "inputWidth": 32,
     "minWidth": null,
     "paddingBottom": 32,
     "paddingLeft": 24,
