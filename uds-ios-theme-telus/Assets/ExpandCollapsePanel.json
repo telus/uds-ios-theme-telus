@@ -26,7 +26,10 @@
         "mini": true
       },
       "tokens": {
-        "contentPaddingLeft": 0
+        "contentPaddingBottom": 0,
+        "contentPaddingLeft": 0,
+        "contentPanelPaddingBottom": 0,
+        "contentPanelPaddingTop": 0
       }
     }
   ],

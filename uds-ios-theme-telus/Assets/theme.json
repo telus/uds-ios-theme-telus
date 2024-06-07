@@ -4102,7 +4102,9 @@
             "mini": true
           },
           "tokens": {
-            "paddingBottom": 0
+            "borderWidth": null,
+            "paddingBottom": 0,
+            "paddingTop": 0
           }
         },
         {
@@ -4123,6 +4125,27 @@
               "alpha": 1
             },
             "borderWidth": 1
+          }
+        },
+        {
+          "if": {
+            "mini": true,
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.8902,
+              "green": 0.90196,
+              "blue": 0.9098,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "borderWidth": null
           }
         }
       ],
@@ -4329,7 +4352,10 @@
             "mini": true
           },
           "tokens": {
-            "contentPaddingLeft": 0
+            "contentPaddingBottom": 0,
+            "contentPaddingLeft": 0,
+            "contentPanelPaddingBottom": 0,
+            "contentPanelPaddingTop": 0
           }
         }
       ],
@@ -6065,6 +6091,12 @@
         },
         "itemIconSize": 24,
         "itemLineHeight": 1.5,
+        "itemTextColor": {
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
+          "alpha": 1
+        },
         "listGutter": 8
       }
     },
@@ -13138,7 +13170,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.56.0",
+    "themeTokensVersion": "2.57.0",
     "name": "theme-allium"
   }
 }
