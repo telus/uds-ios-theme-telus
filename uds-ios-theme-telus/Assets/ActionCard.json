@@ -1,0 +1,148 @@
+{
+  "appearances": {
+    "validation": {
+      "description": "Validation states for form inputs",
+      "values": ["error", "success", "warning"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "validation": "warning"
+      },
+      "tokens": {
+        "actionIconMarginLeft": 8,
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.97647,
+          "blue": 0.93333,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.70588,
+          "green": 0.52941,
+          "blue": 0.17255,
+          "alpha": 1
+        },
+        "statusIcon": "PaletteIconStatusWarning",
+        "statusIconColor": {
+          "red": 0.70588,
+          "green": 0.52941,
+          "blue": 0.17255,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "error"
+      },
+      "tokens": {
+        "actionIconMarginLeft": 8,
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.96471,
+          "blue": 0.97255,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.88235,
+          "green": 0.13725,
+          "blue": 0.22353,
+          "alpha": 1
+        },
+        "statusIcon": "PaletteIconStatusError",
+        "statusIconColor": {
+          "red": 0.88235,
+          "green": 0.13725,
+          "blue": 0.22353,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "actionIcon": "PaletteIconArrowRight",
+    "actionIconColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "actionIconMarginBottom": 8,
+    "actionIconMarginLeft": 0,
+    "actionIconMarginRight": 0,
+    "actionIconMarginTop": 8,
+    "actionIconTranslate": 4,
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderRadius": null,
+    "borderWidth": null,
+    "contentFontColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "contentFontName": "HelveticaNow",
+    "contentFontSize": 16,
+    "contentFontWeight": 400,
+    "contentLineHeight": 1.25,
+    "contentMarginBottom": 8,
+    "contentMarginLeft": 0,
+    "contentMarginRight": 0,
+    "contentMarginTop": 0,
+    "iconBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0.05
+    },
+    "iconColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "iconMarginBottom": 0,
+    "iconMarginLeft": 0,
+    "iconMarginRight": 8,
+    "iconMarginTop": 0,
+    "paddingBottom": 16,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 16,
+    "statusIcon": null,
+    "statusIconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "titleFontColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "titleFontName": "HelveticaNow",
+    "titleFontSize": 16,
+    "titleFontWeight": 700,
+    "titleLineHeight": 1.5,
+    "titleMarginBottom": 8,
+    "titleMarginLeft": 0,
+    "titleMarginRight": 8,
+    "titleMarginTop": 8
+  }
+}
