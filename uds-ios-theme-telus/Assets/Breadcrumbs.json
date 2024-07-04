@@ -58,7 +58,7 @@
     "iconContainerSize": 16,
     "iconPadding": 4,
     "iconSize": 16,
-    "lineHeight": 1,
+    "lineHeight": 1.33333333333,
     "listItemPadding": 0
   }
 }
