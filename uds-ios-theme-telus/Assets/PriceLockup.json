@@ -2,7 +2,7 @@
   "appearances": {
     "size": {
       "type": "variant",
-      "values": ["small", "medium", "large"]
+      "values": ["micro", "small", "medium", "large"]
     },
     "strikeThrough": {
       "type": "variant",
@@ -15,6 +15,25 @@
     }
   },
   "rules": [
+    {
+      "if": {
+        "size": "micro"
+      },
+      "tokens": {
+        "amountFontSize": 28,
+        "bottomTextFontSize": 14,
+        "bottomTextLineHeight": 1.42857142857,
+        "centsFontSize": 16,
+        "centsLineHeight": 1.33333333333,
+        "currencySymbolFontSize": 16,
+        "currencySymbolLineHeight": 1.25,
+        "rateFontSize": 14,
+        "rateLineHeight": 1.14285714286,
+        "strikeThroughPosition": 15,
+        "topTextFontSize": 14,
+        "topTextLineHeight": 1.42857142857
+      }
+    },
     {
       "if": {
         "size": "small"
