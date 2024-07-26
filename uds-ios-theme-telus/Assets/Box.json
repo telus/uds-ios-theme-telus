@@ -54,15 +54,15 @@
       },
       "tokens": {
         "backgroundColor": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
           "alpha": 1
         },
         "borderColor": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
           "alpha": 1
         }
       }
