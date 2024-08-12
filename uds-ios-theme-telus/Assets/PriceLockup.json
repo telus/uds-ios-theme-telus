@@ -55,13 +55,12 @@
     },
     {
       "if": {
-        "size": "large",
-        "viewport": ["lg", "xl"]
+        "size": "large"
       },
       "tokens": {
         "amountFontSize": 64,
-        "bottomTextFontSize": 20,
-        "bottomTextLineHeight": 1.6,
+        "bottomTextFontSize": 16,
+        "bottomTextLineHeight": 1.5,
         "centsFontSize": 36,
         "centsLineHeight": 1.125,
         "currencySymbolFontSize": 36,
@@ -70,6 +69,18 @@
         "rateLineHeight": 1.6,
         "strikeThroughHeight": 3,
         "strikeThroughPosition": 35,
+        "topTextFontSize": 16,
+        "topTextLineHeight": 1.5
+      }
+    },
+    {
+      "if": {
+        "size": "large",
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "bottomTextFontSize": 20,
+        "bottomTextLineHeight": 1.6,
         "topTextFontSize": 20,
         "topTextLineHeight": 1.6
       }
@@ -102,7 +113,7 @@
     "amountLineHeight": 1,
     "bottomLinksMarginLeft": 4,
     "bottomTextFontSize": 16,
-    "bottomTextLineHeight": 1.6,
+    "bottomTextLineHeight": 1.5,
     "bottomTextMarginTop": 4,
     "centsFontName": "HelveticaNow",
     "centsFontSize": 20,

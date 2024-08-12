@@ -21,6 +21,12 @@
           "blue": 0.45098,
           "alpha": 1
         },
+        "curveAfterBackgroundColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
         "curveBackgroundColor": {
           "red": 0.17255,
           "green": 0.18039,
@@ -75,6 +81,12 @@
       },
       "tokens": {
         "backgroundColor": {
+          "red": 0.48627,
+          "green": 0.32549,
+          "blue": 0.64706,
+          "alpha": 1
+        },
+        "curveAfterBackgroundColor": {
           "red": 0.48627,
           "green": 0.32549,
           "blue": 0.64706,
