@@ -57,7 +57,7 @@
       "blue": 0.27843,
       "alpha": 1
     },
-    "calendarDayDefaultFontName": "HelveticaNow",
+    "calendarDayDefaultFontName": "HNforTELUSSA",
     "calendarDayDefaultFontSize": 14,
     "calendarDayDefaultFontWeight": 400,
     "calendarDaySelectedDisabledBackground": {
@@ -120,7 +120,7 @@
       "blue": 0.18824,
       "alpha": 1
     },
-    "calendarMonthCaptionFontName": "HelveticaNow",
+    "calendarMonthCaptionFontName": "HNforTELUSSA",
     "calendarMonthCaptionFontSize": 20,
     "calendarMonthCaptionFontWeight": 700,
     "calendarMonthCaptionLineHeight": 1.4,
@@ -138,7 +138,7 @@
       "blue": 0.27843,
       "alpha": 1
     },
-    "dayPickerWeekHeaderFontName": "HelveticaNow",
+    "dayPickerWeekHeaderFontName": "HNforTELUSSA",
     "dayPickerWeekHeaderFontWeight": 700,
     "dayPickerWeekHeaderLineHeight": 1.42857142857,
     "dayPickerWeekHeaderSmall": 14,

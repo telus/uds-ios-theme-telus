@@ -1,5 +1,9 @@
 {
   "appearances": {
+    "active": {
+      "values": [true],
+      "type": "state"
+    },
     "focus": {
       "description": "Focus states for some input elements are well supported across web, RN, ios and android",
       "values": [true],
@@ -108,6 +112,14 @@
         },
         "icon": null
       }
+    },
+    {
+      "if": {
+        "active": true
+      },
+      "tokens": {
+        "icon": "PaletteIconCaretUp"
+      }
     }
   ],
   "tokens": {
@@ -137,7 +149,7 @@
       "blue": 0.96863,
       "alpha": 1
     },
-    "fontName": "HelveticaNow",
+    "fontName": "HNforTELUSSA",
     "fontSize": 16,
     "fontWeight": 400,
     "height": 48,

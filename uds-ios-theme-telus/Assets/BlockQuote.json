@@ -12,7 +12,7 @@
         "viewport": ["xs", "sm", "md"]
       },
       "tokens": {
-        "titleHeadingFontName": "HelveticaNow",
+        "titleHeadingFontName": "HNforTELUSSA",
         "titleHeadingFontSize": 24,
         "titleHeadingFontWeight": 400,
         "titleHeadingLineHeight": 1.33333333333
@@ -50,7 +50,7 @@
       "blue": 0.27843,
       "alpha": 1
     },
-    "linkFontName": "HelveticaNow",
+    "linkFontName": "HNforTELUSSA",
     "linkFontSize": 16,
     "linkFontWeight": 700,
     "linkLineHeight": 1.5,
@@ -59,10 +59,10 @@
     "paddingLeft": 32,
     "paddingRight": 32,
     "paddingTop": 16,
-    "titleFontName": "HelveticaNow",
+    "titleFontName": "HNforTELUSSA",
     "titleFontSize": 20,
     "titleFontWeight": 400,
-    "titleHeadingFontName": "HelveticaNow",
+    "titleHeadingFontName": "HNforTELUSSA",
     "titleHeadingFontSize": 28,
     "titleHeadingFontWeight": 400,
     "titleHeadingLineHeight": 1.28571428571,

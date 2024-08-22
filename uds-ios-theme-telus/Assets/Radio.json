@@ -101,7 +101,7 @@
     "containerPaddingRight": 0,
     "containerPaddingTop": 0,
     "containerShadow": null,
-    "descriptionFontName": "HelveticaNow",
+    "descriptionFontName": "HNforTELUSSA",
     "descriptionFontSize": 14,
     "descriptionFontWeight": 400,
     "descriptionLineHeight": 1.42857142857,
@@ -146,7 +146,7 @@
       "blue": 0.27843,
       "alpha": 1
     },
-    "labelFontName": "HelveticaNow",
+    "labelFontName": "HNforTELUSSA",
     "labelFontSize": 16,
     "labelFontWeight": 400,
     "labelLineHeight": 1.5,

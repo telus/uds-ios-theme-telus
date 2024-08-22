@@ -12,7 +12,7 @@
         "viewport": ["md", "lg", "xl"]
       },
       "tokens": {
-        "testimonialFontNameHeading": "HelveticaNow",
+        "testimonialFontNameHeading": "HNforTELUSSA",
         "testimonialFontSizeHeading": 28,
         "testimonialFontWeightHeading": 400,
         "testimonialLineHeightHeading": 1.28571428571
@@ -20,11 +20,11 @@
     }
   ],
   "tokens": {
-    "additionalFontName": "HelveticaNow",
+    "additionalFontName": "HNforTELUSSA",
     "additionalFontSize": 14,
     "additionalFontWeight": 400,
     "additionalLineHeight": 1.42857142857,
-    "authorFontName": "HelveticaNow",
+    "authorFontName": "HNforTELUSSA",
     "authorFontSize": 16,
     "authorFontWeight": 700,
     "authorLineHeight": 1.5,
@@ -47,8 +47,8 @@
     "imageSize": 48,
     "quoteContainerGap": 4,
     "testimonialContainerGap": 12,
-    "testimonialFontNameHeading": "HelveticaNow",
-    "testimonialFontNameLarge": "HelveticaNow",
+    "testimonialFontNameHeading": "HNforTELUSSA",
+    "testimonialFontNameLarge": "HNforTELUSSA",
     "testimonialFontSizeHeading": 24,
     "testimonialFontSizeLarge": 20,
     "testimonialFontWeightHeading": 400,

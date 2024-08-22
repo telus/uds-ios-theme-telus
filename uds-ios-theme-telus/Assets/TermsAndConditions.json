@@ -109,7 +109,7 @@
       "blue": 0.18824,
       "alpha": 1
     },
-    "expandTitleFontName": "HelveticaNow",
+    "expandTitleFontName": "HNforTELUSSA",
     "expandTitleFontSize": 16,
     "expandTitleFontWeight": 500,
     "expandTitleLineHeight": 1.5,
@@ -156,7 +156,7 @@
       "blue": 0.27843,
       "alpha": 1
     },
-    "listFontName": "HelveticaNow",
+    "listFontName": "HNforTELUSSA",
     "listFontSize": 14,
     "listFontWeight": 400,
     "listLineHeight": 1.42857142857,

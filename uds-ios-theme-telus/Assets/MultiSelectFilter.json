@@ -54,7 +54,7 @@
       "blue": 0.27843,
       "alpha": 1
     },
-    "headerFontName": "HelveticaNow",
+    "headerFontName": "HNforTELUSSA",
     "headerFontSize": 16,
     "headerFontWeight": 500,
     "headerLineHeight": 1.5,
@@ -62,7 +62,7 @@
     "maxWidthSize": 0,
     "minHeight": 412,
     "minWidth": 320,
-    "subHeaderFontName": "HelveticaNow",
+    "subHeaderFontName": "HNforTELUSSA",
     "subHeaderFontSize": 14,
     "subHeaderFontWeight": 400,
     "subHeaderLineHeight": 1.4

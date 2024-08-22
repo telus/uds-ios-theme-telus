@@ -138,7 +138,7 @@
         "size": "display1"
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontSize": 40,
         "fontWeight": 300,
         "letterSpacing": 0,
@@ -152,7 +152,7 @@
         "viewport": ["lg", "xl"]
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontSize": 64,
         "fontWeight": 300,
         "lineHeight": 1.2,
@@ -164,7 +164,7 @@
         "size": "display2"
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontSize": 36,
         "fontWeight": 300,
         "letterSpacing": 0,
@@ -178,7 +178,7 @@
         "viewport": ["lg", "xl"]
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontSize": 56,
         "fontWeight": 300,
         "lineHeight": 1.14285714286,
@@ -190,7 +190,7 @@
         "size": "h1"
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontSize": 28,
         "fontWeight": 300,
         "letterSpacing": 0,
@@ -204,7 +204,7 @@
         "viewport": ["lg", "xl"]
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontSize": 40,
         "fontWeight": 300,
         "letterSpacing": 0,
@@ -217,7 +217,7 @@
         "size": "h2"
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontSize": 24,
         "fontWeight": 300,
         "letterSpacing": 0,
@@ -231,7 +231,7 @@
         "viewport": ["lg", "xl"]
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontSize": 28,
         "fontWeight": 300,
         "letterSpacing": -0.017,
@@ -244,7 +244,7 @@
         "size": "h3"
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontSize": 20,
         "fontWeight": 500,
         "letterSpacing": 0,
@@ -257,7 +257,7 @@
         "size": "h4"
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontSize": 16,
         "fontWeight": 500,
         "letterSpacing": 0,
@@ -270,7 +270,7 @@
         "size": "h5"
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontSize": 14,
         "fontWeight": 500,
         "letterSpacing": 0,
@@ -290,7 +290,7 @@
         "size": "h6"
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontSize": 12,
         "fontWeight": 700,
         "letterSpacing": 0,
@@ -350,7 +350,7 @@
         "size": "micro"
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontSize": 12,
         "fontWeight": 500,
         "lineHeight": 1.33333333333,
@@ -368,7 +368,7 @@
           "blue": 0.64706,
           "alpha": 1
         },
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontSize": 14,
         "fontWeight": 700,
         "lineHeight": 1.42857142857,
@@ -381,7 +381,7 @@
         "bold": true
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 700
       }
     },
@@ -391,7 +391,7 @@
         "size": "micro"
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 700
       }
     },
@@ -401,7 +401,7 @@
         "size": "display1"
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 700
       }
     },
@@ -411,7 +411,7 @@
         "size": "display2"
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 700
       }
     },
@@ -421,7 +421,7 @@
         "size": "h1"
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 700
       }
     },
@@ -431,7 +431,7 @@
         "size": "h2"
       },
       "tokens": {
-        "fontName": "HelveticaNowDisplay",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 700
       }
     },
@@ -441,7 +441,7 @@
         "size": "h3"
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 700
       }
     },
@@ -452,7 +452,7 @@
         "viewport": ["xs", "sm", "md"]
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 700
       }
     },
@@ -461,7 +461,7 @@
         "weight": "semibold"
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 500
       }
     },
@@ -470,7 +470,7 @@
         "weight": "bold"
       },
       "tokens": {
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 700
       }
     },
@@ -688,7 +688,7 @@
       "blue": 0.27843,
       "alpha": 1
     },
-    "fontName": "HelveticaNow",
+    "fontName": "HNforTELUSSA",
     "fontScaleCap": 64,
     "fontSize": 16,
     "fontWeight": 400,

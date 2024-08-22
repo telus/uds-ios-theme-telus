@@ -42,7 +42,7 @@
       "tokens": {
         "textFontSize": 64,
         "textLineHeight": 1.125,
-        "textTimerFontName": "HelveticaNow",
+        "textTimerFontName": "HNforTELUSSA",
         "textTimerFontWeight": 300
       }
     },
@@ -59,7 +59,7 @@
         },
         "textFontSize": 64,
         "textLineHeight": 1.125,
-        "textTimerFontName": "HelveticaNow",
+        "textTimerFontName": "HNforTELUSSA",
         "textTimerFontWeight": 300
       }
     },
@@ -169,13 +169,13 @@
       "blue": 0.27843,
       "alpha": 1
     },
-    "labelFontName": "HelveticaNow",
+    "labelFontName": "HNforTELUSSA",
     "labelFontSize": 16,
     "labelFontWeight": 400,
     "labelLineHeight": 1.5,
     "textFontSize": 16,
     "textLineHeight": 1.5,
-    "textTimerFontName": "HelveticaNow",
+    "textTimerFontName": "HNforTELUSSA",
     "textTimerFontWeight": 400
   }
 }

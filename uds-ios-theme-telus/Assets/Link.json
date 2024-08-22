@@ -92,7 +92,7 @@
         "size": "micro"
       },
       "tokens": {
-        "blockFontName": "HelveticaNow",
+        "blockFontName": "HNforTELUSSA",
         "blockFontSize": 12,
         "blockFontWeight": 500,
         "blockLineHeight": 1.125,
@@ -177,7 +177,7 @@
   ],
   "tokens": {
     "alignSelf": "flex-start",
-    "blockFontName": "HelveticaNow",
+    "blockFontName": "HNforTELUSSA",
     "blockFontSize": 16,
     "blockFontWeight": 400,
     "blockLineHeight": 1.5,

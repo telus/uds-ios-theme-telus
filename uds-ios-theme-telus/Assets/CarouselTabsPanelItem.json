@@ -79,7 +79,7 @@
           "blue": 0.45098,
           "alpha": 1
         },
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 400
       }
     },
@@ -136,7 +136,7 @@
           "blue": 1,
           "alpha": 1
         },
-        "fontName": "HelveticaNow",
+        "fontName": "HNforTELUSSA",
         "fontWeight": 700
       }
     }
@@ -158,7 +158,7 @@
       "alpha": 1
     },
     "flex": 1,
-    "fontName": "HelveticaNow",
+    "fontName": "HNforTELUSSA",
     "fontScaleCap": 64,
     "fontSize": 14,
     "fontWeight": 400,

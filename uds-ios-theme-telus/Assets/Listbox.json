@@ -41,7 +41,7 @@
           "blue": 0.42745,
           "alpha": 1
         },
-        "groupFontName": "HelveticaNow",
+        "groupFontName": "HNforTELUSSA",
         "groupFontWeight": 700,
         "itemColor": {
           "red": 0.29412,
@@ -74,7 +74,7 @@
           "blue": 0.45098,
           "alpha": 1
         },
-        "groupFontName": "HelveticaNow",
+        "groupFontName": "HNforTELUSSA",
         "groupFontWeight": 700
       }
     },
@@ -160,7 +160,7 @@
       "blue": 0.27843,
       "alpha": 1
     },
-    "groupFontName": "HelveticaNow",
+    "groupFontName": "HNforTELUSSA",
     "groupFontSize": 14,
     "groupFontWeight": 400,
     "groupHeight": 40,
@@ -212,7 +212,7 @@
       "alpha": 1
     },
     "itemDisplay": false,
-    "itemFontName": "HelveticaNow",
+    "itemFontName": "HNforTELUSSA",
     "itemFontSize": 14,
     "itemFontWeight": 700,
     "itemHeight": 40,

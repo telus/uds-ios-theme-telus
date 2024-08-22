@@ -58,7 +58,7 @@
     }
   ],
   "tokens": {
-    "headerFontName": "HelveticaNow",
+    "headerFontName": "HNforTELUSSA",
     "headerFontWeight": 700,
     "interItemMargin": 8,
     "itemBulletContainerWidth": 20,
@@ -71,7 +71,7 @@
       "blue": 0,
       "alpha": 0
     },
-    "itemFontName": "HelveticaNow",
+    "itemFontName": "HNforTELUSSA",
     "itemFontSize": 16,
     "itemFontWeight": 400,
     "itemLineHeight": 1.5,

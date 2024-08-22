@@ -102,7 +102,7 @@
     "footnoteHeaderPaddingLeft": 16,
     "footnoteHeaderPaddingRight": 4,
     "footnoteHeaderPaddingTop": 24,
-    "headerFontName": "HelveticaNow",
+    "headerFontName": "HNforTELUSSA",
     "headerFontSize": 16,
     "headerFontWeight": 500,
     "headerLineHeight": 1.5,
@@ -113,7 +113,7 @@
       "blue": 0.27843,
       "alpha": 1
     },
-    "listItemFontName": "HelveticaNow",
+    "listItemFontName": "HNforTELUSSA",
     "listItemFontSize": 16,
     "listItemFontWeight": 400,
     "listItemLineHeight": 1.5,
