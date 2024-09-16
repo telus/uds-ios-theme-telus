@@ -20,6 +20,11 @@
       "values": [true],
       "type": "state"
     },
+    "style": {
+      "description": "Configure `style` variant for `ButtonGroupItem`",
+      "type": "variant",
+      "values": ["contained"]
+    },
     "width": {
       "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
       "type": "variant",
@@ -121,6 +126,62 @@
       },
       "tokens": {
         "width": "100%"
+      }
+    },
+    {
+      "if": {
+        "style": "contained"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderWidth": 0,
+        "height": 32
+      }
+    },
+    {
+      "if": {
+        "selected": true,
+        "style": "contained"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "outerBorderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "style": "contained"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.24706,
+          "green": 0.16471,
+          "blue": 0.32941,
+          "alpha": 1
+        }
       }
     }
   ],

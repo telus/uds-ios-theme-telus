@@ -181,9 +181,9 @@
       },
       "tokens": {
         "backgroundColor": {
-          "red": 0.87843,
-          "green": 0.84706,
-          "blue": 0.98824,
+          "red": 0.93725,
+          "green": 0.92941,
+          "blue": 1,
           "alpha": 1
         }
       }
@@ -453,6 +453,7 @@
       "alpha": 1
     },
     "iconGradient": null,
+    "marginLeft": 8,
     "paddingBottom": 0,
     "paddingLeft": 0,
     "paddingRight": 0,

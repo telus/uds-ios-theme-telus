@@ -8,12 +8,13 @@
       "type": "variant",
       "values": [
         "brand",
-        "default",
         "subtle",
+        "offer",
         "success",
         "danger",
         "warning",
-        "inverse"
+        "inverse",
+        "default"
       ]
     },
     "padding": {
@@ -271,6 +272,19 @@
           "red": 1,
           "green": 1,
           "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "offer"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
           "alpha": 1
         }
       }
