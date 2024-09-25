@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'uds-ios-theme-telus'
-  s.version          = '0.1.77'
+  s.version          = '0.1.78'
   s.summary          = 'A short description of uds-ios-theme-telus.'
 
 # This description is used to generate tags and improve search results.
