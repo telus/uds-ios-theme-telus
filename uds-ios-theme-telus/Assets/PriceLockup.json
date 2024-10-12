@@ -106,6 +106,7 @@
     }
   ],
   "tokens": {
+    "alignItemsText": "flex-start",
     "amountFontName": "HNforTELUSSA",
     "amountFontSize": 40,
     "amountFontWeight": 300,
