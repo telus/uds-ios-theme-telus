@@ -24,6 +24,8 @@
       "tokens": {
         "direction": "column",
         "height": "100%",
+        "marginLeft": 24,
+        "marginRight": 24,
         "paddingBottom": 24,
         "paddingLeft": 24,
         "paddingRight": 24,
@@ -160,6 +162,7 @@
     "containerPaddingRight": 0,
     "containerPaddingTop": 0,
     "direction": "row",
+    "footerTopWidth": 0,
     "gap": 16,
     "headingColor": {
       "red": 0.2549,
@@ -169,8 +172,8 @@
     },
     "headingPaddingRight": 24,
     "height": null,
-    "marginLeft": 24,
-    "marginRight": 24,
+    "marginLeft": 32,
+    "marginRight": 32,
     "maxWidth": "100%",
     "paddingBottom": 24,
     "paddingLeft": 32,
