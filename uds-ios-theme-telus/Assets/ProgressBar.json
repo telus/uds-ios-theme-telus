@@ -8,6 +8,11 @@
     "negative": {
       "type": "variant",
       "values": [true]
+    },
+    "style": {
+      "description": "Configure `style` variant for `ProgressBar`",
+      "type": "variant",
+      "values": ["subtle", "inverse", "inactive", "negative"]
     }
   },
   "rules": [
@@ -51,6 +56,88 @@
           "alpha": 1
         },
         "shadow": null
+      }
+    },
+    {
+      "if": {
+        "style": "inactive"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
+        "gradient": null,
+        "outlineColor": {
+          "red": 0.17255,
+          "green": 0.18039,
+          "blue": 0.18824,
+          "alpha": 1
+        },
+        "shadow": null
+      }
+    },
+    {
+      "if": {
+        "style": "negative"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.75686,
+          "green": 0.13725,
+          "blue": 0.20784,
+          "alpha": 1
+        },
+        "gradient": null,
+        "outlineColor": {
+          "red": 0.75686,
+          "green": 0.13725,
+          "blue": 0.20784,
+          "alpha": 1
+        },
+        "shadow": null
+      }
+    },
+    {
+      "if": {
+        "style": "subtle"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "gradient": null,
+        "outlineColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "style": "inverse"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "gradient": null,
+        "outlineColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
       }
     }
   ],

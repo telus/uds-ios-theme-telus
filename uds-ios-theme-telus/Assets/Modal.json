@@ -142,6 +142,7 @@
       "alpha": 1
     },
     "borderRadius": 4,
+    "borderWidth": 0,
     "cancelButtonColor": {
       "red": 0.16863,
       "green": 0.50196,
@@ -161,9 +162,12 @@
     "containerPaddingLeft": 0,
     "containerPaddingRight": 0,
     "containerPaddingTop": 0,
+    "contentPaddingBottom": 0,
+    "contentPaddingTop": 0,
     "direction": "row",
     "footerTopWidth": 0,
     "gap": 16,
+    "headingBorderBottomWidth": 0,
     "headingColor": {
       "red": 0.2549,
       "green": 0.27059,
@@ -171,6 +175,7 @@
       "alpha": 1
     },
     "headingPaddingRight": 24,
+    "headingPaddingTop": 8,
     "height": null,
     "marginLeft": 32,
     "marginRight": 32,

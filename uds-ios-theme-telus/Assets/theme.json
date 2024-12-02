@@ -5638,6 +5638,7 @@
           "alpha": 1
         },
         "padding": 0,
+        "paddingTop": 0,
         "scale": 1,
         "size": 24,
         "translateX": 0,
@@ -6882,6 +6883,7 @@
           "alpha": 1
         },
         "borderRadius": 4,
+        "borderWidth": 0,
         "cancelButtonColor": {
           "red": 0.16863,
           "green": 0.50196,
@@ -6901,9 +6903,12 @@
         "containerPaddingLeft": 0,
         "containerPaddingRight": 0,
         "containerPaddingTop": 0,
+        "contentPaddingBottom": 0,
+        "contentPaddingTop": 0,
         "direction": "row",
         "footerTopWidth": 0,
         "gap": 16,
+        "headingBorderBottomWidth": 0,
         "headingColor": {
           "red": 0.2549,
           "green": 0.27059,
@@ -6911,6 +6916,7 @@
           "alpha": 1
         },
         "headingPaddingRight": 24,
+        "headingPaddingTop": 8,
         "height": null,
         "marginLeft": 32,
         "marginRight": 32,
@@ -8097,6 +8103,11 @@
         "size": {
           "type": "variant",
           "values": ["mini"]
+        },
+        "style": {
+          "description": "Configure `style` variant for `Progress`",
+          "type": "variant",
+          "values": ["inverse"]
         }
       },
       "rules": [
@@ -8106,6 +8117,38 @@
           },
           "tokens": {
             "height": 8
+          }
+        },
+        {
+          "if": {
+            "style": "inverse"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 0.1
+            },
+            "borderColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 0.6
+            },
+            "shadow": {
+              "inset": true,
+              "offsetX": 0,
+              "offsetY": 2,
+              "blur": 2,
+              "spread": 0,
+              "color": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "alpha": 0.1
+              }
+            }
           }
         }
       ],
@@ -8150,6 +8193,11 @@
         "negative": {
           "type": "variant",
           "values": [true]
+        },
+        "style": {
+          "description": "Configure `style` variant for `ProgressBar`",
+          "type": "variant",
+          "values": ["subtle", "inverse", "inactive", "negative"]
         }
       },
       "rules": [
@@ -8193,6 +8241,88 @@
               "alpha": 1
             },
             "shadow": null
+          }
+        },
+        {
+          "if": {
+            "style": "inactive"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.69804,
+              "green": 0.72549,
+              "blue": 0.74902,
+              "alpha": 1
+            },
+            "gradient": null,
+            "outlineColor": {
+              "red": 0.17255,
+              "green": 0.18039,
+              "blue": 0.18824,
+              "alpha": 1
+            },
+            "shadow": null
+          }
+        },
+        {
+          "if": {
+            "style": "negative"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.75686,
+              "green": 0.13725,
+              "blue": 0.20784,
+              "alpha": 1
+            },
+            "gradient": null,
+            "outlineColor": {
+              "red": 0.75686,
+              "green": 0.13725,
+              "blue": 0.20784,
+              "alpha": 1
+            },
+            "shadow": null
+          }
+        },
+        {
+          "if": {
+            "style": "subtle"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "gradient": null,
+            "outlineColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "style": "inverse"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "gradient": null,
+            "outlineColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
           }
         }
       ],
@@ -10813,6 +10943,8 @@
           "alpha": 1
         },
         "iconGradient": null,
+        "iconPaddingTop": 0,
+        "iconSize": 20,
         "marginLeft": 8,
         "paddingBottom": 0,
         "paddingLeft": 0,
@@ -12074,9 +12206,9 @@
           },
           "tokens": {
             "iconBackgroundColor": {
-              "red": 0.2549,
-              "green": 0.27059,
-              "blue": 0.27843,
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
               "alpha": 1
             },
             "iconBorderColor": {
@@ -12881,6 +13013,8 @@
         "fontSize": 14,
         "fontWeight": 400,
         "lineHeight": 1.5,
+        "maxWidth": 288,
+        "minWidth": 0,
         "paddingBottom": 8,
         "paddingLeft": 16,
         "paddingRight": 16,
@@ -13725,10 +13859,10 @@
           },
           "tokens": {
             "height": 40,
-            "paddingBottom": 8,
+            "paddingBottom": 16,
             "paddingLeft": 16,
             "paddingRight": 16,
-            "paddingTop": 8
+            "paddingTop": 16
           }
         }
       ],
@@ -13945,6 +14079,8 @@
           "blue": 0,
           "alpha": 0
         },
+        "remainingTimestampMarginLeft": 8,
+        "remainingTimestampMarginRight": 0,
         "thumbBackground": {
           "red": 1,
           "green": 1,
@@ -13953,7 +14089,7 @@
         },
         "thumbHeight": 8,
         "thumbWidth": 8,
-        "timestampMarginLeft": 8,
+        "timestampMarginLeft": 0,
         "timestampMarginRight": 8,
         "trackGradientEnd": {
           "red": 0.4,
@@ -14238,7 +14374,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "3.0.0",
+    "themeTokensVersion": "3.1.0",
     "name": "theme-allium"
   }
 }
