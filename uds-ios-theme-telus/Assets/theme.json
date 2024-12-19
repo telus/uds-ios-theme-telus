@@ -178,6 +178,20 @@
         "thickness": 2
       }
     },
+    "Autocomplete": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "color": {
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
+          "alpha": 1
+        },
+        "maxHeight": "100%",
+        "overflowY": "visible"
+      }
+    },
     "Badge": {
       "appearances": {
         "alternative": {
@@ -2853,7 +2867,9 @@
           }
         },
         "inputWidth": 32,
+        "maxHeight": "100%",
         "minWidth": null,
+        "overflowY": "visible",
         "paddingBottom": 32,
         "paddingLeft": 24,
         "paddingRight": 24,
@@ -6424,7 +6440,7 @@
           "tokens": {
             "iconMarginTop": 0,
             "itemFontSize": 14,
-            "itemIconSize": 24,
+            "itemIconSize": 20,
             "itemLineHeight": 1.42857142857,
             "listGutter": 8
           }
@@ -14374,7 +14390,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "3.1.0",
+    "themeTokensVersion": "3.2.0",
     "name": "theme-allium"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "color": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "maxHeight": "100%",
+    "overflowY": "visible"
+  }
+}
