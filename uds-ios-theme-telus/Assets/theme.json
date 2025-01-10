@@ -7006,7 +7006,15 @@
         }
       ],
       "tokens": {
+        "buttonBorderColor": {
+          "red": 0.69804,
+          "green": 0.72549,
+          "blue": 0.74902,
+          "alpha": 1
+        },
         "buttonDirection": "row",
+        "buttonIconPadding": 2,
+        "buttonIconSize": 16,
         "contentMarginBottom": 32,
         "contentMarginLeft": 16,
         "contentMarginRight": 16,
@@ -7023,6 +7031,20 @@
         "headerFontSize": 16,
         "headerFontWeight": 500,
         "headerLineHeight": 1.5,
+        "labelColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
+        "labelFontName": "HNforTELUSSA",
+        "labelFontSize": 14,
+        "labelFontWeight": 700,
+        "labelLineHeight": 1.42857142857,
+        "labelPaddingBottom": 8,
+        "labelPaddingLeft": 16,
+        "labelPaddingRight": 8,
+        "labelPaddingTop": 8,
         "maxHeightSize": 480,
         "maxWidthSize": 0,
         "minHeight": 0,
@@ -8029,10 +8051,12 @@
         "centsFontSize": 20,
         "centsFontWeight": 400,
         "centsLineHeight": 1.2,
+        "centsPaddingTop": 0,
         "currencySymbolFontName": "HNforTELUSSA",
         "currencySymbolFontSize": 20,
         "currencySymbolFontWeight": 400,
         "currencySymbolLineHeight": 1.2,
+        "currencySymbolPaddingTop": 0,
         "dividerColor": {
           "red": 0.69804,
           "green": 0.72549,
@@ -9691,6 +9715,7 @@
               "alpha": 1
             },
             "borderWidth": 3,
+            "mobileBorderWidth": 1,
             "outerBorderWidth": 0
           }
         },
@@ -9752,12 +9777,20 @@
         "fontName": "HNforTELUSSA",
         "fontSize": 16,
         "fontWeight": 400,
-        "lineHeight": 1.5,
-        "outerBackgroundColor": {
-          "red": 0.8902,
-          "green": 0.90196,
-          "blue": 0.9098,
+        "iconLeftColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
           "alpha": 1
+        },
+        "iconLeftSize": 20,
+        "lineHeight": 1.5,
+        "mobileBorderWidth": 1,
+        "outerBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "outerBorderColor": {
           "red": 0.8902,
@@ -9815,6 +9848,12 @@
               "green": 1,
               "blue": 1,
               "alpha": 1
+            },
+            "mobileBackgroundColor": {
+              "red": 0.29412,
+              "green": 0.15686,
+              "blue": 0.42745,
+              "alpha": 1
             }
           }
         },
@@ -9834,6 +9873,12 @@
               "red": 1,
               "green": 1,
               "blue": 1,
+              "alpha": 1
+            },
+            "mobileBackgroundColor": {
+              "red": 0.24706,
+              "green": 0.16471,
+              "blue": 0.32941,
               "alpha": 1
             }
           }
@@ -9856,6 +9901,12 @@
               "green": 0.43137,
               "blue": 0.45098,
               "alpha": 1
+            },
+            "mobileBackgroundColor": {
+              "red": 0.8902,
+              "green": 0.90196,
+              "blue": 0.9098,
+              "alpha": 1
             }
           }
         },
@@ -9872,6 +9923,12 @@
               "alpha": 0
             },
             "iconColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "mobileBackgroundColor": {
               "red": 0,
               "green": 0,
               "blue": 0,
@@ -9902,6 +9959,12 @@
           "alpha": 1
         },
         "iconSize": 20,
+        "mobileBackgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
         "opacity": 1,
         "paddingBottom": 8,
         "paddingLeft": 8,
@@ -12572,6 +12635,8 @@
           "blue": 0,
           "alpha": 0
         },
+        "iconLeftGap": 8,
+        "iconLeftPaddingBottom": 14,
         "iconSize": 24,
         "leftIconPaddingBottom": 8,
         "lineHeight": 1.5,
@@ -14390,7 +14455,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "3.2.0",
+    "themeTokensVersion": "3.3.0",
     "name": "theme-allium"
   }
 }

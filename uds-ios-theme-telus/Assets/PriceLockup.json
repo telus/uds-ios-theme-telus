@@ -120,10 +120,12 @@
     "centsFontSize": 20,
     "centsFontWeight": 400,
     "centsLineHeight": 1.2,
+    "centsPaddingTop": 0,
     "currencySymbolFontName": "HNforTELUSSA",
     "currencySymbolFontSize": 20,
     "currencySymbolFontWeight": 400,
     "currencySymbolLineHeight": 1.2,
+    "currencySymbolPaddingTop": 0,
     "dividerColor": {
       "red": 0.69804,
       "green": 0.72549,

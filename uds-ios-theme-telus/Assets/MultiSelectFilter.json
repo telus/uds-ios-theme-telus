@@ -47,7 +47,15 @@
     }
   ],
   "tokens": {
+    "buttonBorderColor": {
+      "red": 0.69804,
+      "green": 0.72549,
+      "blue": 0.74902,
+      "alpha": 1
+    },
     "buttonDirection": "row",
+    "buttonIconPadding": 2,
+    "buttonIconSize": 16,
     "contentMarginBottom": 32,
     "contentMarginLeft": 16,
     "contentMarginRight": 16,
@@ -64,6 +72,20 @@
     "headerFontSize": 16,
     "headerFontWeight": 500,
     "headerLineHeight": 1.5,
+    "labelColor": {
+      "red": 0.40392,
+      "green": 0.43137,
+      "blue": 0.45098,
+      "alpha": 1
+    },
+    "labelFontName": "HNforTELUSSA",
+    "labelFontSize": 14,
+    "labelFontWeight": 700,
+    "labelLineHeight": 1.42857142857,
+    "labelPaddingBottom": 8,
+    "labelPaddingLeft": 16,
+    "labelPaddingRight": 8,
+    "labelPaddingTop": 8,
     "maxHeightSize": 480,
     "maxWidthSize": 0,
     "minHeight": 0,
