@@ -20,8 +20,7 @@
         "iconMarginTop": 4,
         "itemFontSize": 20,
         "itemIconSize": 24,
-        "itemLineHeight": 1.6,
-        "listGutter": 8
+        "itemLineHeight": 1.6
       }
     },
     {
@@ -30,10 +29,10 @@
       },
       "tokens": {
         "iconMarginTop": 0,
+        "itemBulletContainerHeight": 20,
         "itemFontSize": 14,
         "itemIconSize": 20,
-        "itemLineHeight": 1.42857142857,
-        "listGutter": 8
+        "itemLineHeight": 1.42857142857
       }
     },
     {
@@ -83,6 +82,7 @@
       "alpha": 1
     },
     "itemBulletContainerAlign": "center",
+    "itemBulletContainerHeight": 24,
     "itemBulletContainerWidth": 24,
     "itemFontName": "HNforTELUSSA",
     "itemFontSize": 16,

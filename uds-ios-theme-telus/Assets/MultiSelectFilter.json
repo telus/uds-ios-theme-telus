@@ -10,6 +10,10 @@
       "values": [true],
       "type": "state"
     },
+    "selected": {
+      "type": "state",
+      "values": [true]
+    },
     "viewport": {
       "description": "The size label for the current screen viewport based on the current screen width",
       "values": ["xs", "sm", "md", "lg", "xl"],
@@ -44,6 +48,25 @@
       "tokens": {
         "maxWidthSize": 544
       }
+    },
+    {
+      "if": {
+        "selected": true
+      },
+      "tokens": {
+        "buttonIconBackgroundColor": {
+          "red": 0.48627,
+          "green": 0.32549,
+          "blue": 0.64706,
+          "alpha": 1
+        },
+        "labelColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
     }
   ],
   "tokens": {
@@ -54,6 +77,12 @@
       "alpha": 1
     },
     "buttonDirection": "row",
+    "buttonIconBackgroundColor": {
+      "red": 0.95686,
+      "green": 0.95686,
+      "blue": 0.96863,
+      "alpha": 1
+    },
     "buttonIconPadding": 2,
     "buttonIconSize": 16,
     "contentMarginBottom": 32,

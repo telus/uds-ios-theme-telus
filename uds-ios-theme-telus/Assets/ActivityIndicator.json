@@ -1,5 +1,9 @@
 {
   "appearances": {
+    "dots": {
+      "type": "variant",
+      "values": [true]
+    },
     "size": {
       "description": "used for full-screen spinners",
       "type": "variant",
@@ -24,7 +28,14 @@
       "blue": 0,
       "alpha": 1
     },
+    "dotSize": 6,
+    "indicatorBackgroundColor": {
+      "red": 0.8902,
+      "green": 0.96471,
+      "blue": 0.81961,
+      "alpha": 1
+    },
     "size": 24,
-    "thickness": 2
+    "thickness": 3
   }
 }

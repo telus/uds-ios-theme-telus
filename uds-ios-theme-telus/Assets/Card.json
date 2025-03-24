@@ -30,6 +30,25 @@
       "values": [true],
       "type": "state"
     },
+    "style": {
+      "type": "variant",
+      "values": [
+        "grid",
+        "light",
+        "lighter",
+        "lightest",
+        "dark",
+        "darker",
+        "darkest",
+        "feature",
+        "feature2",
+        "feature3",
+        "feature4",
+        "warning",
+        "error",
+        "success"
+      ]
+    },
     "viewport": {
       "description": "The size label for the current screen viewport based on the current screen width",
       "values": ["xs", "sm", "md", "lg", "xl"],
@@ -226,6 +245,290 @@
     },
     {
       "if": {
+        "style": "grid"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
+        },
+        "borderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "style": "light"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "style": "lighter"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "style": "lightest"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "style": "dark"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "backgroundGradient": {
+          "type": "linear",
+          "angle": 135,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 0.29412,
+                "green": 0.15686,
+                "blue": 0.42745,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.89804,
+                "green": 0.19608,
+                "blue": 0.57647,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        "borderColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
+    },
+    {
+      "if": {
+        "style": "darker"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "borderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "style": "darkest"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.17255,
+          "green": 0.18039,
+          "blue": 0.18824,
+          "alpha": 1
+        },
+        "borderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "style": "feature"
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
+        "borderWidth": 2,
+        "gradient": {
+          "type": "linear",
+          "angle": 135,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 0.29412,
+                "green": 0.15686,
+                "blue": 0.42745,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.89804,
+                "green": 0.19608,
+                "blue": 0.57647,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "style": "feature2"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
+    },
+    {
+      "if": {
+        "style": "feature3"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
+    },
+    {
+      "if": {
+        "style": "feature4"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.95686,
+          "blue": 0.96863,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
+    },
+    {
+      "if": {
+        "style": "warning"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.97647,
+          "blue": 0.93333,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.98039,
+          "green": 0.79216,
+          "blue": 0.41176,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
+    },
+    {
+      "if": {
+        "style": "error"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.88235,
+          "green": 0.13725,
+          "blue": 0.22353,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
+    },
+    {
+      "if": {
+        "style": "success"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.95686,
+          "green": 0.97647,
+          "blue": 0.94902,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.16863,
+          "green": 0.50196,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
+    },
+    {
+      "if": {
         "viewport": ["md", "lg", "xl"]
       },
       "tokens": {
@@ -305,6 +608,19 @@
     },
     {
       "if": {
+        "interactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        }
+      }
+    },
+    {
+      "if": {
         "interactive": true,
         "isControl": false,
         "pressed": false
@@ -375,6 +691,51 @@
           "alpha": 1
         },
         "borderWidth": 1
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "pressed": true,
+        "style": "dark"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 0.2
+        }
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "pressed": true,
+        "style": "darker"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 0.2
+        }
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "pressed": true,
+        "style": "darkest"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 0.2
+        }
       }
     }
   ],

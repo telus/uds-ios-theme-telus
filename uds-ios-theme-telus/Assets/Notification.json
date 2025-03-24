@@ -27,8 +27,7 @@
       },
       "tokens": {
         "containerPaddingLeft": 16,
-        "containerPaddingRight": 16,
-        "justifyContent": "center"
+        "containerPaddingRight": 16
       }
     },
     {
