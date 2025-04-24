@@ -30,10 +30,10 @@
   ],
   "tokens": {
     "background": {
-      "red": 0.95686,
-      "green": 0.95686,
-      "blue": 0.96863,
-      "alpha": 1
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0.05
     },
     "borderRadius": 0,
     "color": {

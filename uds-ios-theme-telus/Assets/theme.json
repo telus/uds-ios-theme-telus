@@ -2443,10 +2443,10 @@
       ],
       "tokens": {
         "background": {
-          "red": 0.95686,
-          "green": 0.95686,
-          "blue": 0.96863,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0.05
         },
         "borderRadius": 0,
         "color": {
@@ -8072,6 +8072,18 @@
         }
       ],
       "tokens": {
+        "buttonBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "buttonBackgroundColorSelected": {
+          "red": 0.29412,
+          "green": 0.15686,
+          "blue": 0.42745,
+          "alpha": 1
+        },
         "buttonBorderColor": {
           "red": 0.69804,
           "green": 0.72549,
@@ -8103,6 +8115,18 @@
         "headerFontSize": 16,
         "headerFontWeight": 500,
         "headerLineHeight": 1.5,
+        "iconColor": {
+          "red": 0.2549,
+          "green": 0.27059,
+          "blue": 0.27843,
+          "alpha": 1
+        },
+        "iconColorSelected": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "labelColor": {
           "red": 0.40392,
           "green": 0.43137,
@@ -15545,7 +15569,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "4.3.0",
+    "themeTokensVersion": "4.4.0",
     "name": "theme-allium"
   }
 }
