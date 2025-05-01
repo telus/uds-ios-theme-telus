@@ -288,6 +288,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0,
                     "green": 0.47059,
@@ -345,6 +346,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -465,6 +467,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -574,6 +577,7 @@
           "stops": [
             {
               "stop": 0,
+              "hint": 0.75,
               "color": {
                 "red": 0.29412,
                 "green": 0.15686,
@@ -919,6 +923,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -962,6 +967,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0,
                     "green": 0.47059,
@@ -1048,6 +1054,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -1091,6 +1098,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -1134,6 +1142,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0,
                     "green": 0.47059,
@@ -1220,6 +1229,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -2659,6 +2669,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -2778,6 +2789,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -2851,6 +2863,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -4728,6 +4741,7 @@
           "stops": [
             {
               "stop": 0,
+              "hint": 0.75,
               "color": {
                 "red": 0.29412,
                 "green": 0.15686,
@@ -6355,19 +6369,6 @@
         },
         {
           "if": {
-            "color": "offer"
-          },
-          "tokens": {
-            "color": {
-              "red": 0.29412,
-              "green": 0.15686,
-              "blue": 0.42745,
-              "alpha": 1
-            }
-          }
-        },
-        {
-          "if": {
             "size": "extraLarge"
           },
           "tokens": {
@@ -6386,6 +6387,38 @@
               "alpha": 1
             }
           }
+        },
+        {
+          "if": {
+            "color": "offer"
+          },
+          "tokens": {
+            "gradient": {
+              "type": "linear",
+              "angle": 135,
+              "stops": [
+                {
+                  "stop": 0,
+                  "hint": 0.75,
+                  "color": {
+                    "red": 0.29412,
+                    "green": 0.15686,
+                    "blue": 0.42745,
+                    "alpha": 1
+                  }
+                },
+                {
+                  "stop": 1,
+                  "color": {
+                    "red": 0.89804,
+                    "green": 0.19608,
+                    "blue": 0.57647,
+                    "alpha": 1
+                  }
+                }
+              ]
+            }
+          }
         }
       ],
       "tokens": {
@@ -6402,6 +6435,7 @@
           "blue": 0.27843,
           "alpha": 1
         },
+        "gradient": null,
         "padding": 0,
         "paddingTop": 0,
         "scale": 1,
@@ -9453,6 +9487,7 @@
           "stops": [
             {
               "stop": 0,
+              "hint": 0.75,
               "color": {
                 "red": 0,
                 "green": 0.47059,
@@ -10658,6 +10693,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -11982,6 +12018,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -14947,6 +14984,7 @@
               "stops": [
                 {
                   "stop": 0,
+                  "hint": 0.75,
                   "color": {
                     "red": 0.29412,
                     "green": 0.15686,
@@ -15569,7 +15607,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "4.4.0",
+    "themeTokensVersion": "4.5.0",
     "name": "theme-allium"
   }
 }

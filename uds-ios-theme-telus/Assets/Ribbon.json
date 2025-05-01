@@ -46,6 +46,7 @@
           "stops": [
             {
               "stop": 0,
+              "hint": 0.75,
               "color": {
                 "red": 0.29412,
                 "green": 0.15686,

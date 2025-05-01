@@ -155,6 +155,7 @@
       "stops": [
         {
           "stop": 0,
+          "hint": 0.75,
           "color": {
             "red": 0,
             "green": 0.47059,
