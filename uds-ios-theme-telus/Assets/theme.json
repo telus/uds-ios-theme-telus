@@ -22,16 +22,16 @@
               "alpha": 1
             },
             "borderColor": {
-              "red": 0.70588,
-              "green": 0.52941,
-              "blue": 0.17255,
+              "red": 0.78039,
+              "green": 0.45882,
+              "blue": 0.22353,
               "alpha": 1
             },
             "statusIcon": "PaletteIconStatusWarning",
             "statusIconColor": {
-              "red": 0.70588,
-              "green": 0.52941,
-              "blue": 0.17255,
+              "red": 0.78039,
+              "green": 0.45882,
+              "blue": 0.22353,
               "alpha": 1
             }
           }
@@ -6368,9 +6368,9 @@
           },
           "tokens": {
             "color": {
-              "red": 0.70588,
-              "green": 0.52941,
-              "blue": 0.17255,
+              "red": 0.78039,
+              "green": 0.45882,
+              "blue": 0.22353,
               "alpha": 1
             }
           }
@@ -8154,12 +8154,24 @@
         },
         "buttonIconPadding": 2,
         "buttonIconSize": 16,
+        "containerBorderColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
         "contentMarginBottom": 32,
         "contentMarginLeft": 16,
         "contentMarginRight": 16,
         "contentMarginTop": 24,
         "contentPaddingLeft": 16,
         "contentPaddingRight": 16,
+        "dividerColor": {
+          "red": 0.8902,
+          "green": 0.90196,
+          "blue": 0.9098,
+          "alpha": 1
+        },
         "headerFontColor": {
           "red": 0.2549,
           "green": 0.27059,
@@ -8476,17 +8488,17 @@
               "alpha": 1
             },
             "borderColor": {
-              "red": 0.70588,
-              "green": 0.52941,
-              "blue": 0.17255,
+              "red": 0.78039,
+              "green": 0.45882,
+              "blue": 0.22353,
               "alpha": 1
             },
             "dismissIcon": null,
             "icon": "PaletteIconStatusWarning",
             "iconColor": {
-              "red": 0.70588,
-              "green": 0.52941,
-              "blue": 0.17255,
+              "red": 0.78039,
+              "green": 0.45882,
+              "blue": 0.22353,
               "alpha": 1
             }
           }
@@ -8503,17 +8515,17 @@
               "alpha": 1
             },
             "borderColor": {
-              "red": 0.70588,
-              "green": 0.52941,
-              "blue": 0.17255,
+              "red": 0.78039,
+              "green": 0.45882,
+              "blue": 0.22353,
               "alpha": 1
             },
             "dismissIcon": null,
             "icon": "PaletteIconStatusWarning",
             "iconColor": {
-              "red": 0.70588,
-              "green": 0.52941,
-              "blue": 0.17255,
+              "red": 0.78039,
+              "green": 0.45882,
+              "blue": 0.22353,
               "alpha": 1
             }
           }
@@ -11802,9 +11814,9 @@
           "tokens": {
             "icon": "PaletteIconStatusWarning",
             "iconColor": {
-              "red": 0.70588,
-              "green": 0.52941,
-              "blue": 0.17255,
+              "red": 0.78039,
+              "green": 0.45882,
+              "blue": 0.22353,
               "alpha": 1
             }
           }
@@ -12011,9 +12023,9 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.70588,
-              "green": 0.52941,
-              "blue": 0.17255,
+              "red": 0.78039,
+              "green": 0.45882,
+              "blue": 0.22353,
               "alpha": 1
             }
           }
@@ -14148,6 +14160,10 @@
         "labelFontWeight": 400,
         "labelLineHeight": 1.5,
         "labelMarginLeft": 0,
+        "mobileSwitchSize": 24,
+        "mobileTrackBorderWidth": 4,
+        "mobileTrackHeight": 32,
+        "mobileWidth": 48,
         "opacity": 1,
         "outerBackgroundColor": {
           "red": 0,
@@ -14949,9 +14965,9 @@
           },
           "tokens": {
             "color": {
-              "red": 0.70588,
-              "green": 0.52941,
-              "blue": 0.17255,
+              "red": 0.78039,
+              "green": 0.45882,
+              "blue": 0.22353,
               "alpha": 1
             }
           }
@@ -15661,7 +15677,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "4.6.0",
+    "themeTokensVersion": "4.7.0",
     "name": "theme-allium"
   }
 }

@@ -121,17 +121,17 @@
           "alpha": 1
         },
         "borderColor": {
-          "red": 0.70588,
-          "green": 0.52941,
-          "blue": 0.17255,
+          "red": 0.78039,
+          "green": 0.45882,
+          "blue": 0.22353,
           "alpha": 1
         },
         "dismissIcon": null,
         "icon": "PaletteIconStatusWarning",
         "iconColor": {
-          "red": 0.70588,
-          "green": 0.52941,
-          "blue": 0.17255,
+          "red": 0.78039,
+          "green": 0.45882,
+          "blue": 0.22353,
           "alpha": 1
         }
       }
@@ -148,17 +148,17 @@
           "alpha": 1
         },
         "borderColor": {
-          "red": 0.70588,
-          "green": 0.52941,
-          "blue": 0.17255,
+          "red": 0.78039,
+          "green": 0.45882,
+          "blue": 0.22353,
           "alpha": 1
         },
         "dismissIcon": null,
         "icon": "PaletteIconStatusWarning",
         "iconColor": {
-          "red": 0.70588,
-          "green": 0.52941,
-          "blue": 0.17255,
+          "red": 0.78039,
+          "green": 0.45882,
+          "blue": 0.22353,
           "alpha": 1
         }
       }
