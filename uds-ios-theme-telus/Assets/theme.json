@@ -1851,6 +1851,7 @@
           "blue": 0,
           "alpha": 1
         },
+        "flex": 0,
         "fontName": "HNforTELUSSA",
         "fontSize": 16,
         "fontWeight": 700,
@@ -2131,15 +2132,15 @@
           "type": "state"
         },
         "width": {
-          "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
+          "description": "Available in default, responsive or equal. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport, equal divide the available width equally among `ButtonGroup`",
           "type": "variant",
-          "values": ["responsive"]
+          "values": ["responsive", "equal"]
         }
       },
       "rules": [
         {
           "if": {
-            "viewport": ["lg", "xl"]
+            "viewport": ["md", "lg", "xl"]
           },
           "tokens": {
             "gap": 3,
@@ -2178,7 +2179,7 @@
             "viewport": ["xs", "sm", "md", "lg", "xl"]
           },
           "tokens": {
-            "borderRadius": 24
+            "borderRadius": 28
           }
         }
       ],
@@ -2223,18 +2224,65 @@
           "values": [true],
           "type": "state"
         },
+        "size": {
+          "type": "variant",
+          "values": ["small"]
+        },
         "style": {
           "description": "Configure `style` variant for `ButtonGroupItem`",
           "type": "variant",
           "values": ["contained"]
         },
         "width": {
-          "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
+          "description": "Available in default, responsive or equal. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport, equal divide the available width equally among `ButtonGroup`",
           "type": "variant",
-          "values": ["responsive"]
+          "values": ["responsive", "equal"]
         }
       },
       "rules": [
+        {
+          "if": {
+            "width": "equal"
+          },
+          "tokens": {
+            "width": "100%"
+          }
+        },
+        {
+          "if": {
+            "size": "small"
+          },
+          "tokens": {
+            "height": 32,
+            "paddingBottom": 4,
+            "paddingTop": 4
+          }
+        },
+        {
+          "if": {
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.40392,
+              "green": 0.43137,
+              "blue": 0.45098,
+              "alpha": 1
+            },
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
         {
           "if": {
             "pressed": true
@@ -2349,7 +2397,20 @@
               "alpha": 0
             },
             "borderWidth": 0,
-            "height": 32
+            "height": 40,
+            "paddingBottom": 8,
+            "paddingTop": 8
+          }
+        },
+        {
+          "if": {
+            "size": "small",
+            "style": "contained"
+          },
+          "tokens": {
+            "height": 32,
+            "paddingBottom": 6,
+            "paddingTop": 6
           }
         },
         {
@@ -2413,7 +2474,7 @@
         "fontName": "HNforTELUSSA",
         "fontSize": 14,
         "fontWeight": 700,
-        "height": 36,
+        "height": 48,
         "iconSize": 20,
         "iconSpace": 2,
         "lineHeight": 1.42857142857,
@@ -2433,10 +2494,10 @@
         },
         "outerBorderGap": 2,
         "outerBorderWidth": 2,
-        "paddingBottom": 8,
+        "paddingBottom": 12,
         "paddingLeft": 16,
         "paddingRight": 16,
-        "paddingTop": 8,
+        "paddingTop": 12,
         "shadow": null,
         "textAlign": "center",
         "width": null
@@ -15677,7 +15738,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "4.7.0",
+    "themeTokensVersion": "4.9.0",
     "name": "theme-allium"
   }
 }
