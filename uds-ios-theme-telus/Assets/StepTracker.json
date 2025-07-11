@@ -148,8 +148,8 @@
       "blue": 0.64706,
       "alpha": 1
     },
-    "knobCompletedPaddingLeft": 2,
-    "knobCompletedPaddingTop": 2,
+    "knobCompletedPaddingLeft": 0,
+    "knobCompletedPaddingTop": 0,
     "knobCurrentBackgroundColor": {
       "red": 0.48627,
       "green": 0.32549,

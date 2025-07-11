@@ -34,6 +34,12 @@
         "inactive": true
       },
       "tokens": {
+        "descriptionFontColor": {
+          "red": 0.40392,
+          "green": 0.43137,
+          "blue": 0.45098,
+          "alpha": 1
+        },
         "iconBackgroundColor": {
           "red": 0.8902,
           "green": 0.90196,
@@ -74,6 +80,17 @@
       "blue": 0,
       "alpha": 0
     },
+    "descriptionFontColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "descriptionFontName": "HNforTELUSSA",
+    "descriptionFontSize": 14,
+    "descriptionFontWeight": 400,
+    "descriptionLineHeight": 1.42857142857,
+    "descriptionMarginLeft": null,
     "feedbackMarginBottom": 0,
     "feedbackMarginTop": 2,
     "feedbackPosition": "bottom",

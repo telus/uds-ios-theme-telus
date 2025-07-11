@@ -118,6 +118,7 @@
     },
     "borderRadius": 32,
     "borderWidth": 0,
+    "containerWidth": null,
     "icon": null,
     "iconColor": {
       "red": 0.40392,
