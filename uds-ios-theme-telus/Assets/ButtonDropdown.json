@@ -19,6 +19,14 @@
       "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
       "values": [true],
       "type": "state"
+    },
+    "size": {
+      "type": "variant",
+      "values": ["default", "small"]
+    },
+    "width": {
+      "type": "variant",
+      "values": ["full"]
     }
   },
   "rules": [
@@ -144,6 +152,15 @@
           "alpha": 1
         }
       }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "paddingBottom": 4,
+        "paddingTop": 4
+      }
     }
   ],
   "tokens": {
@@ -168,6 +185,10 @@
       "blue": 0.45098,
       "alpha": 1
     },
+    "descriptionFontName": "HNforTELUSSA",
+    "descriptionFontSize": 14,
+    "descriptionFontWeight": 400,
+    "descriptionTextPaddingBottom": 4,
     "dividerColor": {
       "red": 0.8902,
       "green": 0.90196,
@@ -180,10 +201,10 @@
     "icon": "PaletteIconCaretDown",
     "iconAlignSelf": "center",
     "iconBackground": {
-      "red": 0.95686,
-      "green": 0.95686,
-      "blue": 0.96863,
-      "alpha": 1
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
     },
     "iconBorderRadius": 32,
     "iconColor": {
@@ -198,6 +219,26 @@
     "iconSpace": 1,
     "iconTranslateX": 0,
     "iconTranslateY": 0,
+    "leadIcon": null,
+    "leadIconBackgroundColor": {
+      "red": 0.95686,
+      "green": 0.95686,
+      "blue": 0.96863,
+      "alpha": 1
+    },
+    "leadIconBorderRadius": 45,
+    "leadIconColor": {
+      "red": 0.2549,
+      "green": 0.27059,
+      "blue": 0.27843,
+      "alpha": 1
+    },
+    "leadIconContainerPaddingBottom": 0,
+    "leadIconContainerPaddingLeft": 0,
+    "leadIconContainerPaddingRight": 0,
+    "leadIconContainerPaddingTop": 0,
+    "leadIconPadding": 4,
+    "leadIconSize": 24,
     "lineHeight": 1.42857142857,
     "minWidth": 0,
     "opacity": 1,
@@ -215,10 +256,10 @@
     },
     "outerBorderGap": 2,
     "outerBorderWidth": 2,
-    "paddingBottom": 8,
-    "paddingLeft": 16,
-    "paddingRight": 8,
-    "paddingTop": 8,
+    "paddingBottom": 12,
+    "paddingLeft": 12,
+    "paddingRight": 12,
+    "paddingTop": 12,
     "shadow": null,
     "subtitleColor": {
       "red": 0.40392,
@@ -227,6 +268,8 @@
       "alpha": 1
     },
     "textAlign": "center",
+    "textPaddingLeft": 8,
+    "textPaddingRight": 8,
     "width": null
   }
 }

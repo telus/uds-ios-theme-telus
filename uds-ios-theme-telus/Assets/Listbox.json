@@ -48,11 +48,7 @@
           "green": 0.15686,
           "blue": 0.42745,
           "alpha": 1
-        },
-        "itemPaddingBottom": 12,
-        "itemPaddingLeft": 16,
-        "itemPaddingRight": 16,
-        "itemPaddingTop": 12
+        }
       }
     },
     {
@@ -67,7 +63,7 @@
           "blue": 0.9098,
           "alpha": 1
         },
-        "groupBorderWidth": 0,
+        "groupBorderWidth": 1,
         "groupColor": {
           "red": 0.40392,
           "green": 0.43137,
@@ -83,7 +79,7 @@
         "isChild": true
       },
       "tokens": {
-        "itemBorderBottomWidth": 0,
+        "itemBorderBottomWidth": 1,
         "itemBorderLeftColor": {
           "red": 0.8902,
           "green": 0.90196,
@@ -91,7 +87,7 @@
           "alpha": 1
         },
         "itemBorderLeftWidth": 4,
-        "itemBorderTopWidth": 0
+        "itemBorderTopWidth": 1
       }
     },
     {
@@ -128,14 +124,14 @@
         "pressed": true
       },
       "tokens": {
-        "itemBorderBottomWidth": 0,
+        "itemBorderBottomWidth": 1,
         "itemBorderLeftColor": {
           "red": 0.40392,
           "green": 0.43137,
           "blue": 0.45098,
           "alpha": 1
         },
-        "itemBorderTopWidth": 0
+        "itemBorderTopWidth": 1
       }
     }
   ],
@@ -217,10 +213,10 @@
     "itemFontWeight": 700,
     "itemHeight": 40,
     "itemOutline": 0,
-    "itemPaddingBottom": 8,
+    "itemPaddingBottom": 12,
     "itemPaddingLeft": 16,
     "itemPaddingRight": 16,
-    "itemPaddingTop": 8,
+    "itemPaddingTop": 12,
     "itemTextDecoration": "none",
     "lineHeight": 1.14285714286,
     "minHeight": "100%",

@@ -97,7 +97,7 @@
     "containerBorderRadius": 0,
     "containerOpacity": 1,
     "containerPaddingBottom": 0,
-    "containerPaddingLeft": 2,
+    "containerPaddingLeft": 0,
     "containerPaddingRight": 0,
     "containerPaddingTop": 0,
     "containerShadow": null,
@@ -150,7 +150,7 @@
     "labelFontSize": 16,
     "labelFontWeight": 400,
     "labelLineHeight": 1.5,
-    "labelMarginLeft": 10,
+    "labelMarginLeft": 8,
     "outerBorderColor": {
       "red": 0,
       "green": 0,

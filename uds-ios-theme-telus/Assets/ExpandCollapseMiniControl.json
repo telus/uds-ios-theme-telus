@@ -82,8 +82,8 @@
       },
       "tokens": {
         "fontSize": 14,
-        "iconSize": 20,
-        "lineHeight": 1.45
+        "iconSize": 16,
+        "lineHeight": 1.42857142857
       }
     },
     {
@@ -92,7 +92,8 @@
       },
       "tokens": {
         "fontSize": 20,
-        "lineHeight": 1.28571428571
+        "iconSize": 20,
+        "lineHeight": 1.6
       }
     },
     {
@@ -165,7 +166,7 @@
     "iconGap": 8,
     "iconPaddingTop": 4,
     "iconPosition": "left",
-    "iconSize": 24,
+    "iconSize": 16,
     "justifyContent": "flex-start",
     "lineHeight": 1.5,
     "paddingBottom": 0,
